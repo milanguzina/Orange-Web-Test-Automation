@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Qualifications Dropdown Suite" time="494.381" tests="15" failures="2" errors="0">
+   <testsuite name="Qualifications Dropdown Suite" tests="15" failures="2" errors="0" time="494.381" skipped="0" timestamp="2023-01-26 13:51:02" hostname="PC - DESKTOP-BHVHH8C" id="Test Suites/Qualifications Dropdown Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC\\git\\Orange Web Test Automation\\Reports\\20230126_134935\\Qualifications Dropdown Suite\\20230126_134943"/>
+         <property name="logFiles" value="C:\\Users\\PC\\git\\Orange Web Test Automation\\Reports\\20230126_134935\\Qualifications Dropdown Suite\\20230126_134943\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\PC\\git\\Orange Web Test Automation\\Reports\\20230126_134935\\Qualifications Dropdown Suite\\20230126_134943\\1674737818512.png, C:\\Users\\PC\\git\\Orange Web Test Automation\\Reports\\20230126_134935\\Qualifications Dropdown Suite\\20230126_134943\\1674737871039.png"/>
+         <property name="hostName" value="PC - DESKTOP-BHVHH8C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="192.168.88.235"/>
+         <property name="sessionId" value="b94d49b38a7eaa7f478716fb0b49c59b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin Page/Qualifications/Skills/Add Skill" time="39.152" classname="Test Cases/Admin Page/Qualifications/Skills/Add Skill" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:51:03 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Skills/Add Skill: Test Cases/Admin Page/Qualifications/Skills/Add Skill
+
+2023-01-26 13:51:05 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:51:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:51:07 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:51:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:51:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:51:15 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:51:15 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:51:21 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:51:21 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:51:26 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:51:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/li_Skills")): Object: 'Object Repository/Admin Page/Qualifications/Skills/li_Skills' is clicked on
+
+2023-01-26 13:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/li_Skills' is clicked on
+
+2023-01-26 13:51:31 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/button_Add")): Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Add' is clicked on
+
+2023-01-26 13:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Add' is clicked on
+
+2023-01-26 13:51:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username"), "Assertiveness-Automation"): Keys 'Assertiveness-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:51:36 - [MESSAGE][PASSED] - Keys 'Assertiveness-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:51:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textarea_Description"), "Everything best"): Keys 'Everything best' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textarea_Description'
+
+2023-01-26 13:51:39 - [MESSAGE][PASSED] - Keys 'Everything best' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textarea_Description'
+
+2023-01-26 13:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Save")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:51:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:51:41 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:51:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:51:42 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:51:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:51:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Skills/Edit Skill" time="35.302" classname="Test Cases/Admin Page/Qualifications/Skills/Edit Skill" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:51:43 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Skills/Edit Skill: Test Cases/Admin Page/Qualifications/Skills/Edit Skill
+
+2023-01-26 13:51:44 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:51:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:51:44 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:51:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:51:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:51:48 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:51:48 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:51:55 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:51:55 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:51:58 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:52:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/li_Skills")): Object: 'Object Repository/Admin Page/Qualifications/Skills/li_Skills' is clicked on
+
+2023-01-26 13:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/li_Skills' is clicked on
+
+2023-01-26 13:52:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Edit")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Edit' is clicked on
+
+2023-01-26 13:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Edit' is clicked on
+
+2023-01-26 13:52:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:52:08 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:52:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username_selected"), "Assertiveness-Automation-Edited"): Keys 'Assertiveness-Automation-Edited' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username_selected'
+
+2023-01-26 13:52:10 - [MESSAGE][PASSED] - Keys 'Assertiveness-Automation-Edited' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username_selected'
+
+2023-01-26 13:52:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textarea_Description"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textarea_Description'
+
+2023-01-26 13:52:12 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textarea_Description'
+
+2023-01-26 13:52:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textarea_Description"), "New description-new skill"): Keys 'New description-new skill' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textarea_Description'
+
+2023-01-26 13:52:14 - [MESSAGE][PASSED] - Keys 'New description-new skill' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textarea_Description'
+
+2023-01-26 13:52:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Save")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:52:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:52:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:52:17 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:52:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:52:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Skills/Delete Skill" time="33.87" classname="Test Cases/Admin Page/Qualifications/Skills/Delete Skill" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:52:18 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Skills/Delete Skill: Test Cases/Admin Page/Qualifications/Skills/Delete Skill
+
+2023-01-26 13:52:19 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:52:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:52:19 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:52:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:52:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:52:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:52:31 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:52:37 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:52:37 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:52:43 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/li_Skills")): Object: 'Object Repository/Admin Page/Qualifications/Skills/li_Skills' is clicked on
+
+2023-01-26 13:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/li_Skills' is clicked on
+
+2023-01-26 13:52:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Delete")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Delete' is clicked on
+
+2023-01-26 13:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Delete' is clicked on
+
+2023-01-26 13:52:48 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/button_Yes, Delete")): Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-01-26 13:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-01-26 13:52:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:52:50 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:52:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:52:51 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:52:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:52:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Memberships/Add Membership" time="29.071" classname="Test Cases/Admin Page/Qualifications/Memberships/Add Membership" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:52:52 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Memberships/Add Membership: Test Cases/Admin Page/Qualifications/Memberships/Add Membership
+
+2023-01-26 13:52:53 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:52:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:52:53 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:52:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:52:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:52:57 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:52:57 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:53:02 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:53:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:53:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:53:08 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Memberships/li_Memberships")): Object: 'Object Repository/Admin Page/Qualifications/Memberships/li_Memberships' is clicked on
+
+2023-01-26 13:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Memberships/li_Memberships' is clicked on
+
+2023-01-26 13:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/button_Add")): Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Add' is clicked on
+
+2023-01-26 13:53:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Add' is clicked on
+
+2023-01-26 13:53:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username"), "Gold Membership-Automation"): Keys 'Gold Membership-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:53:17 - [MESSAGE][PASSED] - Keys 'Gold Membership-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:53:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Save")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:53:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:53:20 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:53:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:53:20 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:53:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:53:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Memberships/Edit Membership" time="29.716" classname="Test Cases/Admin Page/Qualifications/Memberships/Edit Membership" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:53:21 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Memberships/Edit Membership: Test Cases/Admin Page/Qualifications/Memberships/Edit Membership
+
+2023-01-26 13:53:22 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:53:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:53:22 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:53:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:53:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:53:26 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:53:26 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:53:32 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:53:32 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:53:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:53:38 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Memberships/li_Memberships")): Object: 'Object Repository/Admin Page/Qualifications/Memberships/li_Memberships' is clicked on
+
+2023-01-26 13:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Memberships/li_Memberships' is clicked on
+
+2023-01-26 13:53:40 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Memberships/button_Edit")): Object: 'Object Repository/Admin Page/Qualifications/Memberships/button_Edit' is clicked on
+
+2023-01-26 13:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Memberships/button_Edit' is clicked on
+
+2023-01-26 13:53:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Memberships/textbox_Username"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Memberships/textbox_Username'
+
+2023-01-26 13:53:45 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Memberships/textbox_Username'
+
+2023-01-26 13:53:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username_selected"), "Platinum Membership-Automation"): Keys 'Platinum Membership-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username_selected'
+
+2023-01-26 13:53:47 - [MESSAGE][PASSED] - Keys 'Platinum Membership-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username_selected'
+
+2023-01-26 13:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Save")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:53:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:53:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:53:50 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:53:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:53:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Memberships/Delete Membership" time="26.034" classname="Test Cases/Admin Page/Qualifications/Memberships/Delete Membership" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:53:51 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Memberships/Delete Membership: Test Cases/Admin Page/Qualifications/Memberships/Delete Membership
+
+2023-01-26 13:53:52 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:53:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:53:52 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:53:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:53:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:53:55 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:53:55 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:54:01 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:54:01 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:54:05 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:54:08 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Memberships/li_Memberships")): Object: 'Object Repository/Admin Page/Qualifications/Memberships/li_Memberships' is clicked on
+
+2023-01-26 13:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Memberships/li_Memberships' is clicked on
+
+2023-01-26 13:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Memberships/button_Delete")): Object: 'Object Repository/Admin Page/Qualifications/Memberships/button_Delete' is clicked on
+
+2023-01-26 13:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Memberships/button_Delete' is clicked on
+
+2023-01-26 13:54:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/button_Yes, Delete")): Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-01-26 13:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-01-26 13:54:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:54:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:54:16 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:54:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:54:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Licenses/Add License" time="27.423" classname="Test Cases/Admin Page/Qualifications/Licenses/Add License" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:54:17 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Licenses/Add License: Test Cases/Admin Page/Qualifications/Licenses/Add License
+
+2023-01-26 13:54:18 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:54:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:54:18 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:54:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:54:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:54:21 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:54:21 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:54:27 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:54:27 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:54:31 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:54:33 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Licenses/li_Licenses")): Object: 'Object Repository/Admin Page/Qualifications/Licenses/li_Licenses' is clicked on
+
+2023-01-26 13:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Licenses/li_Licenses' is clicked on
+
+2023-01-26 13:54:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/button_Add")): Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Add' is clicked on
+
+2023-01-26 13:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Add' is clicked on
+
+2023-01-26 13:54:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username"), "Practicioner Beginner-Automation"): Keys 'Practicioner Beginner-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:54:40 - [MESSAGE][PASSED] - Keys 'Practicioner Beginner-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:54:40 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Save")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:54:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:54:43 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:54:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:54:43 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:54:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:54:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Licenses/Edit License" time="29.684" classname="Test Cases/Admin Page/Qualifications/Licenses/Edit License" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:54:44 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Licenses/Edit License: Test Cases/Admin Page/Qualifications/Licenses/Edit License
+
+2023-01-26 13:54:45 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:54:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:54:45 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:54:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:54:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:54:49 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:54:49 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:54:55 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:54:55 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:54:58 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Licenses/li_Licenses")): Object: 'Object Repository/Admin Page/Qualifications/Licenses/li_Licenses' is clicked on
+
+2023-01-26 13:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Licenses/li_Licenses' is clicked on
+
+2023-01-26 13:55:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Licenses/button_Edit")): Object: 'Object Repository/Admin Page/Qualifications/Licenses/button_Edit' is clicked on
+
+2023-01-26 13:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Licenses/button_Edit' is clicked on
+
+2023-01-26 13:55:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:55:08 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:55:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username_selected"), "Practicioner Advanced-Automation"): Keys 'Practicioner Advanced-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username_selected'
+
+2023-01-26 13:55:10 - [MESSAGE][PASSED] - Keys 'Practicioner Advanced-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username_selected'
+
+2023-01-26 13:55:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Save")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:55:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:55:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:55:12 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:55:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:55:13 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:55:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:55:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Licenses/Delete License" time="25.256" classname="Test Cases/Admin Page/Qualifications/Licenses/Delete License" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:55:14 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Licenses/Delete License: Test Cases/Admin Page/Qualifications/Licenses/Delete License
+
+2023-01-26 13:55:15 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:55:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:55:15 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:55:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:55:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:55:19 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:55:19 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:55:25 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:55:25 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:55:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:55:31 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Licenses/li_Licenses")): Object: 'Object Repository/Admin Page/Qualifications/Licenses/li_Licenses' is clicked on
+
+2023-01-26 13:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Licenses/li_Licenses' is clicked on
+
+2023-01-26 13:55:33 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Licenses/button_Delete")): Object: 'Object Repository/Admin Page/Qualifications/Licenses/button_Delete' is clicked on
+
+2023-01-26 13:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Licenses/button_Delete' is clicked on
+
+2023-01-26 13:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/button_Yes, Delete")): Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-01-26 13:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-01-26 13:55:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:55:38 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:55:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:55:38 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:55:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:55:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Languages/Add Language" time="29.326" classname="Test Cases/Admin Page/Qualifications/Languages/Add Language" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:55:39 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Languages/Add Language: Test Cases/Admin Page/Qualifications/Languages/Add Language
+
+2023-01-26 13:55:40 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:55:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:55:40 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:55:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:55:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:55:44 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:55:44 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:55:50 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:55:50 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:55:56 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/li_Languages")): Object: 'Object Repository/Admin Page/Qualifications/Languages/li_Languages' is clicked on
+
+2023-01-26 13:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/li_Languages' is clicked on
+
+2023-01-26 13:56:00 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/button_Add")): Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Add' is clicked on
+
+2023-01-26 13:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Add' is clicked on
+
+2023-01-26 13:56:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username"), "Afgan-Automation"): Keys 'Afgan-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:56:04 - [MESSAGE][PASSED] - Keys 'Afgan-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:56:04 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Save")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:56:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:56:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:56:08 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:56:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:56:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Languages/Edit Language" time="50.31" classname="Test Cases/Admin Page/Qualifications/Languages/Edit Language" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Page/Qualifications/Languages/Edit Language FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Language.run(Edit Language:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674737383205.run(TempTestSuite1674737383205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Page/Qualifications/Skills/button_Edit' located by '(.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation'])[1]/following::button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-01-26 13:56:08 - [TEST_CASE][FAILED] - Test Cases/Admin Page/Qualifications/Languages/Edit Language: Test Cases/Admin Page/Qualifications/Languages/Edit Language FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Language.run(Edit Language:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674737383205.run(TempTestSuite1674737383205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Page/Qualifications/Skills/button_Edit' located by '(.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation'])[1]/following::button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-01-26 13:56:09 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:56:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:56:09 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:56:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:56:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:56:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:56:13 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:56:19 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:56:19 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:56:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:56:25 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/li_Languages")): Object: 'Object Repository/Admin Page/Qualifications/Languages/li_Languages' is clicked on
+
+2023-01-26 13:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/li_Languages' is clicked on
+
+2023-01-26 13:56:27 - [TEST_STEP][FAILED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Edit")): Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Edit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Language.run(Edit Language:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674737383205.run(TempTestSuite1674737383205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Page/Qualifications/Skills/button_Edit' located by '(.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation'])[1]/following::button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1674587788350.run(Script1674587788350.groovy:33)
+	... 13 more
+)
+
+2023-01-26 13:56:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation'])[1]/following::button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-01-26 13:56:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Edit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Language.run(Edit Language:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674737383205.run(TempTestSuite1674737383205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Page/Qualifications/Skills/button_Edit' located by '(.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation'])[1]/following::button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1674587788350.run(Script1674587788350.groovy:33)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\PC\\git\\Orange Web Test Automation\\Reports\\20230126_134935\\Qualifications Dropdown Suite\\20230126_134943\\1674737818512.png]]]]></system-out>
+         <system-err><![CDATA[2023-01-26 13:56:08 - [TEST_CASE][FAILED] - Test Cases/Admin Page/Qualifications/Languages/Edit Language: Test Cases/Admin Page/Qualifications/Languages/Edit Language FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Language.run(Edit Language:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674737383205.run(TempTestSuite1674737383205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Page/Qualifications/Skills/button_Edit' located by '(.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation'])[1]/following::button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Languages/Delete Language" time="52.46" classname="Test Cases/Admin Page/Qualifications/Languages/Delete Language" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Page/Qualifications/Languages/Delete Language FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Delete Language.run(Delete Language:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674737383205.run(TempTestSuite1674737383205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Page/Qualifications/Skills/button_Delete' located by '(.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation-Edited'])[1]/following::button[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-01-26 13:56:59 - [TEST_CASE][FAILED] - Test Cases/Admin Page/Qualifications/Languages/Delete Language: Test Cases/Admin Page/Qualifications/Languages/Delete Language FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Delete Language.run(Delete Language:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674737383205.run(TempTestSuite1674737383205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Page/Qualifications/Skills/button_Delete' located by '(.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation-Edited'])[1]/following::button[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-01-26 13:57:00 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:57:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-26 13:57:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:57:01 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:57:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:57:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:57:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:57:04 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:57:11 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:57:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/li_Languages")): Object: 'Object Repository/Admin Page/Qualifications/Languages/li_Languages' is clicked on
+
+2023-01-26 13:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/li_Languages' is clicked on
+
+2023-01-26 13:57:19 - [TEST_STEP][FAILED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Delete")): Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Delete Language.run(Delete Language:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674737383205.run(TempTestSuite1674737383205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Page/Qualifications/Skills/button_Delete' located by '(.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation-Edited'])[1]/following::button[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1674587799450.run(Script1674587799450.groovy:33)
+	... 13 more
+)
+
+2023-01-26 13:57:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation-Edited'])[1]/following::button[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-01-26 13:57:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Delete Language.run(Delete Language:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674737383205.run(TempTestSuite1674737383205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Page/Qualifications/Skills/button_Delete' located by '(.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation-Edited'])[1]/following::button[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1674587799450.run(Script1674587799450.groovy:33)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\PC\\git\\Orange Web Test Automation\\Reports\\20230126_134935\\Qualifications Dropdown Suite\\20230126_134943\\1674737871039.png]]]]></system-out>
+         <system-err><![CDATA[2023-01-26 13:56:59 - [TEST_CASE][FAILED] - Test Cases/Admin Page/Qualifications/Languages/Delete Language: Test Cases/Admin Page/Qualifications/Languages/Delete Language FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Delete Language.run(Delete Language:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674737383205.run(TempTestSuite1674737383205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Page/Qualifications/Skills/button_Delete' located by '(.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation-Edited'])[1]/following::button[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Education/Add Education" time="29.419" classname="Test Cases/Admin Page/Qualifications/Education/Add Education" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:57:51 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Education/Add Education: Test Cases/Admin Page/Qualifications/Education/Add Education
+
+2023-01-26 13:57:52 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:57:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-26 13:57:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:57:53 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:57:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:57:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:57:57 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:57:57 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:58:03 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:58:03 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:58:07 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:58:09 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Education/li_Education")): Object: 'Object Repository/Admin Page/Qualifications/Education/li_Education' is clicked on
+
+2023-01-26 13:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Education/li_Education' is clicked on
+
+2023-01-26 13:58:12 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/button_Add")): Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Add' is clicked on
+
+2023-01-26 13:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Add' is clicked on
+
+2023-01-26 13:58:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username"), "University Degree"): Keys 'University Degree' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:58:16 - [MESSAGE][PASSED] - Keys 'University Degree' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:58:16 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Save")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:58:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:58:19 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:58:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:58:20 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 13:58:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:58:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Education/Edit Education" time="31.162" classname="Test Cases/Admin Page/Qualifications/Education/Edit Education" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:58:21 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Education/Edit Education: Test Cases/Admin Page/Qualifications/Education/Edit Education
+
+2023-01-26 13:58:22 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:58:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:58:22 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:58:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:58:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:58:26 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:58:26 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:58:31 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:58:31 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:58:37 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Education/li_Education")): Object: 'Object Repository/Admin Page/Qualifications/Education/li_Education' is clicked on
+
+2023-01-26 13:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Education/li_Education' is clicked on
+
+2023-01-26 13:58:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Education/button_Edit")): Object: 'Object Repository/Admin Page/Qualifications/Education/button_Edit' is clicked on
+
+2023-01-26 13:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Education/button_Edit' is clicked on
+
+2023-01-26 13:58:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:58:46 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 13:58:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username_selected"), "High school education"): Keys 'High school education' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username_selected'
+
+2023-01-26 13:58:48 - [MESSAGE][PASSED] - Keys 'High school education' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username_selected'
+
+2023-01-26 13:58:48 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Save")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 13:58:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:58:50 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:58:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:58:51 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 13:58:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:58:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Qualifications/Education/Delete Education" time="24.942" classname="Test Cases/Admin Page/Qualifications/Education/Delete Education" status="PASSED">
+         <system-out><![CDATA[2023-01-26 13:58:52 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Qualifications/Education/Delete Education: Test Cases/Admin Page/Qualifications/Education/Delete Education
+
+2023-01-26 13:58:53 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:58:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 13:58:53 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 13:58:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 13:58:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 13:58:56 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 13:58:56 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 13:59:02 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 13:59:02 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 13:59:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/li_Qualifications")): Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/li_Qualifications' is clicked on
+
+2023-01-26 13:59:08 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Education/li_Education")): Object: 'Object Repository/Admin Page/Qualifications/Education/li_Education' is clicked on
+
+2023-01-26 13:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Education/li_Education' is clicked on
+
+2023-01-26 13:59:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Education/button_Delete")): Object: 'Object Repository/Admin Page/Qualifications/Education/button_Delete' is clicked on
+
+2023-01-26 13:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Education/button_Delete' is clicked on
+
+2023-01-26 13:59:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/button_Yes, Delete")): Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-01-26 13:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-01-26 13:59:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:59:15 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:59:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 13:59:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 13:59:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-26 13:51:02 - [TEST_SUITE][FAILED] - Qualifications Dropdown Suite: Test Cases/Admin Page/Qualifications/Languages/Edit Language FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Language.run(Edit Language:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674737383205.run(TempTestSuite1674737383205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Page/Qualifications/Skills/button_Edit' located by '(.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation'])[1]/following::button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-01-26 13:51:02 - [TEST_SUITE][FAILED] - Qualifications Dropdown Suite: Test Cases/Admin Page/Qualifications/Languages/Edit Language FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Page/Qualifications/Skills/button_Edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Language.run(Edit Language:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1674737383205.run(TempTestSuite1674737383205.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Page/Qualifications/Skills/button_Edit' located by '(.//*[normalize-space(text()) and normalize-space(.)='Assertiveness-Automation'])[1]/following::button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

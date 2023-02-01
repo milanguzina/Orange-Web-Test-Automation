@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_Consent</name>
+   <tag></tag>
+   <elementGuidId>511c7ac3-49cb-412c-b037-7671fdc6823a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[7]/div/div/div/div[2]/div/label/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.oxd-icon.bi-check.oxd-checkbox-input-icon</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[@class = 'oxd-icon bi-check oxd-checkbox-input-icon']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>055bc06d-9623-4cd1-8c74-1b019b3b44c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-icon bi-check oxd-checkbox-input-icon</value>
+      <webElementGuid>52006371-3bf0-4e05-bc68-cc164c01766b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container orangehrm-save-candidate-page&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-3 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters orangehrm-save-candidate-page-full-width orangehrm-save-candidate-page-grid-checkbox&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-checkbox-wrapper&quot;]/label[1]/span[@class=&quot;oxd-checkbox-input oxd-checkbox-input--active --label-right oxd-checkbox-input&quot;]/i[@class=&quot;oxd-icon bi-check oxd-checkbox-input-icon&quot;]</value>
+      <webElementGuid>7058a68d-808f-4fba-9ac4-1827ebb70bd2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[7]/div/div/div/div[2]/div/label/span/i</value>
+      <webElementGuid>fdc04edf-a2b2-46e1-98cb-4c26ad389eed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span/i</value>
+      <webElementGuid>de41b5f3-661f-4d41-a316-34d756aeca89</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

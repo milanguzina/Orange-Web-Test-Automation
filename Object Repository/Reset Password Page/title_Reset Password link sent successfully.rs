@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>title_Reset Password link sent successfully</name>
+   <tag></tag>
+   <elementGuidId>cae69bc2-9314-44ca-aeb0-c7976424532b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.oxd-text.oxd-text--h6.orangehrm-forgot-password-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>99665b6e-2e27-4a7b-afef-b31eea170504</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-text oxd-text--h6 orangehrm-forgot-password-title</value>
+      <webElementGuid>8e4d55cf-cdff-4474-8baa-92d4908b54e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reset Password link sent successfully</value>
+      <webElementGuid>19fe8f59-894f-472d-8d44-bd77874474c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-forgot-password-container&quot;]/div[@class=&quot;orangehrm-forgot-password-wrapper&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/h6[@class=&quot;oxd-text oxd-text--h6 orangehrm-forgot-password-title&quot;]</value>
+      <webElementGuid>5b0b65ca-f116-4eeb-9736-bcbb9b6f16c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/h6</value>
+      <webElementGuid>234696fe-41ff-45ec-8113-4d18e4aec319</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/preceding::h6[1]</value>
+      <webElementGuid>971fa137-7d1b-4798-8e78-2e8b966321ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::h6[1]</value>
+      <webElementGuid>f458c2ad-2e14-446c-8c6c-9bd6052f5738</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Reset Password link sent successfully']/parent::*</value>
+      <webElementGuid>ff1288af-6eef-4a32-9186-c54f0ad43474</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h6</value>
+      <webElementGuid>e409aee1-216b-4dc2-94b2-3a1b09018473</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Reset Password link sent successfully' or . = 'Reset Password link sent successfully')]</value>
+      <webElementGuid>9136ec12-ce0e-49ec-833f-707dc9e06e49</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

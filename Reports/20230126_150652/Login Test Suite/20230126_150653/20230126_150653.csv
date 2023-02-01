@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Firefox 109.0,,,2023-01-26 15:07:19,2023-01-26 15:08:54,1m - 34.572s,PASSED
+,,,,,,,
+Test Cases/Login/Successfull login attempt,Firefox 109.0,,,2023-01-26 15:07:20,2023-01-26 15:07:44,24.514s,PASSED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-26 15:07:21,2023-01-26 15:07:33,11.719s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-26 15:07:33,2023-01-26 15:07:33,0.079s,PASSED
+"sendKeys(findTestObject(""Login Papge/textbox_Username""), ""Admin"")",Firefox 109.0,,,2023-01-26 15:07:33,2023-01-26 15:07:35,1.892s,PASSED
+"setEncryptedText(findTestObject(""Login Papge/textbox_Password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 109.0,,,2023-01-26 15:07:35,2023-01-26 15:07:37,2.664s,PASSED
+"click(findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-26 15:07:37,2023-01-26 15:07:40,2.889s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/dropdown_user_profile""), 10)",Firefox 109.0,,,2023-01-26 15:07:40,2023-01-26 15:07:42,1.885s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-01-26 15:07:42,2023-01-26 15:07:44,2.085s,PASSED
+,,,,,,,
+Test Cases/Login/Unsuccessfull login attempt,Firefox 109.0,,,2023-01-26 15:07:44,2023-01-26 15:08:02,17.633s,PASSED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-26 15:07:45,2023-01-26 15:07:52,6.286s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-26 15:07:52,2023-01-26 15:07:52,0.053s,PASSED
+"sendKeys(findTestObject(""Login Papge/textbox_Username""), ""Admin"")",Firefox 109.0,,,2023-01-26 15:07:52,2023-01-26 15:07:53,1.783s,PASSED
+"setEncryptedText(findTestObject(""Login Papge/textbox_Password""), ""1bcgBUi0Tj/gc3uc61HAVQ=="")",Firefox 109.0,,,2023-01-26 15:07:53,2023-01-26 15:07:56,2.594s,PASSED
+"click(findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-26 15:07:56,2023-01-26 15:07:59,2.665s,PASSED
+"verifyElementPresent(findTestObject(""Login Papge/message_Invalid credentials""), 10)",Firefox 109.0,,,2023-01-26 15:07:59,2023-01-26 15:08:00,0.850s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-01-26 15:08:00,2023-01-26 15:08:02,2.209s,PASSED
+,,,,,,,
+Test Cases/Login/Reset User Password,Firefox 109.0,,,2023-01-26 15:08:02,2023-01-26 15:08:19,17.323s,PASSED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-26 15:08:03,2023-01-26 15:08:09,6.289s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-26 15:08:09,2023-01-26 15:08:10,0.036s,PASSED
+"click(findTestObject(""Login Papge/link_Forgot your password""))",Firefox 109.0,,,2023-01-26 15:08:10,2023-01-26 15:08:12,2.813s,PASSED
+"sendKeys(findTestObject(""Reset Password Page/textbox_Username""), ""Admin"")",Firefox 109.0,,,2023-01-26 15:08:12,2023-01-26 15:08:14,1.837s,PASSED
+"click(findTestObject(""Reset Password Page/button_Reset Password""))",Firefox 109.0,,,2023-01-26 15:08:14,2023-01-26 15:08:17,2.879s,PASSED
+"verifyElementText(findTestObject(""Reset Password Page/title_Reset Password link sent successfully""), ""Reset Password link sent successfully"")",Firefox 109.0,,,2023-01-26 15:08:17,2023-01-26 15:08:18,0.759s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-01-26 15:08:18,2023-01-26 15:08:19,1.342s,PASSED
+,,,,,,,
+Test Cases/Login/Cancel Reset User Password,Firefox 109.0,,,2023-01-26 15:08:19,2023-01-26 15:08:36,17.235s,PASSED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-26 15:08:20,2023-01-26 15:08:27,6.637s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-26 15:08:27,2023-01-26 15:08:27,0.041s,PASSED
+"click(findTestObject(""Login Papge/link_Forgot your password""))",Firefox 109.0,,,2023-01-26 15:08:27,2023-01-26 15:08:29,2.483s,PASSED
+"sendKeys(findTestObject(""Reset Password Page/textbox_Username""), ""Admin"")",Firefox 109.0,,,2023-01-26 15:08:29,2023-01-26 15:08:31,1.912s,PASSED
+"click(findTestObject(""Reset Password Page/button_Cancel""))",Firefox 109.0,,,2023-01-26 15:08:31,2023-01-26 15:08:34,2.262s,PASSED
+"verifyElementPresent(findTestObject(""Login Papge/textbox_Username""), 10)",Firefox 109.0,,,2023-01-26 15:08:34,2023-01-26 15:08:34,0.775s,PASSED
+"verifyElementPresent(findTestObject(""Login Papge/textbox_Password""), 10)",Firefox 109.0,,,2023-01-26 15:08:34,2023-01-26 15:08:35,0.414s,PASSED
+"verifyElementPresent(findTestObject(""Login Papge/button_Login""), 10)",Firefox 109.0,,,2023-01-26 15:08:35,2023-01-26 15:08:35,0.387s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-01-26 15:08:35,2023-01-26 15:08:36,1.233s,PASSED
+,,,,,,,
+Test Cases/Login/Social Media Links Verification,Firefox 109.0,,,2023-01-26 15:08:36,2023-01-26 15:08:54,17.177s,PASSED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-26 15:08:37,2023-01-26 15:08:45,7.841s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-26 15:08:45,2023-01-26 15:08:45,0.024s,PASSED
+waitForPageLoad(10),Firefox 109.0,,,2023-01-26 15:08:45,2023-01-26 15:08:46,0.661s,PASSED
+"verifyLinksAccessible([""https://www.facebook.com/OrangeHRM/"", ""https://twitter.com/orangehrm?lang=en"", ""https://www.youtube.com/c/OrangeHRMInc""])",Firefox 109.0,,,2023-01-26 15:08:46,2023-01-26 15:08:52,6.133s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-01-26 15:08:52,2023-01-26 15:08:54,1.544s,PASSED

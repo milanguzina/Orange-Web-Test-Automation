@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Job Dropdown Suite" time="212.774" tests="6" failures="0" errors="0">
+   <testsuite name="Job Dropdown Suite" tests="6" failures="0" errors="0" time="212.774" skipped="0" timestamp="2023-01-26 15:07:59" hostname="PC - DESKTOP-BHVHH8C" id="Test Suites/Job Dropdown Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC\\git\\Orange Web Test Automation\\Reports\\20230126_150652\\Job Dropdown Suite\\20230126_150658"/>
+         <property name="logFiles" value="C:\\Users\\PC\\git\\Orange Web Test Automation\\Reports\\20230126_150652\\Job Dropdown Suite\\20230126_150658\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC - DESKTOP-BHVHH8C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Firefox 109.0"/>
+         <property name="hostAddress" value="192.168.88.235"/>
+         <property name="sessionId" value="434f5df0-ecb9-42e7-8f85-f922d5083622"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin Page/Job/Job Titles/Add Job Title" time="39.898" classname="Test Cases/Admin Page/Job/Job Titles/Add Job Title" status="PASSED">
+         <system-out><![CDATA[2023-01-26 15:08:00 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Job/Job Titles/Add Job Title: Test Cases/Admin Page/Job/Job Titles/Add Job Title
+
+2023-01-26 15:08:02 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 15:08:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-01-26 15:08:04 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 15:08:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 15:08:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 15:08:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 15:08:13 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 15:08:19 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 15:08:19 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 15:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 15:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/li_Job")): Object: 'Object Repository/Admin Page/Job/li_Job' is clicked on
+
+2023-01-26 15:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/li_Job' is clicked on
+
+2023-01-26 15:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/Job Titles/li_Job Titles")): Object: 'Object Repository/Admin Page/Job/Job Titles/li_Job Titles' is clicked on
+
+2023-01-26 15:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/Job Titles/li_Job Titles' is clicked on
+
+2023-01-26 15:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Nationalities/button_Add")): Object: 'Object Repository/Admin Page/Nationalities/button_Add' is clicked on
+
+2023-01-26 15:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Nationalities/button_Add' is clicked on
+
+2023-01-26 15:08:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username"), "Boss-Automation"): Keys 'Boss-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 15:08:32 - [MESSAGE][PASSED] - Keys 'Boss-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 15:08:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Job/Job Titles/textarea_Job Description"), "Big Boss "): Keys 'Big Boss ' sent to object: 'Object Repository/Admin Page/Job/Job Titles/textarea_Job Description'
+
+2023-01-26 15:08:34 - [MESSAGE][PASSED] - Keys 'Big Boss ' sent to object: 'Object Repository/Admin Page/Job/Job Titles/textarea_Job Description'
+
+2023-01-26 15:08:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Job/Job Titles/textarea_Note"), "No notes available"): Keys 'No notes available' sent to object: 'Object Repository/Admin Page/Job/Job Titles/textarea_Note'
+
+2023-01-26 15:08:36 - [MESSAGE][PASSED] - Keys 'No notes available' sent to object: 'Object Repository/Admin Page/Job/Job Titles/textarea_Note'
+
+2023-01-26 15:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Nationalities/button_Save")): Object: 'Object Repository/Admin Page/Nationalities/button_Save' is clicked on
+
+2023-01-26 15:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Nationalities/button_Save' is clicked on
+
+2023-01-26 15:08:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 15:08:38 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 15:08:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 15:08:38 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 15:08:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 15:08:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Job/Job Titles/Edit Job Title" time="42.259" classname="Test Cases/Admin Page/Job/Job Titles/Edit Job Title" status="PASSED">
+         <system-out><![CDATA[2023-01-26 15:08:40 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Job/Job Titles/Edit Job Title: Test Cases/Admin Page/Job/Job Titles/Edit Job Title
+
+2023-01-26 15:08:41 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 15:08:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-01-26 15:08:41 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 15:08:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 15:08:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 15:08:49 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 15:08:49 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 15:08:55 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 15:08:55 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 15:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 15:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/li_Job")): Object: 'Object Repository/Admin Page/Job/li_Job' is clicked on
+
+2023-01-26 15:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/li_Job' is clicked on
+
+2023-01-26 15:09:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/Job Titles/li_Job Titles")): Object: 'Object Repository/Admin Page/Job/Job Titles/li_Job Titles' is clicked on
+
+2023-01-26 15:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/Job Titles/li_Job Titles' is clicked on
+
+2023-01-26 15:09:04 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/Job Titles/button_Edit")): Object: 'Object Repository/Admin Page/Job/Job Titles/button_Edit' is clicked on
+
+2023-01-26 15:09:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/Job Titles/button_Edit' is clicked on
+
+2023-01-26 15:09:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 15:09:09 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 15:09:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username_selected"), "Boss-Edited-Automation"): Keys 'Boss-Edited-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username_selected'
+
+2023-01-26 15:09:11 - [MESSAGE][PASSED] - Keys 'Boss-Edited-Automation' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username_selected'
+
+2023-01-26 15:09:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Job/Job Titles/textarea_Job Description"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Job/Job Titles/textarea_Job Description'
+
+2023-01-26 15:09:13 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Job/Job Titles/textarea_Job Description'
+
+2023-01-26 15:09:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Job/Job Titles/textarea_Job Description"), "Big Boss -Edited"): Keys 'Big Boss -Edited' sent to object: 'Object Repository/Admin Page/Job/Job Titles/textarea_Job Description'
+
+2023-01-26 15:09:14 - [MESSAGE][PASSED] - Keys 'Big Boss -Edited' sent to object: 'Object Repository/Admin Page/Job/Job Titles/textarea_Job Description'
+
+2023-01-26 15:09:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Job/Job Titles/textarea_Note"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Job/Job Titles/textarea_Note'
+
+2023-01-26 15:09:16 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Job/Job Titles/textarea_Note'
+
+2023-01-26 15:09:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Job/Job Titles/textarea_Note"), "Notes available tomorrow"): Keys 'Notes available tomorrow' sent to object: 'Object Repository/Admin Page/Job/Job Titles/textarea_Note'
+
+2023-01-26 15:09:17 - [MESSAGE][PASSED] - Keys 'Notes available tomorrow' sent to object: 'Object Repository/Admin Page/Job/Job Titles/textarea_Note'
+
+2023-01-26 15:09:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Save")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 15:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 15:09:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 15:09:20 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 15:09:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 15:09:21 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 15:09:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 15:09:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Job/Job Titles/Delete Job Title" time="30.96" classname="Test Cases/Admin Page/Job/Job Titles/Delete Job Title" status="PASSED">
+         <system-out><![CDATA[2023-01-26 15:09:22 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Job/Job Titles/Delete Job Title: Test Cases/Admin Page/Job/Job Titles/Delete Job Title
+
+2023-01-26 15:09:23 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 15:09:23 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-01-26 15:09:23 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 15:09:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 15:09:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 15:09:30 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 15:09:30 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 15:09:37 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 15:09:37 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 15:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 15:09:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/li_Job")): Object: 'Object Repository/Admin Page/Job/li_Job' is clicked on
+
+2023-01-26 15:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/li_Job' is clicked on
+
+2023-01-26 15:09:43 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/Job Titles/li_Job Titles")): Object: 'Object Repository/Admin Page/Job/Job Titles/li_Job Titles' is clicked on
+
+2023-01-26 15:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/Job Titles/li_Job Titles' is clicked on
+
+2023-01-26 15:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/Job Titles/button_Delete")): Object: 'Object Repository/Admin Page/Job/Job Titles/button_Delete' is clicked on
+
+2023-01-26 15:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/Job Titles/button_Delete' is clicked on
+
+2023-01-26 15:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/button_Yes, Delete")): Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-01-26 15:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-01-26 15:09:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 15:09:51 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 15:09:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 15:09:51 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 15:09:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 15:09:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Job/Job Categories/Add Category" time="33.259" classname="Test Cases/Admin Page/Job/Job Categories/Add Category" status="PASSED">
+         <system-out><![CDATA[2023-01-26 15:09:53 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Job/Job Categories/Add Category: Test Cases/Admin Page/Job/Job Categories/Add Category
+
+2023-01-26 15:09:54 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 15:09:54 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-01-26 15:09:54 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 15:10:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 15:10:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 15:10:01 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 15:10:01 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 15:10:07 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 15:10:07 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 15:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 15:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/li_Job")): Object: 'Object Repository/Admin Page/Job/li_Job' is clicked on
+
+2023-01-26 15:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/li_Job' is clicked on
+
+2023-01-26 15:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/Job Categories/li_Job Categories")): Object: 'Object Repository/Admin Page/Job/Job Categories/li_Job Categories' is clicked on
+
+2023-01-26 15:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/Job Categories/li_Job Categories' is clicked on
+
+2023-01-26 15:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Nationalities/button_Add")): Object: 'Object Repository/Admin Page/Nationalities/button_Add' is clicked on
+
+2023-01-26 15:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Nationalities/button_Add' is clicked on
+
+2023-01-26 15:10:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username"), "Automation Category"): Keys 'Automation Category' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 15:10:22 - [MESSAGE][PASSED] - Keys 'Automation Category' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 15:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Nationalities/button_Save")): Object: 'Object Repository/Admin Page/Nationalities/button_Save' is clicked on
+
+2023-01-26 15:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Nationalities/button_Save' is clicked on
+
+2023-01-26 15:10:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 15:10:24 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 15:10:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 15:10:25 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 15:10:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 15:10:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Job/Job Categories/Edit Category" time="34.656" classname="Test Cases/Admin Page/Job/Job Categories/Edit Category" status="PASSED">
+         <system-out><![CDATA[2023-01-26 15:10:27 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Job/Job Categories/Edit Category: Test Cases/Admin Page/Job/Job Categories/Edit Category
+
+2023-01-26 15:10:28 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 15:10:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-01-26 15:10:28 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 15:10:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 15:10:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 15:10:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 15:10:34 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 15:10:40 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 15:10:40 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 15:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 15:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/li_Job")): Object: 'Object Repository/Admin Page/Job/li_Job' is clicked on
+
+2023-01-26 15:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/li_Job' is clicked on
+
+2023-01-26 15:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/Job Categories/li_Job Categories")): Object: 'Object Repository/Admin Page/Job/Job Categories/li_Job Categories' is clicked on
+
+2023-01-26 15:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/Job Categories/li_Job Categories' is clicked on
+
+2023-01-26 15:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/Job Categories/button_Edit")): Object: 'Object Repository/Admin Page/Job/Job Categories/button_Edit' is clicked on
+
+2023-01-26 15:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/Job Categories/button_Edit' is clicked on
+
+2023-01-26 15:10:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 15:10:54 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username'
+
+2023-01-26 15:10:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/Qualifications/Skills/textbox_Username_selected"), "Automation Category-Edited"): Keys 'Automation Category-Edited' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username_selected'
+
+2023-01-26 15:10:56 - [MESSAGE][PASSED] - Keys 'Automation Category-Edited' sent to object: 'Object Repository/Admin Page/Qualifications/Skills/textbox_Username_selected'
+
+2023-01-26 15:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Skills/button_Save")): Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 15:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Skills/button_Save' is clicked on
+
+2023-01-26 15:10:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 15:10:58 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 15:10:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 15:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 15:10:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 15:11:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/Job/Job Categories/Delete Category" time="30.783" classname="Test Cases/Admin Page/Job/Job Categories/Delete Category" status="PASSED">
+         <system-out><![CDATA[2023-01-26 15:11:01 - [TEST_CASE][PASSED] - Test Cases/Admin Page/Job/Job Categories/Delete Category: Test Cases/Admin Page/Job/Job Categories/Delete Category
+
+2023-01-26 15:11:02 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 15:11:02 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-01-26 15:11:03 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 15:11:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 15:11:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 15:11:09 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 15:11:09 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 15:11:16 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 15:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 15:11:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 15:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/li_Job")): Object: 'Object Repository/Admin Page/Job/li_Job' is clicked on
+
+2023-01-26 15:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/li_Job' is clicked on
+
+2023-01-26 15:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/Job Categories/li_Job Categories")): Object: 'Object Repository/Admin Page/Job/Job Categories/li_Job Categories' is clicked on
+
+2023-01-26 15:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/Job Categories/li_Job Categories' is clicked on
+
+2023-01-26 15:11:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Job/Job Categories/button_Delete")): Object: 'Object Repository/Admin Page/Job/Job Categories/button_Delete' is clicked on
+
+2023-01-26 15:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Job/Job Categories/button_Delete' is clicked on
+
+2023-01-26 15:11:27 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/button_Yes, Delete")): Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-01-26 15:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-01-26 15:11:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 15:11:30 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 15:11:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 15:11:30 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 15:11:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 15:11:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-26 15:07:59 - [TEST_SUITE][PASSED] - Job Dropdown Suite: Test Cases/Admin Page/Job/Job Categories/Delete Category]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

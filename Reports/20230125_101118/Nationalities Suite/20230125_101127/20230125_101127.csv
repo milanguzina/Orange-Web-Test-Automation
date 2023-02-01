@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nationalities Suite,Chrome 109.0.0.0,,,2023-01-25 10:11:54,2023-01-25 10:13:28,1m - 33.821s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Add Nationality,Chrome 109.0.0.0,,,2023-01-25 10:11:55,2023-01-25 10:12:32,37.465s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-25 10:11:56,2023-01-25 10:12:11,14.692s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-25 10:12:11,2023-01-25 10:12:11,0.186s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Chrome 109.0.0.0,,,2023-01-25 10:12:11,2023-01-25 10:12:17,6.197s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-01-25 10:12:17,2023-01-25 10:12:21,3.507s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Chrome 109.0.0.0,,,2023-01-25 10:12:21,2023-01-25 10:12:23,2.874s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Add""))",Chrome 109.0.0.0,,,2023-01-25 10:12:23,2023-01-25 10:12:27,3.049s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), ""Serbian-Edited"")",Chrome 109.0.0.0,,,2023-01-25 10:12:27,2023-01-25 10:12:29,2.706s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Chrome 109.0.0.0,,,2023-01-25 10:12:29,2023-01-25 10:12:31,1.557s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 109.0.0.0,,,2023-01-25 10:12:31,2023-01-25 10:12:32,0.963s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-25 10:12:32,2023-01-25 10:12:32,0.706s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Edit Nationality,Chrome 109.0.0.0,,,2023-01-25 10:12:32,2023-01-25 10:13:03,30.624s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-25 10:12:33,2023-01-25 10:12:37,4.265s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-25 10:12:37,2023-01-25 10:12:38,0.673s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Chrome 109.0.0.0,,,2023-01-25 10:12:38,2023-01-25 10:12:45,6.705s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-01-25 10:12:45,2023-01-25 10:12:49,3.883s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Chrome 109.0.0.0,,,2023-01-25 10:12:49,2023-01-25 10:12:53,4.605s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Edit""))",Chrome 109.0.0.0,,,2023-01-25 10:12:53,2023-01-25 10:12:56,2.713s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 109.0.0.0,,,2023-01-25 10:12:56,2023-01-25 10:12:58,2.346s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), ""Taipei"")",Chrome 109.0.0.0,,,2023-01-25 10:12:58,2023-01-25 10:13:00,1.498s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 109.0.0.0,,,2023-01-25 10:13:00,2023-01-25 10:13:01,1.594s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 109.0.0.0,,,2023-01-25 10:13:01,2023-01-25 10:13:02,0.956s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-25 10:13:02,2023-01-25 10:13:03,0.709s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Delete Nationality,Chrome 109.0.0.0,,,2023-01-25 10:13:03,2023-01-25 10:13:28,25.079s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-25 10:13:04,2023-01-25 10:13:08,3.419s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-25 10:13:08,2023-01-25 10:13:08,0.147s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Chrome 109.0.0.0,,,2023-01-25 10:13:08,2023-01-25 10:13:14,6.302s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-01-25 10:13:14,2023-01-25 10:13:17,3.500s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Chrome 109.0.0.0,,,2023-01-25 10:13:17,2023-01-25 10:13:22,4.917s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Delete""))",Chrome 109.0.0.0,,,2023-01-25 10:13:22,2023-01-25 10:13:25,2.343s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 109.0.0.0,,,2023-01-25 10:13:25,2023-01-25 10:13:26,1.655s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 109.0.0.0,,,2023-01-25 10:13:26,2023-01-25 10:13:27,1.057s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-25 10:13:27,2023-01-25 10:13:28,0.727s,PASSED

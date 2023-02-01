@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Management Suite" time="118.275" tests="3" failures="0" errors="0">
+   <testsuite name="User Management Suite" tests="3" failures="0" errors="0" time="118.275" skipped="0" timestamp="2023-01-26 14:34:28" hostname="PC - DESKTOP-BHVHH8C" id="Test Suites/User Management Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC\\git\\Orange Web Test Automation\\Reports\\20230126_143344\\User Management Suite\\20230126_143348"/>
+         <property name="logFiles" value="C:\\Users\\PC\\git\\Orange Web Test Automation\\Reports\\20230126_143344\\User Management Suite\\20230126_143348\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC - DESKTOP-BHVHH8C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="192.168.88.235"/>
+         <property name="sessionId" value="053586baa152cd0c899e8a801335b384"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin Page/User Management/Add User" time="43.682" classname="Test Cases/Admin Page/User Management/Add User" status="PASSED">
+         <system-out><![CDATA[2023-01-26 14:34:29 - [TEST_CASE][PASSED] - Test Cases/Admin Page/User Management/Add User: Test Cases/Admin Page/User Management/Add User
+
+2023-01-26 14:34:29 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 14:34:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 14:34:30 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 14:34:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 14:34:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 14:34:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 14:34:34 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 14:34:40 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 14:34:40 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 14:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 14:34:44 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Nationalities/button_Add")): Object: 'Object Repository/Admin Page/Nationalities/button_Add' is clicked on
+
+2023-01-26 14:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Nationalities/button_Add' is clicked on
+
+2023-01-26 14:34:47 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/dropdown_Select")): Object: 'Object Repository/Admin Page/User Management/dropdown_Select' is clicked on
+
+2023-01-26 14:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/dropdown_Select' is clicked on
+
+2023-01-26 14:34:49 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/option_Admin")): Object: 'Object Repository/Admin Page/User Management/option_Admin' is clicked on
+
+2023-01-26 14:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/option_Admin' is clicked on
+
+2023-01-26 14:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/dropdown_Select")): Object: 'Object Repository/Admin Page/User Management/dropdown_Select' is clicked on
+
+2023-01-26 14:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/dropdown_Select' is clicked on
+
+2023-01-26 14:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/option_Enabled")): Object: 'Object Repository/Admin Page/User Management/option_Enabled' is clicked on
+
+2023-01-26 14:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/option_Enabled' is clicked on
+
+2023-01-26 14:34:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/User Management/textbox_EmployeeName"), "m"): Keys 'm' sent to object: 'Object Repository/Admin Page/User Management/textbox_EmployeeName'
+
+2023-01-26 14:34:55 - [MESSAGE][PASSED] - Keys 'm' sent to object: 'Object Repository/Admin Page/User Management/textbox_EmployeeName'
+
+2023-01-26 14:34:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin Page/User Management/dropdown_table"), 10): Object 'Object Repository/Admin Page/User Management/dropdown_table' is present
+
+2023-01-26 14:34:56 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Page/User Management/dropdown_table' is present
+
+2023-01-26 14:34:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Admin Page/User Management/dropdown_EmployeeName_option"), 10): Object 'Object Repository/Admin Page/User Management/dropdown_EmployeeName_option' is clickable
+
+2023-01-26 14:34:57 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Page/User Management/dropdown_EmployeeName_option' is clickable
+
+2023-01-26 14:34:57 - [TEST_STEP][PASSED] - orange.keywords.randomClick(findTestObject("Admin Page/User Management/dropdown_EmployeeName_option")): orange.keywords.randomClick is PASSED
+
+2023-01-26 14:34:59 - [MESSAGE][PASSED] - orange.keywords.randomClick is PASSED
+
+2023-01-26 14:34:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/User Management/textbox_Username"), "Marco DiVaio"): Keys 'Marco DiVaio' sent to object: 'Object Repository/Admin Page/User Management/textbox_Username'
+
+2023-01-26 14:35:01 - [MESSAGE][PASSED] - Keys 'Marco DiVaio' sent to object: 'Object Repository/Admin Page/User Management/textbox_Username'
+
+2023-01-26 14:35:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Admin Page/User Management/textbox_Password"), "zow4LEKZVFY9FezsXiYM4A=="): Text ****** has been set on object 'Object Repository/Admin Page/User Management/textbox_Password'
+
+2023-01-26 14:35:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin Page/User Management/textbox_Password'
+
+2023-01-26 14:35:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Admin Page/User Management/textbox_Confirm Password"), "zow4LEKZVFY9FezsXiYM4A=="): Text ****** has been set on object 'Object Repository/Admin Page/User Management/textbox_Confirm Password'
+
+2023-01-26 14:35:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin Page/User Management/textbox_Confirm Password'
+
+2023-01-26 14:35:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Nationalities/button_Save")): Object: 'Object Repository/Admin Page/Nationalities/button_Save' is clicked on
+
+2023-01-26 14:35:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Nationalities/button_Save' is clicked on
+
+2023-01-26 14:35:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 14:35:11 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 14:35:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 14:35:11 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-01-26 14:35:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 14:35:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/User Management/Edit User" time="48.356" classname="Test Cases/Admin Page/User Management/Edit User" status="PASSED">
+         <system-out><![CDATA[2023-01-26 14:35:12 - [TEST_CASE][PASSED] - Test Cases/Admin Page/User Management/Edit User: Test Cases/Admin Page/User Management/Edit User
+
+2023-01-26 14:35:13 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 14:35:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 14:35:13 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 14:35:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 14:35:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 14:35:18 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 14:35:18 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 14:35:22 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 14:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 14:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 14:35:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/User Management/textbox_System_User"), "Marco DiVaio"): Keys 'Marco DiVaio' sent to object: 'Object Repository/Admin Page/User Management/textbox_System_User'
+
+2023-01-26 14:35:33 - [MESSAGE][PASSED] - Keys 'Marco DiVaio' sent to object: 'Object Repository/Admin Page/User Management/textbox_System_User'
+
+2023-01-26 14:35:33 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/button_Search")): Object: 'Object Repository/Admin Page/User Management/button_Search' is clicked on
+
+2023-01-26 14:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/button_Search' is clicked on
+
+2023-01-26 14:35:34 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/button_Edit")): Object: 'Object Repository/Admin Page/User Management/button_Edit' is clicked on
+
+2023-01-26 14:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/button_Edit' is clicked on
+
+2023-01-26 14:35:37 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/dropdown_User_Role")): Object: 'Object Repository/Admin Page/User Management/dropdown_User_Role' is clicked on
+
+2023-01-26 14:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/dropdown_User_Role' is clicked on
+
+2023-01-26 14:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/option_ESS")): Object: 'Object Repository/Admin Page/User Management/option_ESS' is clicked on
+
+2023-01-26 14:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/option_ESS' is clicked on
+
+2023-01-26 14:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/dropdown_Status")): Object: 'Object Repository/Admin Page/User Management/dropdown_Status' is clicked on
+
+2023-01-26 14:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/dropdown_Status' is clicked on
+
+2023-01-26 14:35:42 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/option_Disabled")): Object: 'Object Repository/Admin Page/User Management/option_Disabled' is clicked on
+
+2023-01-26 14:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/option_Disabled' is clicked on
+
+2023-01-26 14:35:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/User Management/textbox_EmployeeName"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/User Management/textbox_EmployeeName'
+
+2023-01-26 14:35:46 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/User Management/textbox_EmployeeName'
+
+2023-01-26 14:35:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/User Management/textbox_EmployeeName"), "a"): Keys 'a' sent to object: 'Object Repository/Admin Page/User Management/textbox_EmployeeName'
+
+2023-01-26 14:35:48 - [MESSAGE][PASSED] - Keys 'a' sent to object: 'Object Repository/Admin Page/User Management/textbox_EmployeeName'
+
+2023-01-26 14:35:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin Page/User Management/dropdown_table"), 10): Object 'Object Repository/Admin Page/User Management/dropdown_table' is present
+
+2023-01-26 14:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Page/User Management/dropdown_table' is present
+
+2023-01-26 14:35:49 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Admin Page/User Management/dropdown_EmployeeName_option"), 10): Object 'Object Repository/Admin Page/User Management/dropdown_EmployeeName_option' is clickable
+
+2023-01-26 14:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Page/User Management/dropdown_EmployeeName_option' is clickable
+
+2023-01-26 14:35:50 - [TEST_STEP][PASSED] - orange.keywords.randomClick(findTestObject("Admin Page/User Management/dropdown_EmployeeName_option")): orange.keywords.randomClick is PASSED
+
+2023-01-26 14:35:52 - [MESSAGE][PASSED] - orange.keywords.randomClick is PASSED
+
+2023-01-26 14:35:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/User Management/textbox_Username"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/User Management/textbox_Username'
+
+2023-01-26 14:35:54 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin Page/User Management/textbox_Username'
+
+2023-01-26 14:35:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/User Management/textbox_Username_selected"), "Luca Marchegiani"): Keys 'Luca Marchegiani' sent to object: 'Object Repository/Admin Page/User Management/textbox_Username_selected'
+
+2023-01-26 14:35:56 - [MESSAGE][PASSED] - Keys 'Luca Marchegiani' sent to object: 'Object Repository/Admin Page/User Management/textbox_Username_selected'
+
+2023-01-26 14:35:56 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Nationalities/button_Save")): Object: 'Object Repository/Admin Page/Nationalities/button_Save' is clicked on
+
+2023-01-26 14:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Nationalities/button_Save' is clicked on
+
+2023-01-26 14:35:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 14:35:59 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 14:35:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 14:36:00 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-01-26 14:36:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 14:36:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Page/User Management/Delete User" time="25.742" classname="Test Cases/Admin Page/User Management/Delete User" status="PASSED">
+         <system-out><![CDATA[2023-01-26 14:36:01 - [TEST_CASE][PASSED] - Test Cases/Admin Page/User Management/Delete User: Test Cases/Admin Page/User Management/Delete User
+
+2023-01-26 14:36:02 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 14:36:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-26 14:36:02 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-01-26 14:36:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-01-26 14:36:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-26 14:36:06 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-26 14:36:06 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Papge/textbox_Username"), username, findTestObject("Login Papge/textbox_Password"), password, findTestObject("Login Papge/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-01-26 14:36:12 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-01-26 14:36:12 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Admin")): Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 14:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Admin' is clicked on
+
+2023-01-26 14:36:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin Page/User Management/textbox_System_User"), "Luca Marchegiani"): Keys 'Luca Marchegiani' sent to object: 'Object Repository/Admin Page/User Management/textbox_System_User'
+
+2023-01-26 14:36:18 - [MESSAGE][PASSED] - Keys 'Luca Marchegiani' sent to object: 'Object Repository/Admin Page/User Management/textbox_System_User'
+
+2023-01-26 14:36:18 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/button_Search")): Object: 'Object Repository/Admin Page/User Management/button_Search' is clicked on
+
+2023-01-26 14:36:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/button_Search' is clicked on
+
+2023-01-26 14:36:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/button_Delete")): Object: 'Object Repository/Admin Page/User Management/button_Delete' is clicked on
+
+2023-01-26 14:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/button_Delete' is clicked on
+
+2023-01-26 14:36:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/User Management/button_Yes, Delete")): Object: 'Object Repository/Admin Page/User Management/button_Yes, Delete' is clicked on
+
+2023-01-26 14:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/User Management/button_Yes, Delete' is clicked on
+
+2023-01-26 14:36:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 14:36:25 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 14:36:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 14:36:25 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-01-26 14:36:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-26 14:36:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-26 14:34:28 - [TEST_SUITE][PASSED] - User Management Suite: Test Cases/Admin Page/User Management/Delete User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nationalities Suite,Firefox 109.0,,,2023-01-26 15:08:42,2023-01-26 15:10:58,2m - 16.763s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Add Nationality,Firefox 109.0,,,2023-01-26 15:08:43,2023-01-26 15:09:11,28.228s,FAILED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-26 15:08:44,2023-01-26 15:08:56,11.866s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-26 15:08:56,2023-01-26 15:08:56,0.335s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-26 15:08:56,2023-01-26 15:09:03,6.584s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-26 15:09:03,2023-01-26 15:09:06,3.604s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Firefox 109.0,,,2023-01-26 15:09:06,2023-01-26 15:09:09,2.601s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Add""))",Firefox 109.0,,,2023-01-26 15:09:09,2023-01-26 15:09:11,1.873s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Edit Nationality,Firefox 109.0,,,2023-01-26 15:09:11,2023-01-26 15:10:06,54.711s,FAILED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-26 15:09:12,2023-01-26 15:09:21,9.069s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-26 15:09:21,2023-01-26 15:09:21,0.303s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-26 15:09:21,2023-01-26 15:09:28,6.311s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-26 15:09:28,2023-01-26 15:09:31,3.777s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Firefox 109.0,,,2023-01-26 15:09:31,2023-01-26 15:09:34,2.370s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Edit""))",Firefox 109.0,,,2023-01-26 15:09:34,2023-01-26 15:10:06,31.732s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Delete Nationality,Firefox 109.0,,,2023-01-26 15:10:06,2023-01-26 15:10:58,52.840s,FAILED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-26 15:10:07,2023-01-26 15:10:15,7.726s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-26 15:10:15,2023-01-26 15:10:15,0.029s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-26 15:10:15,2023-01-26 15:10:21,6.159s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-26 15:10:21,2023-01-26 15:10:24,3.696s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Firefox 109.0,,,2023-01-26 15:10:24,2023-01-26 15:10:27,2.467s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Delete""))",Firefox 109.0,,,2023-01-26 15:10:27,2023-01-26 15:10:58,31.591s,FAILED

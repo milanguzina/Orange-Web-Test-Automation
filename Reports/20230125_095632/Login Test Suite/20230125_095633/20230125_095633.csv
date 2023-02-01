@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Chrome 109.0.0.0,,,2023-01-25 09:56:48,2023-01-25 09:57:44,56.011s,PASSED
+,,,,,,,
+Test Cases/Login/Successfull login attempt,Chrome 109.0.0.0,,,2023-01-25 09:56:49,2023-01-25 09:57:03,14.073s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-25 09:56:49,2023-01-25 09:56:53,4.422s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-25 09:56:53,2023-01-25 09:56:53,0.153s,PASSED
+"sendKeys(findTestObject(""Login Papge/textbox_Username""), ""Admin"")",Chrome 109.0.0.0,,,2023-01-25 09:56:53,2023-01-25 09:56:55,1.711s,PASSED
+"setEncryptedText(findTestObject(""Login Papge/textbox_Password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 109.0.0.0,,,2023-01-25 09:56:55,2023-01-25 09:56:58,2.485s,PASSED
+"click(findTestObject(""Login Papge/button_Login""))",Chrome 109.0.0.0,,,2023-01-25 09:56:58,2023-01-25 09:57:00,2.508s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/dropdown_user_profile""), 10)",Chrome 109.0.0.0,,,2023-01-25 09:57:00,2023-01-25 09:57:02,1.818s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-25 09:57:02,2023-01-25 09:57:03,0.687s,PASSED
+,,,,,,,
+Test Cases/Login/Unsuccessfull login attempt,Chrome 109.0.0.0,,,2023-01-25 09:57:03,2023-01-25 09:57:15,12.613s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-25 09:57:03,2023-01-25 09:57:07,4.286s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-25 09:57:07,2023-01-25 09:57:07,0.147s,PASSED
+"sendKeys(findTestObject(""Login Papge/textbox_Username""), ""Admin"")",Chrome 109.0.0.0,,,2023-01-25 09:57:07,2023-01-25 09:57:09,1.736s,PASSED
+"setEncryptedText(findTestObject(""Login Papge/textbox_Password""), ""1bcgBUi0Tj/gc3uc61HAVQ=="")",Chrome 109.0.0.0,,,2023-01-25 09:57:09,2023-01-25 09:57:12,2.557s,PASSED
+"click(findTestObject(""Login Papge/button_Login""))",Chrome 109.0.0.0,,,2023-01-25 09:57:12,2023-01-25 09:57:14,2.241s,PASSED
+"verifyElementPresent(findTestObject(""Login Papge/message_Invalid credentials""), 10)",Chrome 109.0.0.0,,,2023-01-25 09:57:14,2023-01-25 09:57:15,0.756s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-25 09:57:15,2023-01-25 09:57:15,0.651s,PASSED
+,,,,,,,
+Test Cases/Login/Reset User Password,Chrome 109.0.0.0,,,2023-01-25 09:57:15,2023-01-25 09:57:26,11.075s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-25 09:57:16,2023-01-25 09:57:19,3.324s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-25 09:57:19,2023-01-25 09:57:19,0.138s,PASSED
+"click(findTestObject(""Login Papge/link_Forgot your password""))",Chrome 109.0.0.0,,,2023-01-25 09:57:19,2023-01-25 09:57:21,2.019s,PASSED
+"sendKeys(findTestObject(""Reset Password Page/textbox_Username""), ""Admin"")",Chrome 109.0.0.0,,,2023-01-25 09:57:21,2023-01-25 09:57:23,1.769s,PASSED
+"click(findTestObject(""Reset Password Page/button_Reset Password""))",Chrome 109.0.0.0,,,2023-01-25 09:57:23,2023-01-25 09:57:24,1.353s,PASSED
+"verifyElementText(findTestObject(""Reset Password Page/title_Reset Password link sent successfully""), ""Reset Password link sent successfully"")",Chrome 109.0.0.0,,,2023-01-25 09:57:24,2023-01-25 09:57:26,1.623s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-25 09:57:26,2023-01-25 09:57:26,0.649s,PASSED
+,,,,,,,
+Test Cases/Login/Cancel Reset User Password,Chrome 109.0.0.0,,,2023-01-25 09:57:26,2023-01-25 09:57:38,11.389s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-25 09:57:27,2023-01-25 09:57:30,3.189s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-25 09:57:30,2023-01-25 09:57:30,0.142s,PASSED
+"click(findTestObject(""Login Papge/link_Forgot your password""))",Chrome 109.0.0.0,,,2023-01-25 09:57:30,2023-01-25 09:57:32,1.919s,PASSED
+"sendKeys(findTestObject(""Reset Password Page/textbox_Username""), ""Admin"")",Chrome 109.0.0.0,,,2023-01-25 09:57:32,2023-01-25 09:57:34,1.821s,PASSED
+"click(findTestObject(""Reset Password Page/button_Cancel""))",Chrome 109.0.0.0,,,2023-01-25 09:57:34,2023-01-25 09:57:35,1.638s,PASSED
+"verifyElementPresent(findTestObject(""Login Papge/textbox_Username""), 10)",Chrome 109.0.0.0,,,2023-01-25 09:57:35,2023-01-25 09:57:36,0.691s,PASSED
+"verifyElementPresent(findTestObject(""Login Papge/textbox_Password""), 10)",Chrome 109.0.0.0,,,2023-01-25 09:57:36,2023-01-25 09:57:37,0.575s,PASSED
+"verifyElementPresent(findTestObject(""Login Papge/button_Login""), 10)",Chrome 109.0.0.0,,,2023-01-25 09:57:37,2023-01-25 09:57:37,0.564s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-25 09:57:37,2023-01-25 09:57:38,0.648s,PASSED
+,,,,,,,
+Test Cases/Login/Social Media Links Verification,Chrome 109.0.0.0,,,2023-01-25 09:57:38,2023-01-25 09:57:44,6.563s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-25 09:57:38,2023-01-25 09:57:41,3.313s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-25 09:57:41,2023-01-25 09:57:41,0.136s,PASSED
+waitForPageLoad(10),Chrome 109.0.0.0,,,2023-01-25 09:57:41,2023-01-25 09:57:42,0.181s,PASSED
+"verifyLinksAccessible([""https://www.facebook.com/OrangeHRM/"", ""https://twitter.com/orangehrm?lang=en"", ""https://www.youtube.com/c/OrangeHRMInc""])",Chrome 109.0.0.0,,,2023-01-25 09:57:42,2023-01-25 09:57:44,2.079s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-25 09:57:44,2023-01-25 09:57:44,0.645s,PASSED

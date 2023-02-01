@@ -1,0 +1,92 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Job Dropdown Suite,Chrome 109.0.0.0,,,2023-01-26 14:34:48,2023-01-26 14:38:08,3m - 19.964s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Job/Job Titles/Add Job Title,Chrome 109.0.0.0,,,2023-01-26 14:34:48,2023-01-26 14:35:24,35.717s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-26 14:34:49,2023-01-26 14:34:55,5.457s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-26 14:34:55,2023-01-26 14:34:55,0.535s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Chrome 109.0.0.0,,,2023-01-26 14:34:55,2023-01-26 14:35:01,6.308s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-01-26 14:35:01,2023-01-26 14:35:05,3.425s,PASSED
+"click(findTestObject(""Admin Page/Job/li_Job""))",Chrome 109.0.0.0,,,2023-01-26 14:35:05,2023-01-26 14:35:07,2.260s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Titles/li_Job Titles""))",Chrome 109.0.0.0,,,2023-01-26 14:35:07,2023-01-26 14:35:11,4.322s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Add""))",Chrome 109.0.0.0,,,2023-01-26 14:35:11,2023-01-26 14:35:15,3.326s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), ""Boss-Automation"")",Chrome 109.0.0.0,,,2023-01-26 14:35:15,2023-01-26 14:35:17,2.228s,PASSED
+"sendKeys(findTestObject(""Admin Page/Job/Job Titles/textarea_Job Description""), ""Big Boss "")",Chrome 109.0.0.0,,,2023-01-26 14:35:17,2023-01-26 14:35:19,1.661s,PASSED
+"sendKeys(findTestObject(""Admin Page/Job/Job Titles/textarea_Note""), ""No notes available"")",Chrome 109.0.0.0,,,2023-01-26 14:35:19,2023-01-26 14:35:20,1.753s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Chrome 109.0.0.0,,,2023-01-26 14:35:20,2023-01-26 14:35:22,1.569s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 109.0.0.0,,,2023-01-26 14:35:22,2023-01-26 14:35:23,0.816s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 109.0.0.0,,,2023-01-26 14:35:23,2023-01-26 14:35:23,0.517s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-26 14:35:23,2023-01-26 14:35:24,0.855s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Job/Job Titles/Edit Job Title,Chrome 109.0.0.0,,,2023-01-26 14:35:24,2023-01-26 14:36:13,48.943s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-26 14:35:26,2023-01-26 14:35:38,11.886s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-26 14:35:38,2023-01-26 14:35:38,0.179s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Chrome 109.0.0.0,,,2023-01-26 14:35:38,2023-01-26 14:35:44,6.543s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-01-26 14:35:44,2023-01-26 14:35:48,3.918s,PASSED
+"click(findTestObject(""Admin Page/Job/li_Job""))",Chrome 109.0.0.0,,,2023-01-26 14:35:48,2023-01-26 14:35:51,2.665s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Titles/li_Job Titles""))",Chrome 109.0.0.0,,,2023-01-26 14:35:51,2023-01-26 14:35:53,2.614s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Titles/button_Edit""))",Chrome 109.0.0.0,,,2023-01-26 14:35:53,2023-01-26 14:35:58,4.087s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 109.0.0.0,,,2023-01-26 14:35:58,2023-01-26 14:36:00,2.637s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), ""Boss-Edited-Automation"")",Chrome 109.0.0.0,,,2023-01-26 14:36:00,2023-01-26 14:36:02,1.867s,PASSED
+"sendKeys(findTestObject(""Admin Page/Job/Job Titles/textarea_Job Description""), Keys.chord(CONTROL, ""a""))",Chrome 109.0.0.0,,,2023-01-26 14:36:02,2023-01-26 14:36:04,2.048s,PASSED
+"sendKeys(findTestObject(""Admin Page/Job/Job Titles/textarea_Job Description""), ""Big Boss -Edited"")",Chrome 109.0.0.0,,,2023-01-26 14:36:04,2023-01-26 14:36:06,1.852s,PASSED
+"sendKeys(findTestObject(""Admin Page/Job/Job Titles/textarea_Note""), Keys.chord(CONTROL, ""a""))",Chrome 109.0.0.0,,,2023-01-26 14:36:06,2023-01-26 14:36:08,1.727s,PASSED
+"sendKeys(findTestObject(""Admin Page/Job/Job Titles/textarea_Note""), ""Notes available tomorrow"")",Chrome 109.0.0.0,,,2023-01-26 14:36:08,2023-01-26 14:36:09,1.659s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 109.0.0.0,,,2023-01-26 14:36:09,2023-01-26 14:36:11,1.597s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 109.0.0.0,,,2023-01-26 14:36:11,2023-01-26 14:36:12,0.790s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 109.0.0.0,,,2023-01-26 14:36:12,2023-01-26 14:36:12,0.576s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-26 14:36:12,2023-01-26 14:36:13,0.785s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Job/Job Titles/Delete Job Title,Chrome 109.0.0.0,,,2023-01-26 14:36:13,2023-01-26 14:36:41,27.833s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-26 14:36:14,2023-01-26 14:36:18,4.071s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-26 14:36:18,2023-01-26 14:36:18,0.185s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Chrome 109.0.0.0,,,2023-01-26 14:36:18,2023-01-26 14:36:26,7.121s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-01-26 14:36:26,2023-01-26 14:36:30,4.233s,PASSED
+"click(findTestObject(""Admin Page/Job/li_Job""))",Chrome 109.0.0.0,,,2023-01-26 14:36:30,2023-01-26 14:36:32,2.431s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Titles/li_Job Titles""))",Chrome 109.0.0.0,,,2023-01-26 14:36:32,2023-01-26 14:36:34,2.194s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Titles/button_Delete""))",Chrome 109.0.0.0,,,2023-01-26 14:36:34,2023-01-26 14:36:37,2.380s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 109.0.0.0,,,2023-01-26 14:36:37,2023-01-26 14:36:39,1.760s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 109.0.0.0,,,2023-01-26 14:36:39,2023-01-26 14:36:40,1.056s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 109.0.0.0,,,2023-01-26 14:36:40,2023-01-26 14:36:40,0.514s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-26 14:36:40,2023-01-26 14:36:41,0.815s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Job/Job Categories/Add Category,Chrome 109.0.0.0,,,2023-01-26 14:36:41,2023-01-26 14:37:11,29.749s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-26 14:36:42,2023-01-26 14:36:47,4.888s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-26 14:36:47,2023-01-26 14:36:47,0.159s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Chrome 109.0.0.0,,,2023-01-26 14:36:47,2023-01-26 14:36:53,5.811s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-01-26 14:36:53,2023-01-26 14:36:57,3.818s,PASSED
+"click(findTestObject(""Admin Page/Job/li_Job""))",Chrome 109.0.0.0,,,2023-01-26 14:36:57,2023-01-26 14:36:59,2.351s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Categories/li_Job Categories""))",Chrome 109.0.0.0,,,2023-01-26 14:36:59,2023-01-26 14:37:01,2.271s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Add""))",Chrome 109.0.0.0,,,2023-01-26 14:37:01,2023-01-26 14:37:04,3.027s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), ""Automation Category"")",Chrome 109.0.0.0,,,2023-01-26 14:37:04,2023-01-26 14:37:07,2.281s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Chrome 109.0.0.0,,,2023-01-26 14:37:07,2023-01-26 14:37:08,1.654s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 109.0.0.0,,,2023-01-26 14:37:08,2023-01-26 14:37:09,1.175s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 109.0.0.0,,,2023-01-26 14:37:09,2023-01-26 14:37:10,0.540s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-26 14:37:10,2023-01-26 14:37:11,0.818s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Job/Job Categories/Edit Category,Chrome 109.0.0.0,,,2023-01-26 14:37:11,2023-01-26 14:37:43,32.315s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-26 14:37:12,2023-01-26 14:37:16,3.704s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-26 14:37:16,2023-01-26 14:37:16,0.171s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Chrome 109.0.0.0,,,2023-01-26 14:37:16,2023-01-26 14:37:22,6.487s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-01-26 14:37:22,2023-01-26 14:37:26,3.592s,PASSED
+"click(findTestObject(""Admin Page/Job/li_Job""))",Chrome 109.0.0.0,,,2023-01-26 14:37:26,2023-01-26 14:37:28,2.474s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Categories/li_Job Categories""))",Chrome 109.0.0.0,,,2023-01-26 14:37:28,2023-01-26 14:37:32,3.791s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Categories/button_Edit""))",Chrome 109.0.0.0,,,2023-01-26 14:37:32,2023-01-26 14:37:35,2.699s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 109.0.0.0,,,2023-01-26 14:37:35,2023-01-26 14:37:37,2.421s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), ""Automation Category-Edited"")",Chrome 109.0.0.0,,,2023-01-26 14:37:37,2023-01-26 14:37:39,1.801s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 109.0.0.0,,,2023-01-26 14:37:39,2023-01-26 14:37:41,1.654s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 109.0.0.0,,,2023-01-26 14:37:41,2023-01-26 14:37:42,1.026s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 109.0.0.0,,,2023-01-26 14:37:42,2023-01-26 14:37:42,0.496s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-26 14:37:42,2023-01-26 14:37:43,0.783s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Job/Job Categories/Delete Category,Chrome 109.0.0.0,,,2023-01-26 14:37:43,2023-01-26 14:38:08,25.001s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-01-26 14:37:44,2023-01-26 14:37:48,3.575s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-26 14:37:48,2023-01-26 14:37:48,0.147s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Chrome 109.0.0.0,,,2023-01-26 14:37:48,2023-01-26 14:37:54,6.002s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-01-26 14:37:54,2023-01-26 14:37:57,3.501s,PASSED
+"click(findTestObject(""Admin Page/Job/li_Job""))",Chrome 109.0.0.0,,,2023-01-26 14:37:57,2023-01-26 14:38:00,2.274s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Categories/li_Job Categories""))",Chrome 109.0.0.0,,,2023-01-26 14:38:00,2023-01-26 14:38:02,2.287s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Categories/button_Delete""))",Chrome 109.0.0.0,,,2023-01-26 14:38:02,2023-01-26 14:38:04,2.150s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 109.0.0.0,,,2023-01-26 14:38:04,2023-01-26 14:38:06,1.574s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 109.0.0.0,,,2023-01-26 14:38:06,2023-01-26 14:38:07,1.039s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 109.0.0.0,,,2023-01-26 14:38:07,2023-01-26 14:38:07,0.468s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-26 14:38:07,2023-01-26 14:38:08,0.833s,PASSED

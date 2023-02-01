@@ -1,0 +1,191 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Qualifications Dropdown Suite,Firefox 109.0,,,2023-01-25 10:30:09,2023-01-25 10:38:49,8m - 39.765s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Skills/Add Skill,Firefox 109.0,,,2023-01-25 10:30:09,2023-01-25 10:30:52,43.329s,FAILED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:30:10,2023-01-25 10:30:18,7.790s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:30:18,2023-01-25 10:30:18,0.345s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:30:18,2023-01-25 10:30:24,5.905s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:30:24,2023-01-25 10:30:27,3.555s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:30:27,2023-01-25 10:30:30,2.396s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/li_Skills""))",Firefox 109.0,,,2023-01-25 10:30:30,2023-01-25 10:30:32,2.594s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Add""))",Firefox 109.0,,,2023-01-25 10:30:32,2023-01-25 10:30:36,3.416s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), ""Super skills"")",Firefox 109.0,,,2023-01-25 10:30:36,2023-01-25 10:30:38,2.100s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textarea_Description""), ""Everything best"")",Firefox 109.0,,,2023-01-25 10:30:38,2023-01-25 10:30:39,1.474s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Firefox 109.0,,,2023-01-25 10:30:39,2023-01-25 10:30:41,1.668s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Firefox 109.0,,,2023-01-25 10:30:41,2023-01-25 10:30:52,11.344s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Skills/Edit Skill,Firefox 109.0,,,2023-01-25 10:30:52,2023-01-25 10:31:30,38.086s,PASSED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:30:53,2023-01-25 10:31:00,7.202s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:31:00,2023-01-25 10:31:00,0.327s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:31:00,2023-01-25 10:31:08,7.173s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:31:08,2023-01-25 10:31:13,5.791s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:31:13,2023-01-25 10:31:16,2.301s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/li_Skills""))",Firefox 109.0,,,2023-01-25 10:31:16,2023-01-25 10:31:18,2.108s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Edit""))",Firefox 109.0,,,2023-01-25 10:31:18,2023-01-25 10:31:20,2.652s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Firefox 109.0,,,2023-01-25 10:31:20,2023-01-25 10:31:23,2.304s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), ""Not so super skill - Edited"")",Firefox 109.0,,,2023-01-25 10:31:23,2023-01-25 10:31:24,1.477s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textarea_Description""), Keys.chord(CONTROL, ""a""))",Firefox 109.0,,,2023-01-25 10:31:24,2023-01-25 10:31:26,1.388s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textarea_Description""), ""New description-new skill"")",Firefox 109.0,,,2023-01-25 10:31:26,2023-01-25 10:31:27,1.455s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Firefox 109.0,,,2023-01-25 10:31:27,2023-01-25 10:31:29,1.570s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Firefox 109.0,,,2023-01-25 10:31:29,2023-01-25 10:31:30,0.976s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-01-25 10:31:30,2023-01-25 10:31:30,0.873s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Skills/Delete Skill,Firefox 109.0,,,2023-01-25 10:31:30,2023-01-25 10:31:57,26.727s,PASSED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:31:31,2023-01-25 10:31:36,5.052s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:31:36,2023-01-25 10:31:36,0.025s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:31:36,2023-01-25 10:31:42,6.269s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:31:42,2023-01-25 10:31:46,3.677s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:31:46,2023-01-25 10:31:48,2.402s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/li_Skills""))",Firefox 109.0,,,2023-01-25 10:31:48,2023-01-25 10:31:51,2.642s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Delete""))",Firefox 109.0,,,2023-01-25 10:31:51,2023-01-25 10:31:53,2.338s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Firefox 109.0,,,2023-01-25 10:31:53,2023-01-25 10:31:55,1.819s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Firefox 109.0,,,2023-01-25 10:31:55,2023-01-25 10:31:56,1.231s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-01-25 10:31:56,2023-01-25 10:31:57,0.935s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Memberships/Add Membership,Firefox 109.0,,,2023-01-25 10:31:57,2023-01-25 10:32:36,38.396s,FAILED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:31:58,2023-01-25 10:32:03,5.723s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:32:03,2023-01-25 10:32:04,0.025s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:32:04,2023-01-25 10:32:10,6.095s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:32:10,2023-01-25 10:32:14,4.143s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:32:14,2023-01-25 10:32:16,2.225s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Memberships/li_Memberships""))",Firefox 109.0,,,2023-01-25 10:32:16,2023-01-25 10:32:18,1.586s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Add""))",Firefox 109.0,,,2023-01-25 10:32:18,2023-01-25 10:32:21,2.968s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), ""Gold Membership"")",Firefox 109.0,,,2023-01-25 10:32:21,2023-01-25 10:32:23,2.050s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Firefox 109.0,,,2023-01-25 10:32:23,2023-01-25 10:32:24,1.686s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Firefox 109.0,,,2023-01-25 10:32:24,2023-01-25 10:32:36,11.367s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Memberships/Edit Membership,Firefox 109.0,,,2023-01-25 10:32:36,2023-01-25 10:33:16,40.061s,FAILED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:32:36,2023-01-25 10:32:43,6.567s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:32:43,2023-01-25 10:32:43,0.017s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:32:43,2023-01-25 10:32:48,5.817s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:32:48,2023-01-25 10:32:52,3.516s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:32:52,2023-01-25 10:32:54,2.346s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Memberships/li_Memberships""))",Firefox 109.0,,,2023-01-25 10:32:54,2023-01-25 10:32:56,1.647s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Edit""))",Firefox 109.0,,,2023-01-25 10:32:56,2023-01-25 10:32:59,2.884s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Firefox 109.0,,,2023-01-25 10:32:59,2023-01-25 10:33:01,2.217s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), ""Platinum Memebership - Edited"")",Firefox 109.0,,,2023-01-25 10:33:01,2023-01-25 10:33:03,1.467s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Firefox 109.0,,,2023-01-25 10:33:03,2023-01-25 10:33:04,1.751s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Firefox 109.0,,,2023-01-25 10:33:04,2023-01-25 10:33:16,11.421s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Memberships/Delete Membership,Firefox 109.0,,,2023-01-25 10:33:16,2023-01-25 10:33:42,25.959s,PASSED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:33:16,2023-01-25 10:33:22,6.237s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:33:22,2023-01-25 10:33:22,0.021s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:33:22,2023-01-25 10:33:28,5.859s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:33:28,2023-01-25 10:33:31,3.332s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:33:31,2023-01-25 10:33:34,2.322s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Memberships/li_Memberships""))",Firefox 109.0,,,2023-01-25 10:33:34,2023-01-25 10:33:35,1.591s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Delete""))",Firefox 109.0,,,2023-01-25 10:33:35,2023-01-25 10:33:38,2.733s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Firefox 109.0,,,2023-01-25 10:33:38,2023-01-25 10:33:40,1.822s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Firefox 109.0,,,2023-01-25 10:33:40,2023-01-25 10:33:40,0.559s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-01-25 10:33:40,2023-01-25 10:33:42,1.163s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Licenses/Add License,Firefox 109.0,,,2023-01-25 10:33:42,2023-01-25 10:34:19,37.203s,FAILED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:33:42,2023-01-25 10:33:48,5.575s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:33:48,2023-01-25 10:33:48,0.014s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:33:48,2023-01-25 10:33:54,5.841s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:33:54,2023-01-25 10:33:57,3.422s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:33:57,2023-01-25 10:33:59,2.376s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Licenses/li_Licenses""))",Firefox 109.0,,,2023-01-25 10:33:59,2023-01-25 10:34:01,1.596s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Add""))",Firefox 109.0,,,2023-01-25 10:34:01,2023-01-25 10:34:04,2.864s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), ""Practicioner - Beginner"")",Firefox 109.0,,,2023-01-25 10:34:04,2023-01-25 10:34:06,2.002s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Firefox 109.0,,,2023-01-25 10:34:06,2023-01-25 10:34:08,1.662s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Firefox 109.0,,,2023-01-25 10:34:08,2023-01-25 10:34:19,11.349s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Licenses/Edit License,Firefox 109.0,,,2023-01-25 10:34:19,2023-01-25 10:34:58,38.827s,FAILED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:34:19,2023-01-25 10:34:24,5.307s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:34:24,2023-01-25 10:34:24,0.020s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:34:24,2023-01-25 10:34:30,5.843s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:34:30,2023-01-25 10:34:34,3.513s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:34:34,2023-01-25 10:34:36,2.408s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Licenses/li_Licenses""))",Firefox 109.0,,,2023-01-25 10:34:36,2023-01-25 10:34:38,1.568s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Licenses/button_Edit""))",Firefox 109.0,,,2023-01-25 10:34:38,2023-01-25 10:34:41,2.917s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Firefox 109.0,,,2023-01-25 10:34:41,2023-01-25 10:34:43,2.316s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), ""Practicioner - Advanced"")",Firefox 109.0,,,2023-01-25 10:34:43,2023-01-25 10:34:45,1.560s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Firefox 109.0,,,2023-01-25 10:34:45,2023-01-25 10:34:46,1.757s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Firefox 109.0,,,2023-01-25 10:34:46,2023-01-25 10:34:58,11.369s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Licenses/Delete License,Firefox 109.0,,,2023-01-25 10:34:58,2023-01-25 10:35:24,26.492s,PASSED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:34:58,2023-01-25 10:35:04,5.613s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:35:04,2023-01-25 10:35:04,0.018s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:35:04,2023-01-25 10:35:10,6.534s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:35:10,2023-01-25 10:35:14,4.303s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:35:14,2023-01-25 10:35:17,2.263s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Licenses/li_Licenses""))",Firefox 109.0,,,2023-01-25 10:35:17,2023-01-25 10:35:18,1.690s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Delete""))",Firefox 109.0,,,2023-01-25 10:35:18,2023-01-25 10:35:21,2.805s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Firefox 109.0,,,2023-01-25 10:35:21,2023-01-25 10:35:23,1.768s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Firefox 109.0,,,2023-01-25 10:35:23,2023-01-25 10:35:23,0.518s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-01-25 10:35:23,2023-01-25 10:35:24,0.775s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Languages/Add Language,Firefox 109.0,,,2023-01-25 10:35:24,2023-01-25 10:36:01,36.967s,FAILED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:35:24,2023-01-25 10:35:30,5.319s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:35:30,2023-01-25 10:35:30,0.014s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:35:30,2023-01-25 10:35:36,5.926s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:35:36,2023-01-25 10:35:39,3.428s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:35:39,2023-01-25 10:35:41,2.346s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/li_Languages""))",Firefox 109.0,,,2023-01-25 10:35:41,2023-01-25 10:35:43,1.587s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Add""))",Firefox 109.0,,,2023-01-25 10:35:43,2023-01-25 10:35:46,2.933s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), ""Serbian"")",Firefox 109.0,,,2023-01-25 10:35:46,2023-01-25 10:35:48,2.093s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Firefox 109.0,,,2023-01-25 10:35:48,2023-01-25 10:35:50,1.648s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Firefox 109.0,,,2023-01-25 10:35:50,2023-01-25 10:36:01,11.421s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Languages/Edit Language,Firefox 109.0,,,2023-01-25 10:36:01,2023-01-25 10:36:40,38.425s,FAILED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:36:01,2023-01-25 10:36:07,5.387s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:36:07,2023-01-25 10:36:07,0.021s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:36:07,2023-01-25 10:36:13,5.907s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:36:13,2023-01-25 10:36:16,3.433s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:36:16,2023-01-25 10:36:18,2.221s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/li_Languages""))",Firefox 109.0,,,2023-01-25 10:36:18,2023-01-25 10:36:20,1.592s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Edit""))",Firefox 109.0,,,2023-01-25 10:36:20,2023-01-25 10:36:23,2.835s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Firefox 109.0,,,2023-01-25 10:36:23,2023-01-25 10:36:25,2.179s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), ""Serbian-Edited"")",Firefox 109.0,,,2023-01-25 10:36:25,2023-01-25 10:36:27,1.459s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Firefox 109.0,,,2023-01-25 10:36:27,2023-01-25 10:36:28,1.667s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Firefox 109.0,,,2023-01-25 10:36:28,2023-01-25 10:36:40,11.395s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Languages/Delete Language,Firefox 109.0,,,2023-01-25 10:36:40,2023-01-25 10:37:05,25.455s,PASSED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:36:40,2023-01-25 10:36:45,5.428s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:36:45,2023-01-25 10:36:45,0.010s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:36:45,2023-01-25 10:36:51,5.952s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:36:51,2023-01-25 10:36:55,3.433s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:36:55,2023-01-25 10:36:57,2.350s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/li_Languages""))",Firefox 109.0,,,2023-01-25 10:36:57,2023-01-25 10:36:59,1.604s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Delete""))",Firefox 109.0,,,2023-01-25 10:36:59,2023-01-25 10:37:01,2.795s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Firefox 109.0,,,2023-01-25 10:37:01,2023-01-25 10:37:03,1.817s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Firefox 109.0,,,2023-01-25 10:37:03,2023-01-25 10:37:04,1.050s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-01-25 10:37:04,2023-01-25 10:37:05,0.680s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Education/Add Education,Firefox 109.0,,,2023-01-25 10:37:05,2023-01-25 10:37:43,37.863s,FAILED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:37:06,2023-01-25 10:37:11,5.665s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:37:11,2023-01-25 10:37:11,0.021s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:37:11,2023-01-25 10:37:17,6.004s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:37:17,2023-01-25 10:37:21,3.541s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:37:21,2023-01-25 10:37:23,2.344s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/li_Education""))",Firefox 109.0,,,2023-01-25 10:37:23,2023-01-25 10:37:25,1.643s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Add""))",Firefox 109.0,,,2023-01-25 10:37:25,2023-01-25 10:37:28,3.021s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), ""University Degree"")",Firefox 109.0,,,2023-01-25 10:37:28,2023-01-25 10:37:30,1.981s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Firefox 109.0,,,2023-01-25 10:37:30,2023-01-25 10:37:31,1.723s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Firefox 109.0,,,2023-01-25 10:37:31,2023-01-25 10:37:43,11.459s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Education/Edit Education,Firefox 109.0,,,2023-01-25 10:37:43,2023-01-25 10:38:22,39.195s,FAILED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:37:43,2023-01-25 10:37:49,5.579s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:37:49,2023-01-25 10:37:49,0.015s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:37:49,2023-01-25 10:37:55,5.917s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:37:55,2023-01-25 10:37:58,3.486s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:37:58,2023-01-25 10:38:01,2.411s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/li_Education""))",Firefox 109.0,,,2023-01-25 10:38:01,2023-01-25 10:38:02,1.654s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Edit""))",Firefox 109.0,,,2023-01-25 10:38:02,2023-01-25 10:38:05,2.954s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Firefox 109.0,,,2023-01-25 10:38:05,2023-01-25 10:38:08,2.231s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), ""High school education"")",Firefox 109.0,,,2023-01-25 10:38:08,2023-01-25 10:38:09,1.470s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Firefox 109.0,,,2023-01-25 10:38:09,2023-01-25 10:38:11,1.674s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Firefox 109.0,,,2023-01-25 10:38:11,2023-01-25 10:38:22,11.422s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Education/Delete Education,Firefox 109.0,,,2023-01-25 10:38:22,2023-01-25 10:38:49,26.414s,PASSED
+openBrowser(baseURL),Firefox 109.0,,,2023-01-25 10:38:23,2023-01-25 10:38:29,6.303s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-01-25 10:38:29,2023-01-25 10:38:29,0.023s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Papge/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Papge/button_Login""))",Firefox 109.0,,,2023-01-25 10:38:29,2023-01-25 10:38:35,5.808s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 109.0,,,2023-01-25 10:38:35,2023-01-25 10:38:38,3.652s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Firefox 109.0,,,2023-01-25 10:38:38,2023-01-25 10:38:41,2.324s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/li_Education""))",Firefox 109.0,,,2023-01-25 10:38:41,2023-01-25 10:38:42,1.691s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Delete""))",Firefox 109.0,,,2023-01-25 10:38:42,2023-01-25 10:38:45,2.661s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Firefox 109.0,,,2023-01-25 10:38:45,2023-01-25 10:38:47,1.743s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Firefox 109.0,,,2023-01-25 10:38:47,2023-01-25 10:38:47,0.533s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-01-25 10:38:47,2023-01-25 10:38:49,1.164s,PASSED

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User Management Suite,,,,2023-01-25 10:30:01,2023-01-25 10:30:06,4.110s,FAILED
+,,,,,,,
+Test Cases/Admin Page/User Management/Add User,,,,2023-01-25 10:30:02,2023-01-25 10:30:04,2.636s,FAILED
+openBrowser(baseURL),,,,2023-01-25 10:30:02,2023-01-25 10:30:04,2.261s,FAILED
+,,,,,,,
+Test Cases/Admin Page/User Management/Edit User,,,,2023-01-25 10:30:04,2023-01-25 10:30:05,0.476s,FAILED
+openBrowser(baseURL),,,,2023-01-25 10:30:05,2023-01-25 10:30:05,0.051s,FAILED
+,,,,,,,
+Test Cases/Admin Page/User Management/Delete User,,,,2023-01-25 10:30:05,2023-01-25 10:30:06,0.629s,FAILED
+openBrowser(baseURL),,,,2023-01-25 10:30:05,2023-01-25 10:30:06,0.044s,FAILED

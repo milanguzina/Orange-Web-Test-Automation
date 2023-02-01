@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nationalities Suite,,,,2023-01-26 14:22:47,2023-01-26 14:22:57,10.462s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Add Nationality,,,,2023-01-26 14:22:48,2023-01-26 14:22:55,6.641s,FAILED
+openBrowser(baseURL),,,,2023-01-26 14:22:50,2023-01-26 14:22:55,5.011s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Edit Nationality,,,,2023-01-26 14:22:55,2023-01-26 14:22:56,1.555s,FAILED
+openBrowser(baseURL),,,,2023-01-26 14:22:56,2023-01-26 14:22:56,0.236s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Delete Nationality,,,,2023-01-26 14:22:56,2023-01-26 14:22:57,1.129s,FAILED
+openBrowser(baseURL),,,,2023-01-26 14:22:57,2023-01-26 14:22:57,0.099s,FAILED
