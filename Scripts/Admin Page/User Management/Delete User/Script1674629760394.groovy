@@ -17,13 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-
-WebUI.maximizeWindow()
-
-CustomKeywords.'orange.keywords.userLogin'(findTestObject('Login Page/textbox_Username'), GlobalVariable.username, findTestObject(
-        'Login Papge/textbox_Password'), GlobalVariable.password, findTestObject('Login Page/button_Login'))
-
 WebUI.click(findTestObject('Navigation Sidebar/a_Admin'))
 
 WebUI.sendKeys(findTestObject('Admin Page/User Management/textbox_System_User'), 'Luca Marchegiani')
@@ -37,6 +30,4 @@ WebUI.click(findTestObject('Admin Page/User Management/button_Yes, Delete'))
 WebUI.waitForElementPresent(findTestObject('Confirmation messages/message_SuccessSuccessfullyDeleted'), 10)
 
 WebUI.verifyElementPresent(findTestObject('Confirmation messages/message_SuccessSuccessfullyDeleted'), 10)
-
-WebUI.closeBrowser()
 

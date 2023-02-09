@@ -17,13 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-
-WebUI.maximizeWindow()
-
-CustomKeywords.'orange.keywords.userLogin'(findTestObject('Login Page/textbox_Username'), GlobalVariable.username, findTestObject(
-        'Login Page/textbox_Password'), GlobalVariable.password, findTestObject('Login Page/button_Login'))
-
 WebUI.click(findTestObject('Navigation Sidebar/a_Recruitment'))
 
 WebUI.waitForElementPresent(findTestObject('Recruitment Page/Vacancies/button_Add'), 10)
@@ -63,6 +56,4 @@ WebUI.click(findTestObject('Admin Page/Nationalities/button_Save'))
 WebUI.waitForElementPresent(findTestObject('Confirmation messages/message_SuccessSuccessfullySaved'), 10)
 
 WebUI.verifyElementPresent(findTestObject('Confirmation messages/message_SuccessSuccessfullySaved'), 10)
-
-WebUI.closeBrowser()
 

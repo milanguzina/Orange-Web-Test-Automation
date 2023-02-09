@@ -17,10 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-
-WebUI.maximizeWindow()
-
 WebUI.sendKeys(findTestObject('Login Page/textbox_Username'), 'Admin')
 
 WebUI.setEncryptedText(findTestObject('Login Page/textbox_Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
@@ -28,6 +24,4 @@ WebUI.setEncryptedText(findTestObject('Login Page/textbox_Password'), 'hUKwJTbof
 WebUI.click(findTestObject('Login Page/button_Login'))
 
 WebUI.verifyElementPresent(findTestObject('Home Page/dropdown_user_profile'), 10)
-
-WebUI.closeBrowser()
 

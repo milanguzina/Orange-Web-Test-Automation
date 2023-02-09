@@ -17,10 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-
-WebUI.maximizeWindow()
-
 WebUI.click(findTestObject('Login Page/link_Forgot your password'))
 
 WebUI.sendKeys(findTestObject('Reset Password Page/textbox_Username'), 'Admin')
@@ -28,6 +24,4 @@ WebUI.sendKeys(findTestObject('Reset Password Page/textbox_Username'), 'Admin')
 WebUI.click(findTestObject('Reset Password Page/button_Reset Password'))
 
 WebUI.verifyElementText(findTestObject('Reset Password Page/title_Reset Password link sent successfully'), 'Reset Password link sent successfully')
-
-WebUI.closeBrowser()
 

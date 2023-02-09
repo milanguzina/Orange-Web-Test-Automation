@@ -17,13 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-
-WebUI.maximizeWindow()
-
-CustomKeywords.'orange.keywords.userLogin'(findTestObject('Login Page/textbox_Username'), GlobalVariable.username, findTestObject(
-        'Login Page/textbox_Password'), GlobalVariable.password, findTestObject('Login Page/button_Login'))
-
 WebUI.click(findTestObject('Navigation Sidebar/a_Admin'))
 
 WebUI.click(findTestObject('Admin Page/Qualifications/li_Qualifications'))
@@ -32,7 +25,7 @@ WebUI.click(findTestObject('Admin Page/Qualifications/Education/li_Education'))
 
 WebUI.click(findTestObject('Admin Page/Qualifications/Languages/button_Add'))
 
-WebUI.sendKeys(findTestObject('Admin Page/Qualifications/Skills/textbox_Username'), 'University Degree')
+WebUI.sendKeys(findTestObject('Admin Page/Qualifications/Skills/textbox_Username'), GlobalVariable.education)
 
 WebUI.click(findTestObject('Admin Page/Qualifications/Skills/button_Save'))
 
@@ -41,6 +34,4 @@ WebUI.waitForElementPresent(findTestObject('Confirmation messages/message_Succes
 WebUI.verifyElementPresent(findTestObject('Confirmation messages/message_SuccessSuccessfullySaved'), 10)
 
 WebUI.takeScreenshotAsCheckpoint('Added Education')
-
-WebUI.closeBrowser()
 

@@ -19,4 +19,79 @@
       <initValue>'admin123'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.facebook.com/OrangeHRM/'</initValue>
+      <name>social_media_link_1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://twitter.com/orangehrm?lang=en'</initValue>
+      <name>social_media_link_2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.youtube.com/c/OrangeHRMInc'</initValue>
+      <name>social_media_link_3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Automation Category'</initValue>
+      <name>job_category</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Automation Category-Edited'</initValue>
+      <name>edited_job_category</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Boss-Automation'</initValue>
+      <name>job_title</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Big-Boss'</initValue>
+      <name>job_title_description</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'No notes available'</initValue>
+      <name>job_title_notes</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Boss-Edited-Automation'</initValue>
+      <name>edited_job_title</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Big Boss -Edited'</initValue>
+      <name>edited_job_title_description</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Notes available tomorrow'</initValue>
+      <name>edited_job_title_notes</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Afgan-Automation'</initValue>
+      <name>nationality</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Austrian-Automation'</initValue>
+      <name>edited_nationality</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'University Degree'</initValue>
+      <name>education</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'High school education'</initValue>
+      <name>education_edited</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

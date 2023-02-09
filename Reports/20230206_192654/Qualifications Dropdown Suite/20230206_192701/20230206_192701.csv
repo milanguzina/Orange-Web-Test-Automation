@@ -1,0 +1,93 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Qualifications Dropdown Suite,Chrome 109.0.0.0,,,2023-02-06 19:33:00,2023-02-06 19:36:56,3m - 56.839s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Skills/Add Skill,Chrome 109.0.0.0,,,2023-02-06 19:33:00,2023-02-06 19:33:09,8.720s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:33:00,2023-02-06 19:33:06,5.924s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:33:06,2023-02-06 19:33:07,0.365s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:33:07,2023-02-06 19:33:09,2.020s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Skills/Edit Skill,Chrome 109.0.0.0,,,2023-02-06 19:33:09,2023-02-06 19:33:17,8.095s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:33:10,2023-02-06 19:33:15,5.096s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:33:15,2023-02-06 19:33:15,0.145s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:33:15,2023-02-06 19:33:17,1.701s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Skills/Delete Skill,Chrome 109.0.0.0,,,2023-02-06 19:33:17,2023-02-06 19:33:25,8.434s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:33:17,2023-02-06 19:33:23,5.959s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:33:23,2023-02-06 19:33:23,0.139s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:33:23,2023-02-06 19:33:25,1.961s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Memberships/Add Membership,Chrome 109.0.0.0,,,2023-02-06 19:33:25,2023-02-06 19:33:32,6.698s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:33:26,2023-02-06 19:33:30,4.428s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:33:30,2023-02-06 19:33:30,0.142s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:33:30,2023-02-06 19:33:32,1.750s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Memberships/Edit Membership,Chrome 109.0.0.0,,,2023-02-06 19:33:32,2023-02-06 19:33:40,7.794s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:33:32,2023-02-06 19:33:38,5.313s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:33:38,2023-02-06 19:33:38,0.145s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:33:38,2023-02-06 19:33:40,1.929s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Memberships/Delete Membership,Chrome 109.0.0.0,,,2023-02-06 19:33:40,2023-02-06 19:33:46,6.676s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:33:40,2023-02-06 19:33:45,4.498s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:33:45,2023-02-06 19:33:45,0.167s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:33:45,2023-02-06 19:33:46,1.664s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Licenses/Add License,Chrome 109.0.0.0,,,2023-02-06 19:33:46,2023-02-06 19:33:53,6.466s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:33:47,2023-02-06 19:33:51,4.295s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:33:51,2023-02-06 19:33:51,0.150s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:33:51,2023-02-06 19:33:53,1.724s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Licenses/Edit License,Chrome 109.0.0.0,,,2023-02-06 19:33:53,2023-02-06 19:34:00,6.692s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:33:53,2023-02-06 19:33:58,4.453s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:33:58,2023-02-06 19:33:58,0.149s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:33:58,2023-02-06 19:34:00,1.689s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Licenses/Delete License,Chrome 109.0.0.0,,,2023-02-06 19:34:00,2023-02-06 19:34:06,6.797s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:34:00,2023-02-06 19:34:04,4.606s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:34:04,2023-02-06 19:34:05,0.148s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:34:05,2023-02-06 19:34:06,1.729s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Languages/Add Language,Chrome 109.0.0.0,,,2023-02-06 19:34:06,2023-02-06 19:34:13,6.621s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:34:07,2023-02-06 19:34:11,4.461s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:34:11,2023-02-06 19:34:11,0.144s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:34:11,2023-02-06 19:34:13,1.696s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Languages/Edit Language,Chrome 109.0.0.0,,,2023-02-06 19:34:13,2023-02-06 19:34:20,6.570s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:34:13,2023-02-06 19:34:18,4.355s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:34:18,2023-02-06 19:34:18,0.150s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:34:18,2023-02-06 19:34:20,1.775s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Languages/Delete Language,Chrome 109.0.0.0,,,2023-02-06 19:34:20,2023-02-06 19:34:26,6.543s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:34:20,2023-02-06 19:34:24,4.306s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:34:24,2023-02-06 19:34:24,0.154s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:34:24,2023-02-06 19:34:26,1.773s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Education/Add Education,Chrome 109.0.0.0,,,2023-02-06 19:34:26,2023-02-06 19:35:14,48.222s,FAILED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:34:26,2023-02-06 19:34:31,4.477s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:34:31,2023-02-06 19:34:31,0.145s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Page/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:34:31,2023-02-06 19:34:37,5.683s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-02-06 19:34:37,2023-02-06 19:34:40,3.523s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 109.0.0.0,,,2023-02-06 19:34:40,2023-02-06 19:34:43,2.326s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/li_Education""))",Chrome 109.0.0.0,,,2023-02-06 19:34:43,2023-02-06 19:34:45,1.985s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Add""))",Chrome 109.0.0.0,,,2023-02-06 19:34:45,2023-02-06 19:34:47,2.616s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), education)",Chrome 109.0.0.0,,,2023-02-06 19:34:47,2023-02-06 19:34:50,2.254s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 109.0.0.0,,,2023-02-06 19:34:50,2023-02-06 19:34:51,1.509s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 109.0.0.0,,,2023-02-06 19:34:51,2023-02-06 19:35:03,11.517s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 109.0.0.0,,,2023-02-06 19:35:03,2023-02-06 19:35:14,11.793s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Education/Edit Education,Chrome 109.0.0.0,,,2023-02-06 19:35:14,2023-02-06 19:36:06,51.308s,FAILED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:35:16,2023-02-06 19:35:20,4.738s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:35:20,2023-02-06 19:35:20,0.164s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Page/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:35:20,2023-02-06 19:35:26,5.802s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-02-06 19:35:26,2023-02-06 19:35:30,3.434s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 109.0.0.0,,,2023-02-06 19:35:30,2023-02-06 19:35:32,2.419s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/li_Education""))",Chrome 109.0.0.0,,,2023-02-06 19:35:32,2023-02-06 19:35:34,1.939s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/button_Edit""))",Chrome 109.0.0.0,,,2023-02-06 19:35:34,2023-02-06 19:36:06,31.612s,FAILED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Education/Delete Education,Chrome 109.0.0.0,,,2023-02-06 19:36:06,2023-02-06 19:36:56,50.805s,FAILED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:36:07,2023-02-06 19:36:11,4.595s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:36:11,2023-02-06 19:36:12,0.155s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Page/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:36:12,2023-02-06 19:36:17,5.512s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-02-06 19:36:17,2023-02-06 19:36:20,3.389s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 109.0.0.0,,,2023-02-06 19:36:20,2023-02-06 19:36:23,2.286s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/li_Education""))",Chrome 109.0.0.0,,,2023-02-06 19:36:23,2023-02-06 19:36:25,2.146s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/button_Delete""))",Chrome 109.0.0.0,,,2023-02-06 19:36:25,2023-02-06 19:36:56,31.565s,FAILED

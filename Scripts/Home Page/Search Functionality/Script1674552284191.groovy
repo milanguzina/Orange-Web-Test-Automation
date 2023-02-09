@@ -17,13 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-
-WebUI.maximizeWindow()
-
-CustomKeywords.'orange.keywords.userLogin'(findTestObject('Login Page/textbox_Username'), GlobalVariable.username, findTestObject(
-        'Login Papge/textbox_Password'), GlobalVariable.password, findTestObject('Login Page/button_Login'))
-
 WebUI.sendKeys(findTestObject('Navigation Sidebar/textbox_Search'), 'Admin')
 
 WebUI.click(findTestObject('Navigation Sidebar/selected_option'))
@@ -41,6 +34,4 @@ WebUI.sendKeys(findTestObject('Navigation Sidebar/textbox_Search'), 'PIM')
 WebUI.click(findTestObject('Navigation Sidebar/selected_option'))
 
 WebUI.verifyElementText(findTestObject('Home Page/header_title_Homepage'), 'PIM')
-
-WebUI.closeBrowser()
 

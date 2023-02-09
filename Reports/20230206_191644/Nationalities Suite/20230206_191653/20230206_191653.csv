@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nationalities Suite,Chrome 109.0.0.0,,,2023-02-06 19:17:52,2023-02-06 19:19:23,1m - 30.525s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Add Nationality,Chrome 109.0.0.0,,,2023-02-06 19:17:53,2023-02-06 19:18:25,32.038s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:17:53,2023-02-06 19:18:02,8.893s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:18:02,2023-02-06 19:18:03,0.339s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Page/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:18:03,2023-02-06 19:18:09,6.524s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-02-06 19:18:09,2023-02-06 19:18:13,3.484s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Chrome 109.0.0.0,,,2023-02-06 19:18:13,2023-02-06 19:18:15,2.748s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Add""))",Chrome 109.0.0.0,,,2023-02-06 19:18:15,2023-02-06 19:18:18,2.889s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), nationality)",Chrome 109.0.0.0,,,2023-02-06 19:18:18,2023-02-06 19:18:21,2.368s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Chrome 109.0.0.0,,,2023-02-06 19:18:21,2023-02-06 19:18:22,1.568s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 109.0.0.0,,,2023-02-06 19:18:22,2023-02-06 19:18:23,1.182s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 109.0.0.0,,,2023-02-06 19:18:23,2023-02-06 19:18:24,0.464s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-06 19:18:24,2023-02-06 19:18:25,0.869s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Edit Nationality,Chrome 109.0.0.0,,,2023-02-06 19:18:25,2023-02-06 19:18:55,30.320s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:18:26,2023-02-06 19:18:32,5.693s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:18:32,2023-02-06 19:18:32,0.145s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Page/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:18:32,2023-02-06 19:18:38,6.337s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-02-06 19:18:38,2023-02-06 19:18:41,2.856s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Chrome 109.0.0.0,,,2023-02-06 19:18:41,2023-02-06 19:18:44,2.652s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Edit""))",Chrome 109.0.0.0,,,2023-02-06 19:18:44,2023-02-06 19:18:47,2.777s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 109.0.0.0,,,2023-02-06 19:18:47,2023-02-06 19:18:49,2.485s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), edited_nationality)",Chrome 109.0.0.0,,,2023-02-06 19:18:49,2023-02-06 19:18:51,1.672s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 109.0.0.0,,,2023-02-06 19:18:51,2023-02-06 19:18:53,1.803s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 109.0.0.0,,,2023-02-06 19:18:53,2023-02-06 19:18:54,1.143s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 109.0.0.0,,,2023-02-06 19:18:54,2023-02-06 19:18:54,0.492s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-06 19:18:54,2023-02-06 19:18:55,0.801s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Delete Nationality,Chrome 109.0.0.0,,,2023-02-06 19:18:55,2023-02-06 19:19:23,27.717s,PASSED
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:18:56,2023-02-06 19:19:01,4.946s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:19:01,2023-02-06 19:19:01,0.154s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Page/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:19:01,2023-02-06 19:19:08,6.325s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 109.0.0.0,,,2023-02-06 19:19:08,2023-02-06 19:19:12,4.799s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Chrome 109.0.0.0,,,2023-02-06 19:19:12,2023-02-06 19:19:16,3.237s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Delete""))",Chrome 109.0.0.0,,,2023-02-06 19:19:16,2023-02-06 19:19:18,2.560s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 109.0.0.0,,,2023-02-06 19:19:18,2023-02-06 19:19:20,1.749s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 109.0.0.0,,,2023-02-06 19:19:20,2023-02-06 19:19:21,1.590s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 109.0.0.0,,,2023-02-06 19:19:21,2023-02-06 19:19:22,0.514s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-06 19:19:22,2023-02-06 19:19:23,0.729s,PASSED

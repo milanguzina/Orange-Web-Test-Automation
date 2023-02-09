@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User Management Suite,Chrome 109.0.0.0,,,2023-02-06 19:28:40,2023-02-06 19:29:04,23.799s,ERROR
+,,,,,,,
+Test Cases/Admin Page/User Management/Add User,Chrome 109.0.0.0,,,2023-02-06 19:28:41,2023-02-06 19:28:49,8.433s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:28:41,2023-02-06 19:28:47,5.699s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:28:47,2023-02-06 19:28:47,0.337s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:28:47,2023-02-06 19:28:49,1.963s,ERROR
+,,,,,,,
+Test Cases/Admin Page/User Management/Edit User,Chrome 109.0.0.0,,,2023-02-06 19:28:49,2023-02-06 19:28:57,8.254s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:28:50,2023-02-06 19:28:55,4.981s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:28:55,2023-02-06 19:28:56,0.138s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:28:56,2023-02-06 19:28:57,1.905s,ERROR
+,,,,,,,
+Test Cases/Admin Page/User Management/Delete User,Chrome 109.0.0.0,,,2023-02-06 19:28:57,2023-02-06 19:29:04,6.724s,ERROR
+openBrowser(baseURL),Chrome 109.0.0.0,,,2023-02-06 19:28:58,2023-02-06 19:29:02,4.441s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-06 19:29:02,2023-02-06 19:29:02,0.159s,PASSED
+"orange.keywords.userLogin(findTestObject(""Login Page/textbox_Username""), username, findTestObject(""Login Papge/textbox_Password""), password, findTestObject(""Login Page/button_Login""))",Chrome 109.0.0.0,,,2023-02-06 19:29:02,2023-02-06 19:29:04,1.772s,ERROR

@@ -17,13 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-
-WebUI.maximizeWindow()
-
-CustomKeywords.'orange.keywords.userLogin'(findTestObject('Login Page/textbox_Username'), GlobalVariable.username, findTestObject(
-        'Login Papge/textbox_Password'), GlobalVariable.password, findTestObject('Login Page/button_Login'))
-
 WebUI.verifyElementInViewport(findTestObject('Navigation Sidebar/textbox_Search'), 10)
 
 WebUI.click(findTestObject('Navigation Sidebar/button_minimize'))
@@ -33,6 +26,4 @@ WebUI.verifyElementNotInViewport(findTestObject('Navigation Sidebar/textbox_Sear
 WebUI.click(findTestObject('Navigation Sidebar/button_maximize'))
 
 WebUI.verifyElementInViewport(findTestObject('Navigation Sidebar/textbox_Search'), 10)
-
-WebUI.closeBrowser()
 

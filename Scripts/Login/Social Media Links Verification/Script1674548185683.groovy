@@ -17,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-
-WebUI.maximizeWindow()
-
 WebUI.waitForPageLoad(10)
 
-WebUI.verifyLinksAccessible(['https://www.facebook.com/OrangeHRM/', 'https://twitter.com/orangehrm?lang=en', 'https://www.youtube.com/c/OrangeHRMInc'])
-
-WebUI.closeBrowser()
+WebUI.verifyLinksAccessible([GlobalVariable.social_media_link_1, GlobalVariable.social_media_link_2, GlobalVariable.social_media_link_3])
 

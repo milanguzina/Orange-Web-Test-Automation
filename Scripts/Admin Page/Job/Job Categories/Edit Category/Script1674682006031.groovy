@@ -17,13 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-
-WebUI.maximizeWindow()
-
-CustomKeywords.'orange.keywords.userLogin'(findTestObject('Login Page/textbox_Username'), GlobalVariable.username, findTestObject(
-        'Login Papge/textbox_Password'), GlobalVariable.password, findTestObject('Login Page/button_Login'))
-
 WebUI.click(findTestObject('Navigation Sidebar/a_Admin'))
 
 WebUI.click(findTestObject('Admin Page/Job/li_Job'))
@@ -34,13 +27,11 @@ WebUI.click(findTestObject('Admin Page/Job/Job Categories/button_Edit'))
 
 WebUI.sendKeys(findTestObject('Admin Page/Qualifications/Skills/textbox_Username'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.sendKeys(findTestObject('Admin Page/Qualifications/Skills/textbox_Username_selected'), 'Automation Category-Edited')
+WebUI.sendKeys(findTestObject('Admin Page/Qualifications/Skills/textbox_Username_selected'), GlobalVariable.edited_job_category)
 
 WebUI.click(findTestObject('Admin Page/Qualifications/Skills/button_Save'))
 
 WebUI.waitForElementPresent(findTestObject('Confirmation messages/message_SuccessSuccessfullyUpdated'), 10)
 
 WebUI.verifyElementPresent(findTestObject('Confirmation messages/message_SuccessSuccessfullyUpdated'), 10)
-
-WebUI.closeBrowser()
 

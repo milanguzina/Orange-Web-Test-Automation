@@ -81,7 +81,7 @@ class keywords {
 		return selectedRows
 	}
 
-	
+
 	@Keyword
 	def userLogin (TestObject to, String username, TestObject to1, String password, TestObject to2 ) {
 		WebElement usernameTextbox = WebUiBuiltInKeywords.findWebElement(to)
@@ -91,12 +91,12 @@ class keywords {
 		WebElement loginButton = WebUiBuiltInKeywords.findWebElement(to2)
 		loginButton.click()
 	}
-	
+
 	/**
 	 * Clicks on the random dropdown list option
 	 * @param to Katalon TestObject 
 	 */
-	
+
 	@Keyword
 	def randomClick(TestObject to) {
 		List<WebElement> elements = WebUiBuiltInKeywords.findWebElements(to, 30);

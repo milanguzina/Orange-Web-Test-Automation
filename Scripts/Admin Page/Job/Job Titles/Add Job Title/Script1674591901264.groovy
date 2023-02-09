@@ -17,13 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-
-WebUI.maximizeWindow()
-
-CustomKeywords.'orange.keywords.userLogin'(findTestObject('Login Page/textbox_Username'), GlobalVariable.username, findTestObject(
-        'Login Papge/textbox_Password'), GlobalVariable.password, findTestObject('Login Page/button_Login'))
-
 WebUI.click(findTestObject('Navigation Sidebar/a_Admin'))
 
 WebUI.click(findTestObject('Admin Page/Job/li_Job'))
@@ -32,11 +25,13 @@ WebUI.click(findTestObject('Admin Page/Job/Job Titles/li_Job Titles'))
 
 WebUI.click(findTestObject('Admin Page/Nationalities/button_Add'))
 
-WebUI.sendKeys(findTestObject('Admin Page/Qualifications/Skills/textbox_Username'), 'Boss-Automation')
+WebUI.sendKeys(findTestObject('Admin Page/Qualifications/Skills/textbox_Username'), GlobalVariable.job_title)
 
-WebUI.sendKeys(findTestObject('Admin Page/Job/Job Titles/textarea_Job Description'), 'Big Boss ')
+WebUI.sendKeys(findTestObject('Admin Page/Job/Job Titles/textarea_Job Description'), GlobalVariable.job_title_description)
 
-WebUI.sendKeys(findTestObject('Admin Page/Job/Job Titles/textarea_Note'), 'No notes available')
+WebUI.sendKeys(findTestObject('Admin Page/Job/Job Titles/textarea_Note'), GlobalVariable.job_title_notes)
+
+WebUI.takeScreenshotAsCheckpoint('Job Title Info')
 
 WebUI.click(findTestObject('Admin Page/Nationalities/button_Save'))
 
@@ -44,5 +39,5 @@ WebUI.waitForElementPresent(findTestObject('Confirmation messages/message_Succes
 
 WebUI.verifyElementPresent(findTestObject('Confirmation messages/message_SuccessSuccessfullySaved'), 10)
 
-WebUI.closeBrowser()
+WebUI.takeScreenshotAsCheckpoint('Job Title Added')
 
