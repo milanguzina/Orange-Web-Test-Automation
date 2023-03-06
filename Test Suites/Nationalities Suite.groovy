@@ -47,9 +47,10 @@ def tearDown() {
 /**
  * Run before each test case starts.
  */
-@SetupTestCase(skipped = true) // Please change skipped to be false to activate this method.
+@SetupTestCase(skipped = false) // Please change skipped to be false to activate this method.
 def setupTestCase() {
-	// Put your code here.
+		CustomKeywords.'orange.keywords.userLogin'(findTestObject('Login Page/textbox_Username'), GlobalVariable.username, findTestObject(
+			'Login Page/textbox_Password'), GlobalVariable.password, findTestObject('Login Page/button_Login'))
 }
 
 /**

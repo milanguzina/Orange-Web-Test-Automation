@@ -33,8 +33,6 @@ class TestListener {
 		println testCaseContext.getTestCaseVariables()
 		WebUI.openBrowser(GlobalVariable.baseURL)
 		WebUI.maximizeWindow()
-		CustomKeywords.'orange.keywords.userLogin'(findTestObject('Login Page/textbox_Username'), GlobalVariable.username, findTestObject(
-			'Login Page/textbox_Password'), GlobalVariable.password, findTestObject('Login Page/button_Login'))
 	}
 
 	/**
@@ -43,8 +41,8 @@ class TestListener {
 	 */
 	@AfterTestCase
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseStatus()
+		println testCaseContext.getTestCaseId() + " - "
+		println printtestCaseContext.getTestCaseStatus()
 		WebUI.closeBrowser()
 	}
 }
