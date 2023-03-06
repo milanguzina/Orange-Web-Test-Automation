@@ -1,0 +1,191 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Qualifications Dropdown Suite,Chrome 110.0.0.0,,,2023-02-21 10:27:28,2023-02-21 10:34:02,6m - 34.658s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Skills/Add Skill,Chrome 110.0.0.0,,,2023-02-21 10:27:28,2023-02-21 10:27:57,29.171s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:27:28,2023-02-21 10:27:40,11.617s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:27:40,2023-02-21 10:27:43,2.926s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:27:43,2023-02-21 10:27:45,2.071s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/li_Skills""))",Chrome 110.0.0.0,,,2023-02-21 10:27:45,2023-02-21 10:27:47,1.878s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Add""))",Chrome 110.0.0.0,,,2023-02-21 10:27:47,2023-02-21 10:27:49,2.606s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), ""Assertiveness-Automation"")",Chrome 110.0.0.0,,,2023-02-21 10:27:49,2023-02-21 10:27:51,2.062s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textarea_Description""), ""Everything best"")",Chrome 110.0.0.0,,,2023-02-21 10:27:51,2023-02-21 10:27:53,1.440s,PASSED
+"takeScreenshotAsCheckpoint(""Added Skill Info"")",Chrome 110.0.0.0,,,2023-02-21 10:27:53,2023-02-21 10:27:54,0.825s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-02-21 10:27:54,2023-02-21 10:27:55,1.405s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:27:55,2023-02-21 10:27:56,0.886s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:27:56,2023-02-21 10:27:56,0.394s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:27:56,2023-02-21 10:27:57,0.664s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Skills/Edit Skill,Chrome 110.0.0.0,,,2023-02-21 10:27:57,2023-02-21 10:28:31,33.389s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:27:57,2023-02-21 10:28:11,13.571s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:28:11,2023-02-21 10:28:14,3.192s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:28:14,2023-02-21 10:28:16,2.056s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/li_Skills""))",Chrome 110.0.0.0,,,2023-02-21 10:28:16,2023-02-21 10:28:18,1.871s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Edit""))",Chrome 110.0.0.0,,,2023-02-21 10:28:18,2023-02-21 10:28:21,2.571s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-02-21 10:28:21,2023-02-21 10:28:23,2.254s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), ""Assertiveness-Automation-Edited"")",Chrome 110.0.0.0,,,2023-02-21 10:28:23,2023-02-21 10:28:24,1.438s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textarea_Description""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-02-21 10:28:24,2023-02-21 10:28:26,1.413s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textarea_Description""), ""New description-new skill"")",Chrome 110.0.0.0,,,2023-02-21 10:28:26,2023-02-21 10:28:27,1.438s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-02-21 10:28:27,2023-02-21 10:28:29,1.428s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:28:29,2023-02-21 10:28:29,0.728s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:28:29,2023-02-21 10:28:30,0.336s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:28:30,2023-02-21 10:28:31,0.700s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Skills/Delete Skill,Chrome 110.0.0.0,,,2023-02-21 10:28:31,2023-02-21 10:28:53,22.819s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:28:31,2023-02-21 10:28:40,9.301s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:28:40,2023-02-21 10:28:43,3.068s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:28:43,2023-02-21 10:28:46,2.208s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/li_Skills""))",Chrome 110.0.0.0,,,2023-02-21 10:28:46,2023-02-21 10:28:48,2.119s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Delete""))",Chrome 110.0.0.0,,,2023-02-21 10:28:48,2023-02-21 10:28:50,2.223s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 110.0.0.0,,,2023-02-21 10:28:50,2023-02-21 10:28:52,1.541s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:28:52,2023-02-21 10:28:52,0.765s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:28:52,2023-02-21 10:28:53,0.338s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:28:53,2023-02-21 10:28:53,0.706s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Memberships/Add Membership,Chrome 110.0.0.0,,,2023-02-21 10:28:53,2023-02-21 10:29:18,24.811s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:28:53,2023-02-21 10:29:02,8.960s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:29:03,2023-02-21 10:29:06,3.041s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:29:06,2023-02-21 10:29:08,2.047s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Memberships/li_Memberships""))",Chrome 110.0.0.0,,,2023-02-21 10:29:08,2023-02-21 10:29:10,1.862s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Add""))",Chrome 110.0.0.0,,,2023-02-21 10:29:10,2023-02-21 10:29:12,2.503s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), ""Gold Membership-Automation"")",Chrome 110.0.0.0,,,2023-02-21 10:29:12,2023-02-21 10:29:14,2.184s,PASSED
+"takeScreenshotAsCheckpoint(""Membership info"")",Chrome 110.0.0.0,,,2023-02-21 10:29:14,2023-02-21 10:29:15,0.695s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-02-21 10:29:15,2023-02-21 10:29:16,1.419s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:29:16,2023-02-21 10:29:17,0.789s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:29:17,2023-02-21 10:29:17,0.339s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:29:17,2023-02-21 10:29:18,0.681s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Memberships/Edit Membership,Chrome 110.0.0.0,,,2023-02-21 10:29:18,2023-02-21 10:29:46,28.102s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:29:18,2023-02-21 10:29:28,9.768s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:29:28,2023-02-21 10:29:32,3.807s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:29:32,2023-02-21 10:29:34,2.235s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Memberships/li_Memberships""))",Chrome 110.0.0.0,,,2023-02-21 10:29:34,2023-02-21 10:29:37,2.332s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Memberships/button_Edit""))",Chrome 110.0.0.0,,,2023-02-21 10:29:37,2023-02-21 10:29:39,2.820s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Memberships/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-02-21 10:29:39,2023-02-21 10:29:42,2.282s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), ""Platinum Membership-Automation"")",Chrome 110.0.0.0,,,2023-02-21 10:29:42,2023-02-21 10:29:43,1.429s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-02-21 10:29:43,2023-02-21 10:29:45,1.415s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:29:45,2023-02-21 10:29:45,0.671s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:29:45,2023-02-21 10:29:46,0.338s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:29:46,2023-02-21 10:29:46,0.683s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Memberships/Delete Membership,Chrome 110.0.0.0,,,2023-02-21 10:29:46,2023-02-21 10:30:09,22.415s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:29:46,2023-02-21 10:29:56,9.316s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:29:56,2023-02-21 10:29:59,3.183s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:29:59,2023-02-21 10:30:01,2.049s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Memberships/li_Memberships""))",Chrome 110.0.0.0,,,2023-02-21 10:30:01,2023-02-21 10:30:03,1.978s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Memberships/button_Delete""))",Chrome 110.0.0.0,,,2023-02-21 10:30:03,2023-02-21 10:30:05,2.178s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 110.0.0.0,,,2023-02-21 10:30:05,2023-02-21 10:30:07,1.586s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:30:07,2023-02-21 10:30:08,0.769s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:30:08,2023-02-21 10:30:08,0.339s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:30:08,2023-02-21 10:30:09,0.698s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Licenses/Add License,Chrome 110.0.0.0,,,2023-02-21 10:30:09,2023-02-21 10:30:35,26.243s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:30:09,2023-02-21 10:30:18,9.714s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:30:19,2023-02-21 10:30:22,2.995s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:30:22,2023-02-21 10:30:24,2.120s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Licenses/li_Licenses""))",Chrome 110.0.0.0,,,2023-02-21 10:30:24,2023-02-21 10:30:26,1.857s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Add""))",Chrome 110.0.0.0,,,2023-02-21 10:30:26,2023-02-21 10:30:29,3.394s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), ""Practicioner Beginner-Automation"")",Chrome 110.0.0.0,,,2023-02-21 10:30:29,2023-02-21 10:30:31,2.061s,PASSED
+"takeScreenshotAsCheckpoint(""License Info"")",Chrome 110.0.0.0,,,2023-02-21 10:30:31,2023-02-21 10:30:32,0.659s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-02-21 10:30:32,2023-02-21 10:30:33,1.396s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:30:33,2023-02-21 10:30:34,0.712s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:30:34,2023-02-21 10:30:34,0.335s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:30:34,2023-02-21 10:30:35,0.698s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Licenses/Edit License,Chrome 110.0.0.0,,,2023-02-21 10:30:35,2023-02-21 10:31:01,25.908s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:30:35,2023-02-21 10:30:44,9.119s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:30:44,2023-02-21 10:30:47,2.905s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:30:47,2023-02-21 10:30:49,2.145s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Licenses/li_Licenses""))",Chrome 110.0.0.0,,,2023-02-21 10:30:49,2023-02-21 10:30:51,1.868s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Licenses/button_Edit""))",Chrome 110.0.0.0,,,2023-02-21 10:30:51,2023-02-21 10:30:54,2.670s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-02-21 10:30:54,2023-02-21 10:30:56,2.245s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), ""Practicioner Advanced-Automation"")",Chrome 110.0.0.0,,,2023-02-21 10:30:56,2023-02-21 10:30:58,1.486s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-02-21 10:30:58,2023-02-21 10:30:59,1.417s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:30:59,2023-02-21 10:31:00,0.704s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:31:00,2023-02-21 10:31:00,0.330s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:31:00,2023-02-21 10:31:01,0.673s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Licenses/Delete License,Chrome 110.0.0.0,,,2023-02-21 10:31:01,2023-02-21 10:31:23,22.105s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:31:01,2023-02-21 10:31:10,9.143s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:31:10,2023-02-21 10:31:13,3.084s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:31:13,2023-02-21 10:31:16,2.040s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Licenses/li_Licenses""))",Chrome 110.0.0.0,,,2023-02-21 10:31:16,2023-02-21 10:31:17,1.864s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Licenses/button_Delete""))",Chrome 110.0.0.0,,,2023-02-21 10:31:17,2023-02-21 10:31:20,2.274s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 110.0.0.0,,,2023-02-21 10:31:20,2023-02-21 10:31:21,1.570s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:31:21,2023-02-21 10:31:22,0.689s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:31:22,2023-02-21 10:31:22,0.336s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:31:22,2023-02-21 10:31:23,0.704s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Languages/Add Language,Chrome 110.0.0.0,,,2023-02-21 10:31:23,2023-02-21 10:31:50,27.119s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:31:23,2023-02-21 10:31:33,9.744s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:31:33,2023-02-21 10:31:36,3.242s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:31:36,2023-02-21 10:31:39,2.220s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/li_Languages""))",Chrome 110.0.0.0,,,2023-02-21 10:31:39,2023-02-21 10:31:41,1.991s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Add""))",Chrome 110.0.0.0,,,2023-02-21 10:31:41,2023-02-21 10:31:43,2.617s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), ""Afgan-Automation"")",Chrome 110.0.0.0,,,2023-02-21 10:31:43,2023-02-21 10:31:45,2.163s,PASSED
+"takeScreenshotAsCheckpoint(""Language info"")",Chrome 110.0.0.0,,,2023-02-21 10:31:45,2023-02-21 10:31:46,0.773s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-02-21 10:31:46,2023-02-21 10:31:48,1.418s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:31:48,2023-02-21 10:31:48,0.772s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:31:48,2023-02-21 10:31:49,0.350s,PASSED
+"takeScreenshotAsCheckpoint(""Language Added"")",Chrome 110.0.0.0,,,2023-02-21 10:31:49,2023-02-21 10:31:49,0.753s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:31:49,2023-02-21 10:31:50,0.682s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Languages/Edit Language,Chrome 110.0.0.0,,,2023-02-21 10:31:50,2023-02-21 10:32:17,26.475s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:31:50,2023-02-21 10:31:59,9.212s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:32:00,2023-02-21 10:32:03,3.025s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:32:03,2023-02-21 10:32:05,2.390s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/li_Languages""))",Chrome 110.0.0.0,,,2023-02-21 10:32:05,2023-02-21 10:32:07,1.880s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Edit""))",Chrome 110.0.0.0,,,2023-02-21 10:32:07,2023-02-21 10:32:10,2.705s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-02-21 10:32:10,2023-02-21 10:32:12,2.331s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), ""Afgan-Edited-Automation"")",Chrome 110.0.0.0,,,2023-02-21 10:32:12,2023-02-21 10:32:13,1.411s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-02-21 10:32:13,2023-02-21 10:32:15,1.401s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:32:15,2023-02-21 10:32:15,0.733s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:32:15,2023-02-21 10:32:16,0.361s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:32:16,2023-02-21 10:32:17,0.696s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Languages/Delete Language,Chrome 110.0.0.0,,,2023-02-21 10:32:17,2023-02-21 10:32:39,22.710s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:32:17,2023-02-21 10:32:26,9.773s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:32:27,2023-02-21 10:32:30,3.056s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:32:30,2023-02-21 10:32:32,2.133s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/li_Languages""))",Chrome 110.0.0.0,,,2023-02-21 10:32:32,2023-02-21 10:32:34,1.961s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Delete""))",Chrome 110.0.0.0,,,2023-02-21 10:32:34,2023-02-21 10:32:36,2.190s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 110.0.0.0,,,2023-02-21 10:32:36,2023-02-21 10:32:38,1.576s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:32:38,2023-02-21 10:32:38,0.678s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:32:38,2023-02-21 10:32:39,0.344s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:32:39,2023-02-21 10:32:39,0.690s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Education/Add Education,Chrome 110.0.0.0,,,2023-02-21 10:32:39,2023-02-21 10:33:10,30.899s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:32:39,2023-02-21 10:32:49,9.540s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:32:49,2023-02-21 10:32:52,3.200s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:32:52,2023-02-21 10:32:55,2.208s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/li_Education""))",Chrome 110.0.0.0,,,2023-02-21 10:32:55,2023-02-21 10:32:57,2.926s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Add""))",Chrome 110.0.0.0,,,2023-02-21 10:32:57,2023-02-21 10:33:03,5.375s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), education)",Chrome 110.0.0.0,,,2023-02-21 10:33:03,2023-02-21 10:33:05,2.050s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-02-21 10:33:05,2023-02-21 10:33:06,1.436s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:33:06,2023-02-21 10:33:08,1.901s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:33:08,2023-02-21 10:33:09,0.393s,PASSED
+"takeScreenshotAsCheckpoint(""Added Education"")",Chrome 110.0.0.0,,,2023-02-21 10:33:09,2023-02-21 10:33:09,0.868s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:33:09,2023-02-21 10:33:10,0.688s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Education/Edit Education,Chrome 110.0.0.0,,,2023-02-21 10:33:10,2023-02-21 10:33:39,28.334s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:33:10,2023-02-21 10:33:22,12.014s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:33:23,2023-02-21 10:33:25,2.686s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:33:25,2023-02-21 10:33:27,2.025s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/li_Education""))",Chrome 110.0.0.0,,,2023-02-21 10:33:27,2023-02-21 10:33:29,1.840s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/button_Edit""))",Chrome 110.0.0.0,,,2023-02-21 10:33:29,2023-02-21 10:33:32,2.365s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-02-21 10:33:32,2023-02-21 10:33:34,2.306s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), education_edited)",Chrome 110.0.0.0,,,2023-02-21 10:33:34,2023-02-21 10:33:35,1.406s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-02-21 10:33:35,2023-02-21 10:33:37,1.398s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:33:37,2023-02-21 10:33:37,0.685s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:33:37,2023-02-21 10:33:38,0.351s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:33:38,2023-02-21 10:33:39,0.678s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Qualifications/Education/Delete Education,Chrome 110.0.0.0,,,2023-02-21 10:33:39,2023-02-21 10:34:02,23.801s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 10:33:39,2023-02-21 10:33:49,10.947s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-02-21 10:33:50,2023-02-21 10:33:53,2.614s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/li_Qualifications""))",Chrome 110.0.0.0,,,2023-02-21 10:33:53,2023-02-21 10:33:55,2.109s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/li_Education""))",Chrome 110.0.0.0,,,2023-02-21 10:33:55,2023-02-21 10:33:57,1.930s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Education/button_Delete""))",Chrome 110.0.0.0,,,2023-02-21 10:33:57,2023-02-21 10:33:59,2.166s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 110.0.0.0,,,2023-02-21 10:33:59,2023-02-21 10:34:00,1.572s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:34:00,2023-02-21 10:34:01,0.816s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-02-21 10:34:01,2023-02-21 10:34:02,0.382s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 10:34:02,2023-02-21 10:34:02,0.690s,PASSED

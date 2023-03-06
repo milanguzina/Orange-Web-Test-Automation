@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Firefox 110.0,,,2023-03-01 17:20:39,2023-03-01 17:22:03,1m - 23.833s,PASSED
+,,,,,,,
+Test Cases/Login/Successfull login attempt,Firefox 110.0,,,2023-03-01 17:20:40,2023-03-01 17:20:56,16.274s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 110.0,,,2023-03-01 17:20:40,2023-03-01 17:20:47,7.339s,PASSED
+"sendKeys(findTestObject(""Login Page/textbox_Username""), ""Admin"")",Firefox 110.0,,,2023-03-01 17:20:48,2023-03-01 17:20:49,1.474s,PASSED
+"setEncryptedText(findTestObject(""Login Page/textbox_Password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 110.0,,,2023-03-01 17:20:49,2023-03-01 17:20:52,2.609s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Firefox 110.0,,,2023-03-01 17:20:52,2023-03-01 17:20:54,2.516s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/dropdown_user_profile""), 10)",Firefox 110.0,,,2023-03-01 17:20:54,2023-03-01 17:20:56,1.741s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 110.0,,,2023-03-01 17:20:56,2023-03-01 17:20:56,0.026s,ERROR
+,,,,,,,
+Test Cases/Login/Unsuccessfull login attempt,Firefox 110.0,,,2023-03-01 17:20:56,2023-03-01 17:21:23,27.542s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 110.0,,,2023-03-01 17:20:56,2023-03-01 17:21:16,19.740s,PASSED
+"sendKeys(findTestObject(""Login Page/textbox_Username""), ""Admin"")",Firefox 110.0,,,2023-03-01 17:21:16,2023-03-01 17:21:18,1.482s,PASSED
+"setEncryptedText(findTestObject(""Login Page/textbox_Password""), ""1bcgBUi0Tj/gc3uc61HAVQ=="")",Firefox 110.0,,,2023-03-01 17:21:18,2023-03-01 17:21:20,2.529s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Firefox 110.0,,,2023-03-01 17:21:20,2023-03-01 17:21:23,2.444s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/message_Invalid credentials""), 10)",Firefox 110.0,,,2023-03-01 17:21:23,2023-03-01 17:21:23,0.686s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 110.0,,,2023-03-01 17:21:23,2023-03-01 17:21:23,0.004s,ERROR
+,,,,,,,
+Test Cases/Login/Reset User Password,Firefox 110.0,,,2023-03-01 17:21:23,2023-03-01 17:21:38,14.463s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 110.0,,,2023-03-01 17:21:23,2023-03-01 17:21:30,6.767s,PASSED
+"click(findTestObject(""Login Page/link_Forgot your password""))",Firefox 110.0,,,2023-03-01 17:21:31,2023-03-01 17:21:33,1.893s,PASSED
+"sendKeys(findTestObject(""Reset Password Page/textbox_Username""), ""Admin"")",Firefox 110.0,,,2023-03-01 17:21:33,2023-03-01 17:21:35,1.779s,PASSED
+"click(findTestObject(""Reset Password Page/button_Reset Password""))",Firefox 110.0,,,2023-03-01 17:21:35,2023-03-01 17:21:37,2.590s,PASSED
+"verifyElementText(findTestObject(""Reset Password Page/title_Reset Password link sent successfully""), ""Reset Password link sent successfully"")",Firefox 110.0,,,2023-03-01 17:21:37,2023-03-01 17:21:38,0.703s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 110.0,,,2023-03-01 17:21:38,2023-03-01 17:21:38,0.006s,ERROR
+,,,,,,,
+Test Cases/Login/Cancel Reset User Password,Firefox 110.0,,,2023-03-01 17:21:38,2023-03-01 17:21:52,14.424s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 110.0,,,2023-03-01 17:21:38,2023-03-01 17:21:45,6.785s,PASSED
+"click(findTestObject(""Login Page/link_Forgot your password""))",Firefox 110.0,,,2023-03-01 17:21:45,2023-03-01 17:21:47,1.877s,PASSED
+"sendKeys(findTestObject(""Reset Password Page/textbox_Username""), ""Admin"")",Firefox 110.0,,,2023-03-01 17:21:47,2023-03-01 17:21:49,1.761s,PASSED
+"click(findTestObject(""Reset Password Page/button_Cancel""))",Firefox 110.0,,,2023-03-01 17:21:49,2023-03-01 17:21:51,1.948s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/textbox_Username""), 10)",Firefox 110.0,,,2023-03-01 17:21:51,2023-03-01 17:21:52,0.760s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/textbox_Password""), 10)",Firefox 110.0,,,2023-03-01 17:21:52,2023-03-01 17:21:52,0.368s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/button_Login""), 10)",Firefox 110.0,,,2023-03-01 17:21:52,2023-03-01 17:21:52,0.359s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 110.0,,,2023-03-01 17:21:52,2023-03-01 17:21:52,0.005s,ERROR
+,,,,,,,
+Test Cases/Login/Social Media Links Verification,Firefox 110.0,,,2023-03-01 17:21:52,2023-03-01 17:22:03,10.842s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 110.0,,,2023-03-01 17:21:52,2023-03-01 17:21:59,6.634s,PASSED
+waitForPageLoad(10),Firefox 110.0,,,2023-03-01 17:22:00,2023-03-01 17:22:00,0.254s,PASSED
+"verifyLinksAccessible([social_media_link_1, social_media_link_2, social_media_link_3])",Firefox 110.0,,,2023-03-01 17:22:00,2023-03-01 17:22:03,3.430s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 110.0,,,2023-03-01 17:22:03,2023-03-01 17:22:03,0.004s,ERROR

@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Test Suite" time="70.562" tests="5" failures="0" errors="0">
+   <testsuite name="Login Test Suite" tests="5" failures="0" errors="0" time="70.562" skipped="5" timestamp="2023-03-01 16:03:34" hostname="PC - host.docker.internal" id="Test Suites/Login Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC\\Desktop\\Katalon Projects\\Orange Web Test Automation\\Reports\\20230301_160326\\Login Test Suite\\20230301_160326"/>
+         <property name="logFiles" value="C:\\Users\\PC\\Desktop\\Katalon Projects\\Orange Web Test Automation\\Reports\\20230301_160326\\Login Test Suite\\20230301_160326\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.23"/>
+         <property name="sessionId" value="3126df27c87e669f292fa3c8eb41bcbf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Successfull login attempt" time="28.184" classname="Test Cases/Login/Successfull login attempt" status="SKIPPED">
+         <system-out><![CDATA[2023-03-01 16:03:34 - [TEST_CASE][SKIPPED] - Test Cases/Login/Successfull login attempt: 
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: orange.keywords.userLogin is PASSED
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - listTCs = new java.util.ArrayList(): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Successfull login attempt"): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Unsuccessfull login attempt"): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Reset User Password"): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Cancel Reset User Password"): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Social Media Links Verification"): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - for (String tc : listTCs): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:03:34 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-01 16:03:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-01 16:03:35 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-03-01 16:03:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-01 16:03:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-01 16:03:50 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-01 16:03:50 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Page/textbox_Username"), username, findTestObject("Login Page/textbox_Password"), password, findTestObject("Login Page/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:02 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:02 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)
+
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId() + " - "): null
+
+2023-03-01 16:04:02 - [TEST_STEP][ERROR] - printtestCaseContext.getTestCaseStatus(): groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)
+
+
+2023-03-01 16:04:02 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Unsuccessfull login attempt" time="10.633" classname="Test Cases/Login/Unsuccessfull login attempt" status="SKIPPED">
+         <system-out><![CDATA[2023-03-01 16:04:02 - [TEST_CASE][SKIPPED] - Test Cases/Login/Unsuccessfull login attempt: 
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - listTCs = new java.util.ArrayList(): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Successfull login attempt"): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Unsuccessfull login attempt"): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Reset User Password"): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Cancel Reset User Password"): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Social Media Links Verification"): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - for (String tc : listTCs): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:02 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-01 16:04:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-01 16:04:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-01 16:04:03 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-03-01 16:04:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-01 16:04:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-01 16:04:07 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-01 16:04:07 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Page/textbox_Username"), username, findTestObject("Login Page/textbox_Password"), password, findTestObject("Login Page/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:13 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:13 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)
+
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId() + " - "): null
+
+2023-03-01 16:04:13 - [TEST_STEP][ERROR] - printtestCaseContext.getTestCaseStatus(): groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)
+
+
+2023-03-01 16:04:13 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Reset User Password" time="10.476" classname="Test Cases/Login/Reset User Password" status="SKIPPED">
+         <system-out><![CDATA[2023-03-01 16:04:13 - [TEST_CASE][SKIPPED] - Test Cases/Login/Reset User Password: 
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - listTCs = new java.util.ArrayList(): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Successfull login attempt"): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Unsuccessfull login attempt"): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Reset User Password"): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Cancel Reset User Password"): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Social Media Links Verification"): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - for (String tc : listTCs): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:13 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-01 16:04:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-01 16:04:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-01 16:04:13 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-03-01 16:04:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-01 16:04:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-01 16:04:18 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-01 16:04:18 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Page/textbox_Username"), username, findTestObject("Login Page/textbox_Password"), password, findTestObject("Login Page/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:23 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:23 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)
+
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId() + " - "): null
+
+2023-03-01 16:04:23 - [TEST_STEP][ERROR] - printtestCaseContext.getTestCaseStatus(): groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)
+
+
+2023-03-01 16:04:23 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Cancel Reset User Password" time="10.626" classname="Test Cases/Login/Cancel Reset User Password" status="SKIPPED">
+         <system-out><![CDATA[2023-03-01 16:04:23 - [TEST_CASE][SKIPPED] - Test Cases/Login/Cancel Reset User Password: 
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - listTCs = new java.util.ArrayList(): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Successfull login attempt"): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Unsuccessfull login attempt"): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Reset User Password"): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Cancel Reset User Password"): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Social Media Links Verification"): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - for (String tc : listTCs): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:23 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-01 16:04:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-01 16:04:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-01 16:04:24 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-03-01 16:04:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-01 16:04:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-01 16:04:28 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-01 16:04:28 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Page/textbox_Username"), username, findTestObject("Login Page/textbox_Password"), password, findTestObject("Login Page/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:34 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:34 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)
+
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId() + " - "): null
+
+2023-03-01 16:04:34 - [TEST_STEP][ERROR] - printtestCaseContext.getTestCaseStatus(): groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)
+
+
+2023-03-01 16:04:34 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Social Media Links Verification" time="10.357" classname="Test Cases/Login/Social Media Links Verification" status="SKIPPED">
+         <system-out><![CDATA[2023-03-01 16:04:34 - [TEST_CASE][SKIPPED] - Test Cases/Login/Social Media Links Verification: 
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - listTCs = new java.util.ArrayList(): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Successfull login attempt"): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Unsuccessfull login attempt"): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Reset User Password"): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Cancel Reset User Password"): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - listTCs.add("Test Cases/Login/Social Media Links Verification"): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - for (String tc : listTCs): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2023-03-01 16:04:34 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-01 16:04:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-01 16:04:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-01 16:04:35 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-03-01 16:04:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-01 16:04:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-01 16:04:39 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-01 16:04:39 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Page/textbox_Username"), username, findTestObject("Login Page/textbox_Password"), password, findTestObject("Login Page/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:44 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-03-01 16:04:44 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)
+
+
+2023-03-01 16:04:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId() + " - "): null
+
+2023-03-01 16:04:44 - [TEST_STEP][ERROR] - printtestCaseContext.getTestCaseStatus(): groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)
+
+
+2023-03-01 16:04:44 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:56)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677683006960.run(TempTestSuite1677683006960.groovy:36)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-01 16:03:34 - [TEST_SUITE][PASSED] - Login Test Suite:]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

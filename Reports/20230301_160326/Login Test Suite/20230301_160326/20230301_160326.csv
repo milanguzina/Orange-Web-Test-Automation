@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Chrome 110.0.0.0,,,2023-03-01 16:03:34,2023-03-01 16:04:44,1m - 10.562s,SKIPPED
+,,,,,,,
+Test Cases/Login/Successfull login attempt,Chrome 110.0.0.0,,,2023-03-01 16:03:34,2023-03-01 16:04:02,28.184s,SKIPPED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:03:34,2023-03-01 16:04:02,28.153s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:04:02,2023-03-01 16:04:02,0.020s,ERROR
+,,,,,,,
+Test Cases/Login/Unsuccessfull login attempt,Chrome 110.0.0.0,,,2023-03-01 16:04:02,2023-03-01 16:04:13,10.633s,SKIPPED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:04:02,2023-03-01 16:04:13,10.621s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:04:13,2023-03-01 16:04:13,0.003s,ERROR
+,,,,,,,
+Test Cases/Login/Reset User Password,Chrome 110.0.0.0,,,2023-03-01 16:04:13,2023-03-01 16:04:23,10.476s,SKIPPED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:04:13,2023-03-01 16:04:23,10.465s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:04:23,2023-03-01 16:04:23,0.005s,ERROR
+,,,,,,,
+Test Cases/Login/Cancel Reset User Password,Chrome 110.0.0.0,,,2023-03-01 16:04:23,2023-03-01 16:04:34,10.626s,SKIPPED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:04:23,2023-03-01 16:04:34,10.616s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:04:34,2023-03-01 16:04:34,0.004s,ERROR
+,,,,,,,
+Test Cases/Login/Social Media Links Verification,Chrome 110.0.0.0,,,2023-03-01 16:04:34,2023-03-01 16:04:44,10.357s,SKIPPED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:04:34,2023-03-01 16:04:44,10.347s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:04:44,2023-03-01 16:04:44,0.005s,ERROR

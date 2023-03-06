@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User Management Suite,Firefox 110.0,,,2023-03-03 10:22:50,2023-03-03 10:24:54,2m - 3.663s,PASSED
+,,,,,,,
+Test Cases/Admin Page/User Management/Add User,Firefox 110.0,,,2023-03-03 10:22:51,2023-03-03 10:23:40,49.676s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 110.0,,,2023-03-03 10:22:51,2023-03-03 10:23:00,9.404s,PASSED
+Start setup action : setupTestCase,Firefox 110.0,,,2023-03-03 10:23:00,2023-03-03 10:23:08,8.013s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 110.0,,,2023-03-03 10:23:09,2023-03-03 10:23:13,3.664s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Add""))",Firefox 110.0,,,2023-03-03 10:23:13,2023-03-03 10:23:16,3.151s,PASSED
+"click(findTestObject(""Admin Page/User Management/dropdown_Select""))",Firefox 110.0,,,2023-03-03 10:23:16,2023-03-03 10:23:18,2.211s,PASSED
+"click(findTestObject(""Admin Page/User Management/option_Admin""))",Firefox 110.0,,,2023-03-03 10:23:18,2023-03-03 10:23:20,1.826s,PASSED
+"click(findTestObject(""Admin Page/User Management/dropdown_Select""))",Firefox 110.0,,,2023-03-03 10:23:20,2023-03-03 10:23:22,1.736s,PASSED
+"click(findTestObject(""Admin Page/User Management/option_Enabled""))",Firefox 110.0,,,2023-03-03 10:23:22,2023-03-03 10:23:23,1.699s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_EmployeeName""), ""m"")",Firefox 110.0,,,2023-03-03 10:23:23,2023-03-03 10:23:25,1.593s,PASSED
+"waitForElementPresent(findTestObject(""Admin Page/User Management/dropdown_table""), 10)",Firefox 110.0,,,2023-03-03 10:23:25,2023-03-03 10:23:26,0.546s,PASSED
+"waitForElementClickable(findTestObject(""Admin Page/User Management/dropdown_EmployeeName_option""), 10)",Firefox 110.0,,,2023-03-03 10:23:26,2023-03-03 10:23:27,1.296s,PASSED
+"orange.keywords.randomClick(findTestObject(""Admin Page/User Management/dropdown_EmployeeName_option""))",Firefox 110.0,,,2023-03-03 10:23:27,2023-03-03 10:23:29,1.774s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_Username""), ""Marco DiVaio"")",Firefox 110.0,,,2023-03-03 10:23:29,2023-03-03 10:23:30,1.506s,PASSED
+"setEncryptedText(findTestObject(""Admin Page/User Management/textbox_Password""), ""zow4LEKZVFY9FezsXiYM4A=="")",Firefox 110.0,,,2023-03-03 10:23:30,2023-03-03 10:23:33,2.712s,PASSED
+"setEncryptedText(findTestObject(""Admin Page/User Management/textbox_Confirm Password""), ""zow4LEKZVFY9FezsXiYM4A=="")",Firefox 110.0,,,2023-03-03 10:23:33,2023-03-03 10:23:36,2.645s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Firefox 110.0,,,2023-03-03 10:23:36,2023-03-03 10:23:37,1.752s,PASSED
+"takeScreenshotAsCheckpoint(""Entered User Info"")",Firefox 110.0,,,2023-03-03 10:23:37,2023-03-03 10:23:39,1.996s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Firefox 110.0,,,2023-03-03 10:23:39,2023-03-03 10:23:40,0.489s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Firefox 110.0,,,2023-03-03 10:23:40,2023-03-03 10:23:40,0.523s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 110.0,,,2023-03-03 10:23:40,2023-03-03 10:23:40,0.043s,ERROR
+,,,,,,,
+Test Cases/Admin Page/User Management/Edit User,Firefox 110.0,,,2023-03-03 10:23:40,2023-03-03 10:24:25,44.880s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 110.0,,,2023-03-03 10:23:40,2023-03-03 10:23:49,8.963s,PASSED
+Start setup action : setupTestCase,Firefox 110.0,,,2023-03-03 10:23:49,2023-03-03 10:23:55,6.161s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 110.0,,,2023-03-03 10:23:56,2023-03-03 10:23:59,3.193s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_System_User""), ""Marco DiVaio"")",Firefox 110.0,,,2023-03-03 10:23:59,2023-03-03 10:24:02,2.662s,PASSED
+"click(findTestObject(""Admin Page/User Management/button_Search""))",Firefox 110.0,,,2023-03-03 10:24:02,2023-03-03 10:24:03,1.737s,PASSED
+"click(findTestObject(""Admin Page/User Management/button_Edit""))",Firefox 110.0,,,2023-03-03 10:24:03,2023-03-03 10:24:06,2.289s,PASSED
+"click(findTestObject(""Admin Page/User Management/dropdown_User_Role""))",Firefox 110.0,,,2023-03-03 10:24:06,2023-03-03 10:24:08,2.411s,PASSED
+"click(findTestObject(""Admin Page/User Management/option_ESS""))",Firefox 110.0,,,2023-03-03 10:24:08,2023-03-03 10:24:10,1.609s,PASSED
+"click(findTestObject(""Admin Page/User Management/dropdown_Status""))",Firefox 110.0,,,2023-03-03 10:24:10,2023-03-03 10:24:11,1.576s,PASSED
+"click(findTestObject(""Admin Page/User Management/option_Disabled""))",Firefox 110.0,,,2023-03-03 10:24:11,2023-03-03 10:24:13,1.611s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_EmployeeName""), Keys.chord(CONTROL, ""a""))",Firefox 110.0,,,2023-03-03 10:24:13,2023-03-03 10:24:14,1.378s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_EmployeeName""), ""a"")",Firefox 110.0,,,2023-03-03 10:24:14,2023-03-03 10:24:16,1.499s,PASSED
+"waitForElementPresent(findTestObject(""Admin Page/User Management/dropdown_table""), 10)",Firefox 110.0,,,2023-03-03 10:24:16,2023-03-03 10:24:16,0.496s,PASSED
+"waitForElementClickable(findTestObject(""Admin Page/User Management/dropdown_EmployeeName_option""), 10)",Firefox 110.0,,,2023-03-03 10:24:16,2023-03-03 10:24:17,0.440s,PASSED
+"orange.keywords.randomClick(findTestObject(""Admin Page/User Management/dropdown_EmployeeName_option""))",Firefox 110.0,,,2023-03-03 10:24:17,2023-03-03 10:24:19,1.958s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_Username""), Keys.chord(CONTROL, ""a""))",Firefox 110.0,,,2023-03-03 10:24:19,2023-03-03 10:24:20,1.414s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_Username_selected""), ""Luca Marchegiani"")",Firefox 110.0,,,2023-03-03 10:24:20,2023-03-03 10:24:22,1.501s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Firefox 110.0,,,2023-03-03 10:24:22,2023-03-03 10:24:23,1.625s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Firefox 110.0,,,2023-03-03 10:24:23,2023-03-03 10:24:25,1.359s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Firefox 110.0,,,2023-03-03 10:24:25,2023-03-03 10:24:25,0.559s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 110.0,,,2023-03-03 10:24:25,2023-03-03 10:24:25,0.004s,ERROR
+,,,,,,,
+Test Cases/Admin Page/User Management/Delete User,Firefox 110.0,,,2023-03-03 10:24:25,2023-03-03 10:24:54,28.721s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 110.0,,,2023-03-03 10:24:25,2023-03-03 10:24:35,9.803s,PASSED
+Start setup action : setupTestCase,Firefox 110.0,,,2023-03-03 10:24:35,2023-03-03 10:24:41,5.987s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 110.0,,,2023-03-03 10:24:42,2023-03-03 10:24:45,3.334s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_System_User""), ""Luca Marchegiani"")",Firefox 110.0,,,2023-03-03 10:24:45,2023-03-03 10:24:48,2.714s,PASSED
+"click(findTestObject(""Admin Page/User Management/button_Search""))",Firefox 110.0,,,2023-03-03 10:24:48,2023-03-03 10:24:49,1.770s,PASSED
+"click(findTestObject(""Admin Page/User Management/button_Delete""))",Firefox 110.0,,,2023-03-03 10:24:49,2023-03-03 10:24:51,1.853s,PASSED
+"click(findTestObject(""Admin Page/User Management/button_Yes, Delete""))",Firefox 110.0,,,2023-03-03 10:24:51,2023-03-03 10:24:53,1.773s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Firefox 110.0,,,2023-03-03 10:24:53,2023-03-03 10:24:53,0.496s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Firefox 110.0,,,2023-03-03 10:24:53,2023-03-03 10:24:54,0.495s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 110.0,,,2023-03-03 10:24:54,2023-03-03 10:24:54,0.008s,ERROR

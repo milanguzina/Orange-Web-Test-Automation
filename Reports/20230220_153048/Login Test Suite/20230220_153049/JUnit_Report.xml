@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Test Suite" time="81.006" tests="5" failures="0" errors="0">
+   <testsuite name="Login Test Suite" tests="5" failures="0" errors="0" time="81.006" skipped="0" timestamp="2023-02-20 15:30:56" hostname="PC - host.docker.internal" id="Test Suites/Login Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC\\Desktop\\Katalon Projects\\Orange Web Test Automation\\Reports\\20230220_153048\\Login Test Suite\\20230220_153049"/>
+         <property name="logFiles" value="C:\\Users\\PC\\Desktop\\Katalon Projects\\Orange Web Test Automation\\Reports\\20230220_153048\\Login Test Suite\\20230220_153049\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC - host.docker.internal"/>
+         <property name="remoteDriverUrl" value="http://wedoqatester_Nfq9OX:oezmbx3Y4uhrxzZs1Q9V@hub-cloud.browserstack.com/wd/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserVersion&quot;: &quot;111.0.5563.19&quot;,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;111.0.5563.19 (378a38865270d286695aeb86f190564911ef7bc2-refs/branch-heads/5563@{#251})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Windows\\proxy\\scoped_dir9944_1881002306&quot;
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:6956&quot;
+  },
+  &quot;javascriptEnabled&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:extension:minPinLength&quot;: true,
+  &quot;webauthn:extension:prf&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true,
+  &quot;webdriver.remote.sessionid&quot;: &quot;a852bd22fce63fd7d413ca3a4c693c42c73d0ec2&quot;
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.23"/>
+         <property name="sessionId" value="a852bd22fce63fd7d413ca3a4c693c42c73d0ec2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Successfull login attempt" time="19.332" classname="Test Cases/Login/Successfull login attempt" status="PASSED">
+         <system-out><![CDATA[2023-02-20 15:30:56 - [TEST_CASE][PASSED] - Test Cases/Login/Successfull login attempt: Test Cases/Login/Successfull login attempt
+
+2023-02-20 15:30:56 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:30:57 - [MESSAGE][INFO] - User set preference: ['os', 'Windows']
+
+2023-02-20 15:30:57 - [MESSAGE][INFO] - User set preference: ['browser_name', 'Chrome']
+
+2023-02-20 15:30:57 - [MESSAGE][INFO] - User set preference: ['os_version', '10']
+
+2023-02-20 15:30:57 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest-beta']
+
+2023-02-20 15:30:57 - [MESSAGE][INFO] - User set preference: ['local', 'false']
+
+2023-02-20 15:30:57 - [MESSAGE][INFO] - User set preference: ['seleniumVersion', '3.14.0']
+
+2023-02-20 15:30:57 - [MESSAGE][INFO] - User set preference: ['bstack:options', 'browserstackOptions']
+
+2023-02-20 15:30:57 - [MESSAGE][INFO] - Connecting to remote web server 'hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2023-02-20 15:30:57 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-02-20 15:31:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:31:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-20 15:31:07 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-20 15:31:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/textbox_Username"), "Admin"): Keys 'Admin' sent to object: 'Object Repository/Login Page/textbox_Username'
+
+2023-02-20 15:31:08 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login Page/textbox_Username'
+
+2023-02-20 15:31:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page/textbox_Password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Login Page/textbox_Password'
+
+2023-02-20 15:31:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/textbox_Password'
+
+2023-02-20 15:31:11 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/button_Login")): Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2023-02-20 15:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2023-02-20 15:31:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/dropdown_user_profile"), 10): Object 'Object Repository/Home Page/dropdown_user_profile' is present
+
+2023-02-20 15:31:14 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/dropdown_user_profile' is present
+
+2023-02-20 15:31:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-20 15:31:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Unsuccessfull login attempt" time="16.257" classname="Test Cases/Login/Unsuccessfull login attempt" status="PASSED">
+         <system-out><![CDATA[2023-02-20 15:31:15 - [TEST_CASE][PASSED] - Test Cases/Login/Unsuccessfull login attempt: Test Cases/Login/Unsuccessfull login attempt
+
+2023-02-20 15:31:16 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:31:16 - [MESSAGE][INFO] - User set preference: ['os', 'Windows']
+
+2023-02-20 15:31:16 - [MESSAGE][INFO] - User set preference: ['browser_name', 'Chrome']
+
+2023-02-20 15:31:16 - [MESSAGE][INFO] - User set preference: ['os_version', '10']
+
+2023-02-20 15:31:16 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest-beta']
+
+2023-02-20 15:31:16 - [MESSAGE][INFO] - User set preference: ['local', 'false']
+
+2023-02-20 15:31:16 - [MESSAGE][INFO] - User set preference: ['seleniumVersion', '3.14.0']
+
+2023-02-20 15:31:16 - [MESSAGE][INFO] - User set preference: ['bstack:options', 'browserstackOptions']
+
+2023-02-20 15:31:16 - [MESSAGE][INFO] - Connecting to remote web server 'hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2023-02-20 15:31:16 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-02-20 15:31:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:31:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-20 15:31:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-20 15:31:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/textbox_Username"), "Admin"): Keys 'Admin' sent to object: 'Object Repository/Login Page/textbox_Username'
+
+2023-02-20 15:31:25 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login Page/textbox_Username'
+
+2023-02-20 15:31:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page/textbox_Password"), "1bcgBUi0Tj/gc3uc61HAVQ=="): Text ****** has been set on object 'Object Repository/Login Page/textbox_Password'
+
+2023-02-20 15:31:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/textbox_Password'
+
+2023-02-20 15:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/button_Login")): Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2023-02-20 15:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2023-02-20 15:31:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/message_Invalid credentials"), 10): Object 'Object Repository/Login Page/message_Invalid credentials' is present
+
+2023-02-20 15:31:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/message_Invalid credentials' is present
+
+2023-02-20 15:31:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-20 15:31:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Reset User Password" time="17.907" classname="Test Cases/Login/Reset User Password" status="PASSED">
+         <system-out><![CDATA[2023-02-20 15:31:32 - [TEST_CASE][PASSED] - Test Cases/Login/Reset User Password: Test Cases/Login/Reset User Password
+
+2023-02-20 15:31:32 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:31:32 - [MESSAGE][INFO] - User set preference: ['os', 'Windows']
+
+2023-02-20 15:31:32 - [MESSAGE][INFO] - User set preference: ['browser_name', 'Chrome']
+
+2023-02-20 15:31:32 - [MESSAGE][INFO] - User set preference: ['os_version', '10']
+
+2023-02-20 15:31:32 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest-beta']
+
+2023-02-20 15:31:32 - [MESSAGE][INFO] - User set preference: ['local', 'false']
+
+2023-02-20 15:31:32 - [MESSAGE][INFO] - User set preference: ['seleniumVersion', '3.14.0']
+
+2023-02-20 15:31:32 - [MESSAGE][INFO] - User set preference: ['bstack:options', 'browserstackOptions']
+
+2023-02-20 15:31:32 - [MESSAGE][INFO] - Connecting to remote web server 'hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2023-02-20 15:31:32 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-02-20 15:31:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:31:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-20 15:31:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-20 15:31:41 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/link_Forgot your password")): Object: 'Object Repository/Login Page/link_Forgot your password' is clicked on
+
+2023-02-20 15:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/link_Forgot your password' is clicked on
+
+2023-02-20 15:31:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Reset Password Page/textbox_Username"), "Admin"): Keys 'Admin' sent to object: 'Object Repository/Reset Password Page/textbox_Username'
+
+2023-02-20 15:31:45 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Reset Password Page/textbox_Username'
+
+2023-02-20 15:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Reset Password Page/button_Reset Password")): Object: 'Object Repository/Reset Password Page/button_Reset Password' is clicked on
+
+2023-02-20 15:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Reset Password Page/button_Reset Password' is clicked on
+
+2023-02-20 15:31:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Reset Password Page/title_Reset Password link sent successfully"), "Reset Password link sent successfully"): Actual text and expected text of test object 'Object Repository/Reset Password Page/title_Reset Password link sent successfully' are matched.
+
+2023-02-20 15:31:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Reset Password Page/title_Reset Password link sent successfully' are matched.
+
+2023-02-20 15:31:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-20 15:31:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Cancel Reset User Password" time="15.242" classname="Test Cases/Login/Cancel Reset User Password" status="PASSED">
+         <system-out><![CDATA[2023-02-20 15:31:49 - [TEST_CASE][PASSED] - Test Cases/Login/Cancel Reset User Password: Test Cases/Login/Cancel Reset User Password
+
+2023-02-20 15:31:50 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:31:50 - [MESSAGE][INFO] - User set preference: ['os', 'Windows']
+
+2023-02-20 15:31:50 - [MESSAGE][INFO] - User set preference: ['browser_name', 'Chrome']
+
+2023-02-20 15:31:50 - [MESSAGE][INFO] - User set preference: ['os_version', '10']
+
+2023-02-20 15:31:50 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest-beta']
+
+2023-02-20 15:31:50 - [MESSAGE][INFO] - User set preference: ['local', 'false']
+
+2023-02-20 15:31:50 - [MESSAGE][INFO] - User set preference: ['seleniumVersion', '3.14.0']
+
+2023-02-20 15:31:50 - [MESSAGE][INFO] - User set preference: ['bstack:options', 'browserstackOptions']
+
+2023-02-20 15:31:50 - [MESSAGE][INFO] - Connecting to remote web server 'hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2023-02-20 15:31:50 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-02-20 15:31:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:31:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-20 15:31:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-20 15:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/link_Forgot your password")): Object: 'Object Repository/Login Page/link_Forgot your password' is clicked on
+
+2023-02-20 15:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/link_Forgot your password' is clicked on
+
+2023-02-20 15:32:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Reset Password Page/textbox_Username"), "Admin"): Keys 'Admin' sent to object: 'Object Repository/Reset Password Page/textbox_Username'
+
+2023-02-20 15:32:01 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Reset Password Page/textbox_Username'
+
+2023-02-20 15:32:01 - [TEST_STEP][PASSED] - click(findTestObject("Reset Password Page/button_Cancel")): Object: 'Object Repository/Reset Password Page/button_Cancel' is clicked on
+
+2023-02-20 15:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Reset Password Page/button_Cancel' is clicked on
+
+2023-02-20 15:32:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/textbox_Username"), 10): Object 'Object Repository/Login Page/textbox_Username' is present
+
+2023-02-20 15:32:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/textbox_Username' is present
+
+2023-02-20 15:32:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/textbox_Password"), 10): Object 'Object Repository/Login Page/textbox_Password' is present
+
+2023-02-20 15:32:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/textbox_Password' is present
+
+2023-02-20 15:32:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/button_Login"), 10): Object 'Object Repository/Login Page/button_Login' is present
+
+2023-02-20 15:32:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/button_Login' is present
+
+2023-02-20 15:32:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-20 15:32:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Social Media Links Verification" time="11.996" classname="Test Cases/Login/Social Media Links Verification" status="PASSED">
+         <system-out><![CDATA[2023-02-20 15:32:05 - [TEST_CASE][PASSED] - Test Cases/Login/Social Media Links Verification: Test Cases/Login/Social Media Links Verification
+
+2023-02-20 15:32:05 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:32:05 - [MESSAGE][INFO] - User set preference: ['os', 'Windows']
+
+2023-02-20 15:32:05 - [MESSAGE][INFO] - User set preference: ['browser_name', 'Chrome']
+
+2023-02-20 15:32:05 - [MESSAGE][INFO] - User set preference: ['os_version', '10']
+
+2023-02-20 15:32:05 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest-beta']
+
+2023-02-20 15:32:05 - [MESSAGE][INFO] - User set preference: ['local', 'false']
+
+2023-02-20 15:32:05 - [MESSAGE][INFO] - User set preference: ['seleniumVersion', '3.14.0']
+
+2023-02-20 15:32:05 - [MESSAGE][INFO] - User set preference: ['bstack:options', 'browserstackOptions']
+
+2023-02-20 15:32:05 - [MESSAGE][INFO] - Connecting to remote web server 'hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2023-02-20 15:32:05 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-02-20 15:32:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:32:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-20 15:32:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-20 15:32:14 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2023-02-20 15:32:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-02-20 15:32:14 - [TEST_STEP][PASSED] - verifyLinksAccessible(["https://www.facebook.com/OrangeHRM/", "https://twitter.com/orangehrm?lang=en", "https://www.youtube.com/c/OrangeHRMInc"]): All links are accessible
+
+2023-02-20 15:32:15 - [MESSAGE][INFO] - HAR: C:\Users\PC\Desktop\Katalon Projects\Orange Web Test Automation\Reports\20230220_153048\Login Test Suite\20230220_153049\requests\main\0.har
+
+2023-02-20 15:32:15 - [MESSAGE][PASSED] - Send request successfully
+
+2023-02-20 15:32:16 - [MESSAGE][INFO] - HAR: C:\Users\PC\Desktop\Katalon Projects\Orange Web Test Automation\Reports\20230220_153048\Login Test Suite\20230220_153049\requests\main\1.har
+
+2023-02-20 15:32:16 - [MESSAGE][PASSED] - Send request successfully
+
+2023-02-20 15:32:16 - [MESSAGE][INFO] - HAR: C:\Users\PC\Desktop\Katalon Projects\Orange Web Test Automation\Reports\20230220_153048\Login Test Suite\20230220_153049\requests\main\2.har
+
+2023-02-20 15:32:16 - [MESSAGE][PASSED] - Send request successfully
+
+2023-02-20 15:32:16 - [MESSAGE][PASSED] - All links are accessible
+
+2023-02-20 15:32:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-20 15:32:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-20 15:30:56 - [TEST_SUITE][PASSED] - Login Test Suite: Test Cases/Login/Social Media Links Verification]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

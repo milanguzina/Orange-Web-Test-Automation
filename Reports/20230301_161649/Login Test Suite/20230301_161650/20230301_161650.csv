@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Chrome 110.0.0.0,,,2023-03-01 16:17:13,2023-03-01 16:18:17,1m - 3.749s,PASSED
+,,,,,,,
+Test Cases/Login/Successfull login attempt,Chrome 110.0.0.0,,,2023-03-01 16:17:13,2023-03-01 16:17:28,14.774s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:17:13,2023-03-01 16:17:19,5.949s,PASSED
+"sendKeys(findTestObject(""Login Page/textbox_Username""), ""Admin"")",Chrome 110.0.0.0,,,2023-03-01 16:17:20,2023-03-01 16:17:21,1.516s,PASSED
+"setEncryptedText(findTestObject(""Login Page/textbox_Password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 110.0.0.0,,,2023-03-01 16:17:21,2023-03-01 16:17:24,2.518s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Chrome 110.0.0.0,,,2023-03-01 16:17:24,2023-03-01 16:17:26,2.473s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/dropdown_user_profile""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:17:26,2023-03-01 16:17:28,1.818s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:17:28,2023-03-01 16:17:28,0.023s,ERROR
+,,,,,,,
+Test Cases/Login/Unsuccessfull login attempt,Chrome 110.0.0.0,,,2023-03-01 16:17:28,2023-03-01 16:17:41,12.980s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:17:28,2023-03-01 16:17:34,5.573s,PASSED
+"sendKeys(findTestObject(""Login Page/textbox_Username""), ""Admin"")",Chrome 110.0.0.0,,,2023-03-01 16:17:34,2023-03-01 16:17:36,1.445s,PASSED
+"setEncryptedText(findTestObject(""Login Page/textbox_Password""), ""1bcgBUi0Tj/gc3uc61HAVQ=="")",Chrome 110.0.0.0,,,2023-03-01 16:17:36,2023-03-01 16:17:38,2.484s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Chrome 110.0.0.0,,,2023-03-01 16:17:38,2023-03-01 16:17:41,2.345s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/message_Invalid credentials""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:17:41,2023-03-01 16:17:41,0.728s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:17:41,2023-03-01 16:17:41,0.003s,ERROR
+,,,,,,,
+Test Cases/Login/Reset User Password,Chrome 110.0.0.0,,,2023-03-01 16:17:41,2023-03-01 16:17:56,14.278s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:17:41,2023-03-01 16:17:48,6.921s,PASSED
+"click(findTestObject(""Login Page/link_Forgot your password""))",Chrome 110.0.0.0,,,2023-03-01 16:17:49,2023-03-01 16:17:51,1.804s,PASSED
+"sendKeys(findTestObject(""Reset Password Page/textbox_Username""), ""Admin"")",Chrome 110.0.0.0,,,2023-03-01 16:17:51,2023-03-01 16:17:52,1.796s,PASSED
+"click(findTestObject(""Reset Password Page/button_Reset Password""))",Chrome 110.0.0.0,,,2023-03-01 16:17:52,2023-03-01 16:17:55,2.472s,PASSED
+"verifyElementText(findTestObject(""Reset Password Page/title_Reset Password link sent successfully""), ""Reset Password link sent successfully"")",Chrome 110.0.0.0,,,2023-03-01 16:17:55,2023-03-01 16:17:56,0.719s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:17:56,2023-03-01 16:17:56,0.002s,ERROR
+,,,,,,,
+Test Cases/Login/Cancel Reset User Password,Chrome 110.0.0.0,,,2023-03-01 16:17:56,2023-03-01 16:18:08,12.469s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:17:56,2023-03-01 16:18:01,4.938s,PASSED
+"click(findTestObject(""Login Page/link_Forgot your password""))",Chrome 110.0.0.0,,,2023-03-01 16:18:01,2023-03-01 16:18:03,1.811s,PASSED
+"sendKeys(findTestObject(""Reset Password Page/textbox_Username""), ""Admin"")",Chrome 110.0.0.0,,,2023-03-01 16:18:03,2023-03-01 16:18:05,1.813s,PASSED
+"click(findTestObject(""Reset Password Page/button_Cancel""))",Chrome 110.0.0.0,,,2023-03-01 16:18:05,2023-03-01 16:18:07,1.865s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/textbox_Username""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:18:07,2023-03-01 16:18:07,0.730s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/textbox_Password""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:18:07,2023-03-01 16:18:08,0.396s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/button_Login""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:18:08,2023-03-01 16:18:08,0.347s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:18:08,2023-03-01 16:18:08,0.002s,ERROR
+,,,,,,,
+Test Cases/Login/Social Media Links Verification,Chrome 110.0.0.0,,,2023-03-01 16:18:08,2023-03-01 16:18:17,8.938s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:18:08,2023-03-01 16:18:13,5.053s,PASSED
+waitForPageLoad(10),Chrome 110.0.0.0,,,2023-03-01 16:18:14,2023-03-01 16:18:14,0.215s,PASSED
+"verifyLinksAccessible([social_media_link_1, social_media_link_2, social_media_link_3])",Chrome 110.0.0.0,,,2023-03-01 16:18:14,2023-03-01 16:18:17,3.252s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:18:17,2023-03-01 16:18:17,0.003s,ERROR

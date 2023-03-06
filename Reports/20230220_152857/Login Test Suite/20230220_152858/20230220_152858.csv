@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Chrome 110.0.0.0,,,2023-02-20 15:29:05,2023-02-20 15:30:03,57.315s,PASSED
+,,,,,,,
+Test Cases/Login/Successfull login attempt,Chrome 110.0.0.0,,,2023-02-20 15:29:05,2023-02-20 15:29:20,14.215s,PASSED
+openBrowser(baseURL),Chrome 110.0.0.0,,,2023-02-20 15:29:06,2023-02-20 15:29:11,4.987s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-02-20 15:29:11,2023-02-20 15:29:11,0.158s,PASSED
+"sendKeys(findTestObject(""Login Page/textbox_Username""), ""Admin"")",Chrome 110.0.0.0,,,2023-02-20 15:29:11,2023-02-20 15:29:13,1.739s,PASSED
+"setEncryptedText(findTestObject(""Login Page/textbox_Password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 110.0.0.0,,,2023-02-20 15:29:13,2023-02-20 15:29:15,2.490s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Chrome 110.0.0.0,,,2023-02-20 15:29:15,2023-02-20 15:29:17,2.282s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/dropdown_user_profile""), 10)",Chrome 110.0.0.0,,,2023-02-20 15:29:17,2023-02-20 15:29:19,1.576s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-20 15:29:19,2023-02-20 15:29:20,0.674s,PASSED
+,,,,,,,
+Test Cases/Login/Unsuccessfull login attempt,Chrome 110.0.0.0,,,2023-02-20 15:29:20,2023-02-20 15:29:31,11.638s,PASSED
+openBrowser(baseURL),Chrome 110.0.0.0,,,2023-02-20 15:29:20,2023-02-20 15:29:23,3.438s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-02-20 15:29:23,2023-02-20 15:29:24,0.150s,PASSED
+"sendKeys(findTestObject(""Login Page/textbox_Username""), ""Admin"")",Chrome 110.0.0.0,,,2023-02-20 15:29:24,2023-02-20 15:29:25,1.705s,PASSED
+"setEncryptedText(findTestObject(""Login Page/textbox_Password""), ""1bcgBUi0Tj/gc3uc61HAVQ=="")",Chrome 110.0.0.0,,,2023-02-20 15:29:25,2023-02-20 15:29:28,2.440s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Chrome 110.0.0.0,,,2023-02-20 15:29:28,2023-02-20 15:29:30,2.252s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/message_Invalid credentials""), 10)",Chrome 110.0.0.0,,,2023-02-20 15:29:30,2023-02-20 15:29:31,0.697s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-20 15:29:31,2023-02-20 15:29:31,0.630s,PASSED
+,,,,,,,
+Test Cases/Login/Reset User Password,Chrome 110.0.0.0,,,2023-02-20 15:29:31,2023-02-20 15:29:43,11.756s,PASSED
+openBrowser(baseURL),Chrome 110.0.0.0,,,2023-02-20 15:29:32,2023-02-20 15:29:35,3.860s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-02-20 15:29:35,2023-02-20 15:29:36,0.135s,PASSED
+"click(findTestObject(""Login Page/link_Forgot your password""))",Chrome 110.0.0.0,,,2023-02-20 15:29:36,2023-02-20 15:29:38,2.053s,PASSED
+"sendKeys(findTestObject(""Reset Password Page/textbox_Username""), ""Admin"")",Chrome 110.0.0.0,,,2023-02-20 15:29:38,2023-02-20 15:29:39,1.727s,PASSED
+"click(findTestObject(""Reset Password Page/button_Reset Password""))",Chrome 110.0.0.0,,,2023-02-20 15:29:39,2023-02-20 15:29:41,1.390s,PASSED
+"verifyElementText(findTestObject(""Reset Password Page/title_Reset Password link sent successfully""), ""Reset Password link sent successfully"")",Chrome 110.0.0.0,,,2023-02-20 15:29:41,2023-02-20 15:29:42,1.710s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-20 15:29:42,2023-02-20 15:29:43,0.633s,PASSED
+,,,,,,,
+Test Cases/Login/Cancel Reset User Password,Chrome 110.0.0.0,,,2023-02-20 15:29:43,2023-02-20 15:29:55,11.650s,PASSED
+openBrowser(baseURL),Chrome 110.0.0.0,,,2023-02-20 15:29:43,2023-02-20 15:29:47,3.605s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-02-20 15:29:47,2023-02-20 15:29:47,0.147s,PASSED
+"click(findTestObject(""Login Page/link_Forgot your password""))",Chrome 110.0.0.0,,,2023-02-20 15:29:47,2023-02-20 15:29:49,2.009s,PASSED
+"sendKeys(findTestObject(""Reset Password Page/textbox_Username""), ""Admin"")",Chrome 110.0.0.0,,,2023-02-20 15:29:49,2023-02-20 15:29:51,1.773s,PASSED
+"click(findTestObject(""Reset Password Page/button_Cancel""))",Chrome 110.0.0.0,,,2023-02-20 15:29:51,2023-02-20 15:29:53,1.897s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/textbox_Username""), 10)",Chrome 110.0.0.0,,,2023-02-20 15:29:53,2023-02-20 15:29:54,0.702s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/textbox_Password""), 10)",Chrome 110.0.0.0,,,2023-02-20 15:29:54,2023-02-20 15:29:54,0.315s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/button_Login""), 10)",Chrome 110.0.0.0,,,2023-02-20 15:29:54,2023-02-20 15:29:54,0.313s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-20 15:29:54,2023-02-20 15:29:55,0.646s,PASSED
+,,,,,,,
+Test Cases/Login/Social Media Links Verification,Chrome 110.0.0.0,,,2023-02-20 15:29:55,2023-02-20 15:30:03,7.762s,PASSED
+openBrowser(baseURL),Chrome 110.0.0.0,,,2023-02-20 15:29:55,2023-02-20 15:29:59,3.495s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-02-20 15:29:59,2023-02-20 15:29:59,0.151s,PASSED
+waitForPageLoad(10),Chrome 110.0.0.0,,,2023-02-20 15:29:59,2023-02-20 15:29:59,0.199s,PASSED
+"verifyLinksAccessible([""https://www.facebook.com/OrangeHRM/"", ""https://twitter.com/orangehrm?lang=en"", ""https://www.youtube.com/c/OrangeHRMInc""])",Chrome 110.0.0.0,,,2023-02-20 15:29:59,2023-02-20 15:30:01,2.269s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-20 15:30:01,2023-02-20 15:30:03,1.366s,PASSED

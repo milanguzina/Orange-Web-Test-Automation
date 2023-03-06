@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Recruitment Suite" time="113.966" tests="3" failures="0" errors="0">
+   <testsuite name="Recruitment Suite" tests="3" failures="0" errors="0" time="113.966" skipped="0" timestamp="2023-03-03 10:40:15" hostname="PC - host.docker.internal" id="Test Suites/Recruitment Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC\\Desktop\\Katalon Projects\\Orange Web Test Automation\\Reports\\20230303_104006\\Recruitment Suite\\20230303_104006"/>
+         <property name="logFiles" value="C:\\Users\\PC\\Desktop\\Katalon Projects\\Orange Web Test Automation\\Reports\\20230303_104006\\Recruitment Suite\\20230303_104006\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.23"/>
+         <property name="sessionId" value="20ed3fe96b80e11105732a0bfe3dd161"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Recruitment page/Candidates/Add Candidate" time="47.238" classname="Test Cases/Recruitment page/Candidates/Add Candidate" status="PASSED">
+         <system-out><![CDATA[2023-03-03 10:40:16 - [TEST_CASE][PASSED] - Test Cases/Recruitment page/Candidates/Add Candidate: Test Cases/Recruitment page/Candidates/Add Candidate
+
+2023-03-03 10:40:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+2023-03-03 10:40:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-03-03 10:40:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-03-03 10:40:16 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-03 10:40:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-03 10:40:17 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-03-03 10:40:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-03 10:40:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-03 10:40:22 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-03 10:40:22 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-03-03 10:40:23 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Page/textbox_Username"), username, findTestObject("Login Page/textbox_Password"), password, findTestObject("Login Page/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-03-03 10:40:29 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-03-03 10:40:29 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-03-03 10:40:31 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Recruitment")): Object: 'Object Repository/Navigation Sidebar/a_Recruitment' is clicked on
+
+2023-03-03 10:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Recruitment' is clicked on
+
+2023-03-03 10:40:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Recruitment Page/Vacancies/button_Add"), 10): Object 'Object Repository/Recruitment Page/Vacancies/button_Add' is present
+
+2023-03-03 10:40:36 - [MESSAGE][PASSED] - Object 'Object Repository/Recruitment Page/Vacancies/button_Add' is present
+
+2023-03-03 10:40:36 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Nationalities/button_Add")): Object: 'Object Repository/Admin Page/Nationalities/button_Add' is clicked on
+
+2023-03-03 10:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Nationalities/button_Add' is clicked on
+
+2023-03-03 10:40:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/texbox_firstName"), "Nigel"): Keys 'Nigel' sent to object: 'Object Repository/Recruitment Page/Vacancies/texbox_firstName'
+
+2023-03-03 10:40:40 - [MESSAGE][PASSED] - Keys 'Nigel' sent to object: 'Object Repository/Recruitment Page/Vacancies/texbox_firstName'
+
+2023-03-03 10:40:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/texbox_middleName"), "Five"): Keys 'Five' sent to object: 'Object Repository/Recruitment Page/Vacancies/texbox_middleName'
+
+2023-03-03 10:40:42 - [MESSAGE][PASSED] - Keys 'Five' sent to object: 'Object Repository/Recruitment Page/Vacancies/texbox_middleName'
+
+2023-03-03 10:40:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/texbox_lastName"), "DeJong-Automation"): Keys 'DeJong-Automation' sent to object: 'Object Repository/Recruitment Page/Vacancies/texbox_lastName'
+
+2023-03-03 10:40:43 - [MESSAGE][PASSED] - Keys 'DeJong-Automation' sent to object: 'Object Repository/Recruitment Page/Vacancies/texbox_lastName'
+
+2023-03-03 10:40:43 - [TEST_STEP][PASSED] - click(findTestObject("Recruitment Page/Vacancies/dropdown_Vacancy")): Object: 'Object Repository/Recruitment Page/Vacancies/dropdown_Vacancy' is clicked on
+
+2023-03-03 10:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Recruitment Page/Vacancies/dropdown_Vacancy' is clicked on
+
+2023-03-03 10:40:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Recruitment Page/Vacancies/dropdown_table"), 10): Object 'Object Repository/Recruitment Page/Vacancies/dropdown_table' is present
+
+2023-03-03 10:40:46 - [MESSAGE][PASSED] - Object 'Object Repository/Recruitment Page/Vacancies/dropdown_table' is present
+
+2023-03-03 10:40:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Recruitment Page/Vacancies/dropdown_Vacancy_option"), 10): Object 'Object Repository/Recruitment Page/Vacancies/dropdown_Vacancy_option' is clickable
+
+2023-03-03 10:40:46 - [MESSAGE][PASSED] - Object 'Object Repository/Recruitment Page/Vacancies/dropdown_Vacancy_option' is clickable
+
+2023-03-03 10:40:46 - [TEST_STEP][PASSED] - click(findTestObject("Recruitment Page/Vacancies/option_Sales_Representative")): Object: 'Object Repository/Recruitment Page/Vacancies/option_Sales_Representative' is clicked on
+
+2023-03-03 10:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Recruitment Page/Vacancies/option_Sales_Representative' is clicked on
+
+2023-03-03 10:40:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/texbox_Email"), "nigel@automation.com"): Keys 'nigel@automation.com' sent to object: 'Object Repository/Recruitment Page/Vacancies/texbox_Email'
+
+2023-03-03 10:40:50 - [MESSAGE][PASSED] - Keys 'nigel@automation.com' sent to object: 'Object Repository/Recruitment Page/Vacancies/texbox_Email'
+
+2023-03-03 10:40:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/textbox_Contact_Number"), "555444333"): Keys '555444333' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Contact_Number'
+
+2023-03-03 10:40:51 - [MESSAGE][PASSED] - Keys '555444333' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Contact_Number'
+
+2023-03-03 10:40:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/textbox_Keywords"), "static, dynamic, nice"): Keys 'static, dynamic, nice' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Keywords'
+
+2023-03-03 10:40:53 - [MESSAGE][PASSED] - Keys 'static, dynamic, nice' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Keywords'
+
+2023-03-03 10:40:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/textbox_Date _of_Application"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Date _of_Application'
+
+2023-03-03 10:40:55 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Date _of_Application'
+
+2023-03-03 10:40:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/textbox_Date _of_Application"), "2022-10-10"): Keys '2022-10-10' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Date _of_Application'
+
+2023-03-03 10:40:56 - [MESSAGE][PASSED] - Keys '2022-10-10' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Date _of_Application'
+
+2023-03-03 10:40:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/textbox__Notes"), "Application notes"): Keys 'Application notes' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox__Notes'
+
+2023-03-03 10:40:58 - [MESSAGE][PASSED] - Keys 'Application notes' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox__Notes'
+
+2023-03-03 10:40:58 - [TEST_STEP][PASSED] - click(findTestObject("Recruitment Page/Vacancies/checkbox_Consent")): Object: 'Object Repository/Recruitment Page/Vacancies/checkbox_Consent' is clicked on
+
+2023-03-03 10:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Recruitment Page/Vacancies/checkbox_Consent' is clicked on
+
+2023-03-03 10:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Nationalities/button_Save")): Object: 'Object Repository/Admin Page/Nationalities/button_Save' is clicked on
+
+2023-03-03 10:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Nationalities/button_Save' is clicked on
+
+2023-03-03 10:41:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-03-03 10:41:02 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-03-03 10:41:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullySaved"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-03-03 10:41:03 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullySaved' is present
+
+2023-03-03 10:41:03 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:45)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677836406985.run(TempTestSuite1677836406985.groovy:36)
+
+
+2023-03-03 10:41:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId() + " - "): null
+
+2023-03-03 10:41:03 - [TEST_STEP][ERROR] - println(printtestCaseContext.getTestCaseStatus()): groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:45)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677836406985.run(TempTestSuite1677836406985.groovy:36)
+
+
+2023-03-03 10:41:03 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:45)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677836406985.run(TempTestSuite1677836406985.groovy:36)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Recruitment page/Candidates/Edit Candidate" time="46.092" classname="Test Cases/Recruitment page/Candidates/Edit Candidate" status="PASSED">
+         <system-out><![CDATA[2023-03-03 10:41:03 - [TEST_CASE][PASSED] - Test Cases/Recruitment page/Candidates/Edit Candidate: Test Cases/Recruitment page/Candidates/Edit Candidate
+
+2023-03-03 10:41:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+2023-03-03 10:41:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-03-03 10:41:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-03-03 10:41:03 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-03 10:41:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-03 10:41:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-03 10:41:04 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-03-03 10:41:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-03 10:41:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-03 10:41:08 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-03 10:41:08 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-03-03 10:41:08 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Page/textbox_Username"), username, findTestObject("Login Page/textbox_Password"), password, findTestObject("Login Page/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-03-03 10:41:14 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-03-03 10:41:14 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-03-03 10:41:14 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Recruitment")): Object: 'Object Repository/Navigation Sidebar/a_Recruitment' is clicked on
+
+2023-03-03 10:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Recruitment' is clicked on
+
+2023-03-03 10:41:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Recruitment Page/Vacancies/button_Add"), 10): Object 'Object Repository/Recruitment Page/Vacancies/button_Add' is present
+
+2023-03-03 10:41:19 - [MESSAGE][PASSED] - Object 'Object Repository/Recruitment Page/Vacancies/button_Add' is present
+
+2023-03-03 10:41:19 - [TEST_STEP][PASSED] - click(findTestObject("Recruitment Page/Vacancies/button_View_application")): Object: 'Object Repository/Recruitment Page/Vacancies/button_View_application' is clicked on
+
+2023-03-03 10:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Recruitment Page/Vacancies/button_View_application' is clicked on
+
+2023-03-03 10:41:21 - [TEST_STEP][PASSED] - click(findTestObject("Recruitment Page/Vacancies/toggle_Edit")): Object: 'Object Repository/Recruitment Page/Vacancies/toggle_Edit' is clicked on
+
+2023-03-03 10:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Recruitment Page/Vacancies/toggle_Edit' is clicked on
+
+2023-03-03 10:41:24 - [TEST_STEP][PASSED] - click(findTestObject("Recruitment Page/Vacancies/dropdown_Vacancy")): Object: 'Object Repository/Recruitment Page/Vacancies/dropdown_Vacancy' is clicked on
+
+2023-03-03 10:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Recruitment Page/Vacancies/dropdown_Vacancy' is clicked on
+
+2023-03-03 10:41:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Recruitment Page/Vacancies/dropdown_table"), 10): Object 'Object Repository/Recruitment Page/Vacancies/dropdown_table' is present
+
+2023-03-03 10:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/Recruitment Page/Vacancies/dropdown_table' is present
+
+2023-03-03 10:41:26 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Recruitment Page/Vacancies/dropdown_Vacancy_option"), 10): Object 'Object Repository/Recruitment Page/Vacancies/dropdown_Vacancy_option' is clickable
+
+2023-03-03 10:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/Recruitment Page/Vacancies/dropdown_Vacancy_option' is clickable
+
+2023-03-03 10:41:26 - [TEST_STEP][PASSED] - click(findTestObject("Recruitment Page/Vacancies/option_Payroll_Administrator")): Object: 'Object Repository/Recruitment Page/Vacancies/option_Payroll_Administrator' is clicked on
+
+2023-03-03 10:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Recruitment Page/Vacancies/option_Payroll_Administrator' is clicked on
+
+2023-03-03 10:41:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/texbox_Email"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Recruitment Page/Vacancies/texbox_Email'
+
+2023-03-03 10:41:30 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Recruitment Page/Vacancies/texbox_Email'
+
+2023-03-03 10:41:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/texbox_Email_selected"), "miguel@automation.com"): Keys 'miguel@automation.com' sent to object: 'Object Repository/Recruitment Page/Vacancies/texbox_Email_selected'
+
+2023-03-03 10:41:31 - [MESSAGE][PASSED] - Keys 'miguel@automation.com' sent to object: 'Object Repository/Recruitment Page/Vacancies/texbox_Email_selected'
+
+2023-03-03 10:41:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/textbox_Contact_Number"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Contact_Number'
+
+2023-03-03 10:41:33 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Contact_Number'
+
+2023-03-03 10:41:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/textbox_Contact_Number_selected"), "777888999"): Keys '777888999' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Contact_Number_selected'
+
+2023-03-03 10:41:34 - [MESSAGE][PASSED] - Keys '777888999' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Contact_Number_selected'
+
+2023-03-03 10:41:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/textbox_Keywords"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Keywords'
+
+2023-03-03 10:41:36 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Keywords'
+
+2023-03-03 10:41:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/textbox_Keywords_selected"), "Awful, Comprehensive, Diligent"): Keys 'Awful, Comprehensive, Diligent' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Keywords_selected'
+
+2023-03-03 10:41:38 - [MESSAGE][PASSED] - Keys 'Awful, Comprehensive, Diligent' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Keywords_selected'
+
+2023-03-03 10:41:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/textbox_Date _of_Application"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Date _of_Application'
+
+2023-03-03 10:41:39 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Date _of_Application'
+
+2023-03-03 10:41:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/textbox_Date_of_Application_selected"), "2021-09-25"): Keys '2021-09-25' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Date_of_Application_selected'
+
+2023-03-03 10:41:41 - [MESSAGE][PASSED] - Keys '2021-09-25' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox_Date_of_Application_selected'
+
+2023-03-03 10:41:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Recruitment Page/Vacancies/textbox__Notes"), "Application notes-Edted"): Keys 'Application notes-Edted' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox__Notes'
+
+2023-03-03 10:41:43 - [MESSAGE][PASSED] - Keys 'Application notes-Edted' sent to object: 'Object Repository/Recruitment Page/Vacancies/textbox__Notes'
+
+2023-03-03 10:41:43 - [TEST_STEP][PASSED] - click(findTestObject("Recruitment Page/Vacancies/checkbox_Consent")): Object: 'Object Repository/Recruitment Page/Vacancies/checkbox_Consent' is clicked on
+
+2023-03-03 10:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Recruitment Page/Vacancies/checkbox_Consent' is clicked on
+
+2023-03-03 10:41:44 - [TEST_STEP][PASSED] - click(findTestObject("Recruitment Page/Vacancies/button_Save")): Object: 'Object Repository/Recruitment Page/Vacancies/button_Save' is clicked on
+
+2023-03-03 10:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Recruitment Page/Vacancies/button_Save' is clicked on
+
+2023-03-03 10:41:46 - [TEST_STEP][PASSED] - click(findTestObject("Recruitment Page/Vacancies/button_Yes, Confirm")): Object: 'Object Repository/Recruitment Page/Vacancies/button_Yes, Confirm' is clicked on
+
+2023-03-03 10:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Recruitment Page/Vacancies/button_Yes, Confirm' is clicked on
+
+2023-03-03 10:41:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-03-03 10:41:48 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-03-03 10:41:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyUpdated"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-03-03 10:41:49 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyUpdated' is present
+
+2023-03-03 10:41:49 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:45)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677836406985.run(TempTestSuite1677836406985.groovy:36)
+
+
+2023-03-03 10:41:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId() + " - "): null
+
+2023-03-03 10:41:49 - [TEST_STEP][ERROR] - println(printtestCaseContext.getTestCaseStatus()): groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:45)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677836406985.run(TempTestSuite1677836406985.groovy:36)
+
+
+2023-03-03 10:41:49 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:45)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677836406985.run(TempTestSuite1677836406985.groovy:36)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Recruitment page/Candidates/Delete Candidate" time="20.304" classname="Test Cases/Recruitment page/Candidates/Delete Candidate" status="PASSED">
+         <system-out><![CDATA[2023-03-03 10:41:49 - [TEST_CASE][PASSED] - Test Cases/Recruitment page/Candidates/Delete Candidate: Test Cases/Recruitment page/Candidates/Delete Candidate
+
+2023-03-03 10:41:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+2023-03-03 10:41:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-03-03 10:41:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-03-03 10:41:49 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-03 10:41:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-03 10:41:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-03 10:41:50 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-03-03 10:41:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-03-03 10:41:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-03 10:41:54 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-03 10:41:54 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-03-03 10:41:54 - [TEST_STEP][PASSED] - orange.keywords.userLogin(findTestObject("Login Page/textbox_Username"), username, findTestObject("Login Page/textbox_Password"), password, findTestObject("Login Page/button_Login")): orange.keywords.userLogin is PASSED
+
+2023-03-03 10:42:00 - [MESSAGE][PASSED] - orange.keywords.userLogin is PASSED
+
+2023-03-03 10:42:00 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-03-03 10:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Navigation Sidebar/a_Recruitment")): Object: 'Object Repository/Navigation Sidebar/a_Recruitment' is clicked on
+
+2023-03-03 10:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/a_Recruitment' is clicked on
+
+2023-03-03 10:42:03 - [TEST_STEP][PASSED] - click(findTestObject("Recruitment Page/Vacancies/button_Delete")): Object: 'Object Repository/Recruitment Page/Vacancies/button_Delete' is clicked on
+
+2023-03-03 10:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Recruitment Page/Vacancies/button_Delete' is clicked on
+
+2023-03-03 10:42:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin Page/Qualifications/Languages/button_Yes, Delete")): Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-03-03 10:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Page/Qualifications/Languages/button_Yes, Delete' is clicked on
+
+2023-03-03 10:42:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-03-03 10:42:09 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-03-03 10:42:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Confirmation messages/message_SuccessSuccessfullyDeleted"), 10): Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-03-03 10:42:09 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation messages/message_SuccessSuccessfullyDeleted' is present
+
+2023-03-03 10:42:09 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:45)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677836406985.run(TempTestSuite1677836406985.groovy:36)
+
+
+2023-03-03 10:42:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId() + " - "): null
+
+2023-03-03 10:42:09 - [TEST_STEP][ERROR] - println(printtestCaseContext.getTestCaseStatus()): groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:45)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677836406985.run(TempTestSuite1677836406985.groovy:36)
+
+
+2023-03-03 10:42:09 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: printtestCaseContext for class: TestListener
+	at TestListener.sampleAfterTestCase(TestListener.groovy:45)
+	at TestListener.invokeMethod(TestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677836406985.run(TempTestSuite1677836406985.groovy:36)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-03 10:40:15 - [TEST_SUITE][PASSED] - Recruitment Suite: Test Cases/Recruitment page/Candidates/Delete Candidate]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

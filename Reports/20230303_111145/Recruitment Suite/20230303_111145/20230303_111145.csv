@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Recruitment Suite,Chrome 110.0.0.0,,,2023-03-03 11:11:52,2023-03-03 11:13:34,1m - 42.988s,PASSED
+,,,,,,,
+Test Cases/Recruitment page/Candidates/Add Candidate,Chrome 110.0.0.0,,,2023-03-03 11:11:52,2023-03-03 11:12:33,41.237s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-03 11:11:52,2023-03-03 11:11:57,5.327s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-03 11:11:57,2023-03-03 11:12:03,5.800s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Recruitment""))",Chrome 110.0.0.0,,,2023-03-03 11:12:03,2023-03-03 11:12:06,3.059s,PASSED
+"waitForElementPresent(findTestObject(""Recruitment Page/Vacancies/button_Add""), 10)",Chrome 110.0.0.0,,,2023-03-03 11:12:06,2023-03-03 11:12:08,1.843s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Add""))",Chrome 110.0.0.0,,,2023-03-03 11:12:08,2023-03-03 11:12:10,1.945s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/texbox_firstName""), ""Nigel"")",Chrome 110.0.0.0,,,2023-03-03 11:12:10,2023-03-03 11:12:13,2.932s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/texbox_middleName""), ""Five"")",Chrome 110.0.0.0,,,2023-03-03 11:12:13,2023-03-03 11:12:14,1.464s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/texbox_lastName""), ""DeJong-Automation"")",Chrome 110.0.0.0,,,2023-03-03 11:12:14,2023-03-03 11:12:16,1.518s,PASSED
+"click(findTestObject(""Recruitment Page/Vacancies/dropdown_Vacancy""))",Chrome 110.0.0.0,,,2023-03-03 11:12:16,2023-03-03 11:12:17,1.434s,PASSED
+"waitForElementPresent(findTestObject(""Recruitment Page/Vacancies/dropdown_table""), 10)",Chrome 110.0.0.0,,,2023-03-03 11:12:17,2023-03-03 11:12:18,0.465s,PASSED
+"waitForElementClickable(findTestObject(""Recruitment Page/Vacancies/dropdown_Vacancy_option""), 10)",Chrome 110.0.0.0,,,2023-03-03 11:12:18,2023-03-03 11:12:18,0.570s,PASSED
+"click(findTestObject(""Recruitment Page/Vacancies/option_Sales_Representative""))",Chrome 110.0.0.0,,,2023-03-03 11:12:18,2023-03-03 11:12:20,1.413s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/texbox_Email""), ""nigel@automation.com"")",Chrome 110.0.0.0,,,2023-03-03 11:12:20,2023-03-03 11:12:21,1.589s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/textbox_Contact_Number""), ""555444333"")",Chrome 110.0.0.0,,,2023-03-03 11:12:21,2023-03-03 11:12:23,1.567s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/textbox_Keywords""), ""static, dynamic, nice"")",Chrome 110.0.0.0,,,2023-03-03 11:12:23,2023-03-03 11:12:25,1.493s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/textbox_Date _of_Application""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-03-03 11:12:25,2023-03-03 11:12:26,1.478s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/textbox_Date _of_Application""), ""2022-10-10"")",Chrome 110.0.0.0,,,2023-03-03 11:12:26,2023-03-03 11:12:27,1.448s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/textbox__Notes""), ""Application notes"")",Chrome 110.0.0.0,,,2023-03-03 11:12:27,2023-03-03 11:12:29,1.465s,PASSED
+"click(findTestObject(""Recruitment Page/Vacancies/checkbox_Consent""))",Chrome 110.0.0.0,,,2023-03-03 11:12:29,2023-03-03 11:12:30,1.437s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Chrome 110.0.0.0,,,2023-03-03 11:12:30,2023-03-03 11:12:32,1.483s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-03-03 11:12:32,2023-03-03 11:12:33,0.718s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-03-03 11:12:33,2023-03-03 11:12:33,0.396s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-03 11:12:33,2023-03-03 11:12:33,0.034s,ERROR
+,,,,,,,
+Test Cases/Recruitment page/Candidates/Edit Candidate,Chrome 110.0.0.0,,,2023-03-03 11:12:33,2023-03-03 11:13:15,42.459s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-03 11:12:33,2023-03-03 11:12:38,4.565s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-03 11:12:38,2023-03-03 11:12:43,5.288s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Recruitment""))",Chrome 110.0.0.0,,,2023-03-03 11:12:43,2023-03-03 11:12:46,2.822s,PASSED
+"waitForElementPresent(findTestObject(""Recruitment Page/Vacancies/button_Add""), 10)",Chrome 110.0.0.0,,,2023-03-03 11:12:46,2023-03-03 11:12:48,1.642s,PASSED
+"click(findTestObject(""Recruitment Page/Vacancies/button_View_application""))",Chrome 110.0.0.0,,,2023-03-03 11:12:48,2023-03-03 11:12:50,1.843s,PASSED
+"click(findTestObject(""Recruitment Page/Vacancies/toggle_Edit""))",Chrome 110.0.0.0,,,2023-03-03 11:12:50,2023-03-03 11:12:52,2.663s,PASSED
+"click(findTestObject(""Recruitment Page/Vacancies/dropdown_Vacancy""))",Chrome 110.0.0.0,,,2023-03-03 11:12:52,2023-03-03 11:12:54,1.524s,PASSED
+"waitForElementPresent(findTestObject(""Recruitment Page/Vacancies/dropdown_table""), 10)",Chrome 110.0.0.0,,,2023-03-03 11:12:54,2023-03-03 11:12:54,0.454s,PASSED
+"waitForElementClickable(findTestObject(""Recruitment Page/Vacancies/dropdown_Vacancy_option""), 10)",Chrome 110.0.0.0,,,2023-03-03 11:12:54,2023-03-03 11:12:55,0.374s,PASSED
+"click(findTestObject(""Recruitment Page/Vacancies/option_Payroll_Administrator""))",Chrome 110.0.0.0,,,2023-03-03 11:12:55,2023-03-03 11:12:56,1.434s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/texbox_Email""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-03-03 11:12:56,2023-03-03 11:12:58,1.541s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/texbox_Email_selected""), ""miguel@automation.com"")",Chrome 110.0.0.0,,,2023-03-03 11:12:58,2023-03-03 11:12:59,1.503s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/textbox_Contact_Number""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-03-03 11:12:59,2023-03-03 11:13:01,1.580s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/textbox_Contact_Number_selected""), ""777888999"")",Chrome 110.0.0.0,,,2023-03-03 11:13:01,2023-03-03 11:13:02,1.473s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/textbox_Keywords""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-03-03 11:13:02,2023-03-03 11:13:04,1.486s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/textbox_Keywords_selected""), ""Awful, Comprehensive, Diligent"")",Chrome 110.0.0.0,,,2023-03-03 11:13:04,2023-03-03 11:13:05,1.560s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/textbox_Date _of_Application""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-03-03 11:13:05,2023-03-03 11:13:07,1.497s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/textbox_Date_of_Application_selected""), ""2021-09-25"")",Chrome 110.0.0.0,,,2023-03-03 11:13:07,2023-03-03 11:13:08,1.442s,PASSED
+"sendKeys(findTestObject(""Recruitment Page/Vacancies/textbox__Notes""), ""Application notes-Edted"")",Chrome 110.0.0.0,,,2023-03-03 11:13:08,2023-03-03 11:13:10,1.581s,PASSED
+"click(findTestObject(""Recruitment Page/Vacancies/checkbox_Consent""))",Chrome 110.0.0.0,,,2023-03-03 11:13:10,2023-03-03 11:13:11,1.475s,PASSED
+"click(findTestObject(""Recruitment Page/Vacancies/button_Save""))",Chrome 110.0.0.0,,,2023-03-03 11:13:11,2023-03-03 11:13:13,1.493s,PASSED
+"click(findTestObject(""Recruitment Page/Vacancies/button_Yes, Confirm""))",Chrome 110.0.0.0,,,2023-03-03 11:13:13,2023-03-03 11:13:14,1.632s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-03-03 11:13:14,2023-03-03 11:13:15,0.731s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-03-03 11:13:15,2023-03-03 11:13:15,0.361s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-03 11:13:15,2023-03-03 11:13:15,0.003s,ERROR
+,,,,,,,
+Test Cases/Recruitment page/Candidates/Delete Candidate,Chrome 110.0.0.0,,,2023-03-03 11:13:15,2023-03-03 11:13:34,19.026s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-03 11:13:15,2023-03-03 11:13:20,4.737s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-03 11:13:20,2023-03-03 11:13:26,5.455s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Recruitment""))",Chrome 110.0.0.0,,,2023-03-03 11:13:26,2023-03-03 11:13:29,3.180s,PASSED
+"click(findTestObject(""Recruitment Page/Vacancies/button_Delete""))",Chrome 110.0.0.0,,,2023-03-03 11:13:29,2023-03-03 11:13:32,2.551s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 110.0.0.0,,,2023-03-03 11:13:32,2023-03-03 11:13:33,1.554s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-03-03 11:13:33,2023-03-03 11:13:34,0.678s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-03-03 11:13:34,2023-03-03 11:13:34,0.349s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-03 11:13:34,2023-03-03 11:13:34,0.003s,ERROR

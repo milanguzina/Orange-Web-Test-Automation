@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Navigation Sidebar/textbox_Search",
+      "brokenLocator": "//input[@class \u003d \u0027oxd-input oxd-input--active\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div/aside/nav/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230303_110603/Home Page Suite/20230303_110604/Object Repository/Navigation Sidebar/textbox_Search_XPATH.png"
+    }
+  ]
+}

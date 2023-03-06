@@ -1,0 +1,90 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Job Dropdown Suite,Chrome 110.0.0.0,,,2023-03-01 16:18:36,2023-03-01 16:21:39,3m - 2.612s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Job/Job Titles/Add Job Title,Chrome 110.0.0.0,,,2023-03-01 16:18:37,2023-03-01 16:19:11,33.989s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:18:37,2023-03-01 16:18:44,7.555s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-01 16:18:44,2023-03-01 16:18:50,5.919s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-03-01 16:18:51,2023-03-01 16:18:53,2.844s,PASSED
+"click(findTestObject(""Admin Page/Job/li_Job""))",Chrome 110.0.0.0,,,2023-03-01 16:18:53,2023-03-01 16:18:56,2.276s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Titles/li_Job Titles""))",Chrome 110.0.0.0,,,2023-03-01 16:18:56,2023-03-01 16:18:58,2.070s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Add""))",Chrome 110.0.0.0,,,2023-03-01 16:18:58,2023-03-01 16:19:00,2.771s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), job_title)",Chrome 110.0.0.0,,,2023-03-01 16:19:00,2023-03-01 16:19:03,2.214s,PASSED
+"sendKeys(findTestObject(""Admin Page/Job/Job Titles/textarea_Job Description""), job_title_description)",Chrome 110.0.0.0,,,2023-03-01 16:19:03,2023-03-01 16:19:04,1.516s,PASSED
+"sendKeys(findTestObject(""Admin Page/Job/Job Titles/textarea_Note""), job_title_notes)",Chrome 110.0.0.0,,,2023-03-01 16:19:04,2023-03-01 16:19:06,1.549s,PASSED
+"takeScreenshotAsCheckpoint(""Job Title Info"")",Chrome 110.0.0.0,,,2023-03-01 16:19:06,2023-03-01 16:19:07,1.212s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Chrome 110.0.0.0,,,2023-03-01 16:19:07,2023-03-01 16:19:08,1.455s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:19:08,2023-03-01 16:19:09,0.705s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:19:09,2023-03-01 16:19:10,0.378s,PASSED
+"takeScreenshotAsCheckpoint(""Job Title Added"")",Chrome 110.0.0.0,,,2023-03-01 16:19:10,2023-03-01 16:19:11,0.977s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:19:11,2023-03-01 16:19:11,0.022s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Job/Job Titles/Edit Job Title,Chrome 110.0.0.0,,,2023-03-01 16:19:11,2023-03-01 16:19:45,34.820s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:19:11,2023-03-01 16:19:16,5.683s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-01 16:19:16,2023-03-01 16:19:22,5.436s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-03-01 16:19:22,2023-03-01 16:19:25,3.119s,PASSED
+"click(findTestObject(""Admin Page/Job/li_Job""))",Chrome 110.0.0.0,,,2023-03-01 16:19:25,2023-03-01 16:19:28,2.356s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Titles/li_Job Titles""))",Chrome 110.0.0.0,,,2023-03-01 16:19:28,2023-03-01 16:19:29,1.907s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Titles/button_Edit""))",Chrome 110.0.0.0,,,2023-03-01 16:19:29,2023-03-01 16:19:33,3.264s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-03-01 16:19:33,2023-03-01 16:19:35,2.584s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), edited_job_title)",Chrome 110.0.0.0,,,2023-03-01 16:19:35,2023-03-01 16:19:37,1.462s,PASSED
+"sendKeys(findTestObject(""Admin Page/Job/Job Titles/textarea_Job Description""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-03-01 16:19:37,2023-03-01 16:19:38,1.582s,PASSED
+"sendKeys(findTestObject(""Admin Page/Job/Job Titles/textarea_Job Description""), edited_job_title_description)",Chrome 110.0.0.0,,,2023-03-01 16:19:38,2023-03-01 16:19:40,1.515s,PASSED
+"sendKeys(findTestObject(""Admin Page/Job/Job Titles/textarea_Note""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-03-01 16:19:40,2023-03-01 16:19:41,1.450s,PASSED
+"sendKeys(findTestObject(""Admin Page/Job/Job Titles/textarea_Note""), edited_job_title_notes)",Chrome 110.0.0.0,,,2023-03-01 16:19:41,2023-03-01 16:19:43,1.538s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-03-01 16:19:43,2023-03-01 16:19:44,1.451s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:19:44,2023-03-01 16:19:45,0.707s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:19:45,2023-03-01 16:19:45,0.393s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:19:45,2023-03-01 16:19:45,0.002s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Job/Job Titles/Delete Job Title,Chrome 110.0.0.0,,,2023-03-01 16:19:45,2023-03-01 16:20:13,27.922s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:19:45,2023-03-01 16:19:54,8.855s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-01 16:19:54,2023-03-01 16:20:00,5.754s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-03-01 16:20:01,2023-03-01 16:20:03,2.518s,PASSED
+"click(findTestObject(""Admin Page/Job/li_Job""))",Chrome 110.0.0.0,,,2023-03-01 16:20:03,2023-03-01 16:20:06,2.226s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Titles/li_Job Titles""))",Chrome 110.0.0.0,,,2023-03-01 16:20:06,2023-03-01 16:20:08,2.108s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Titles/button_Delete""))",Chrome 110.0.0.0,,,2023-03-01 16:20:08,2023-03-01 16:20:11,2.905s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 110.0.0.0,,,2023-03-01 16:20:11,2023-03-01 16:20:12,1.533s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:20:12,2023-03-01 16:20:13,0.808s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:20:13,2023-03-01 16:20:13,0.394s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:20:13,2023-03-01 16:20:13,0.004s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Job/Job Categories/Add Category,Chrome 110.0.0.0,,,2023-03-01 16:20:13,2023-03-01 16:20:45,31.900s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:20:13,2023-03-01 16:20:22,8.592s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-01 16:20:22,2023-03-01 16:20:27,5.583s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-03-01 16:20:28,2023-03-01 16:20:31,2.535s,PASSED
+"click(findTestObject(""Admin Page/Job/li_Job""))",Chrome 110.0.0.0,,,2023-03-01 16:20:31,2023-03-01 16:20:33,2.233s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Categories/li_Job Categories""))",Chrome 110.0.0.0,,,2023-03-01 16:20:33,2023-03-01 16:20:35,1.985s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Add""))",Chrome 110.0.0.0,,,2023-03-01 16:20:35,2023-03-01 16:20:38,3.138s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), job_category)",Chrome 110.0.0.0,,,2023-03-01 16:20:38,2023-03-01 16:20:40,2.087s,PASSED
+"takeScreenshotAsCheckpoint(""Category Info"")",Chrome 110.0.0.0,,,2023-03-01 16:20:40,2023-03-01 16:20:41,1.132s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Chrome 110.0.0.0,,,2023-03-01 16:20:41,2023-03-01 16:20:43,1.531s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:20:43,2023-03-01 16:20:44,0.728s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:20:44,2023-03-01 16:20:44,0.401s,PASSED
+"takeScreenshotAsCheckpoint(""Category Added"")",Chrome 110.0.0.0,,,2023-03-01 16:20:44,2023-03-01 16:20:45,1.091s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:20:45,2023-03-01 16:20:45,0.004s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Job/Job Categories/Edit Category,Chrome 110.0.0.0,,,2023-03-01 16:20:45,2023-03-01 16:21:16,30.276s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:20:45,2023-03-01 16:20:53,7.531s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-01 16:20:53,2023-03-01 16:20:59,5.806s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-03-01 16:21:00,2023-03-01 16:21:02,2.174s,PASSED
+"click(findTestObject(""Admin Page/Job/li_Job""))",Chrome 110.0.0.0,,,2023-03-01 16:21:02,2023-03-01 16:21:04,2.214s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Categories/li_Job Categories""))",Chrome 110.0.0.0,,,2023-03-01 16:21:04,2023-03-01 16:21:06,2.015s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Categories/button_Edit""))",Chrome 110.0.0.0,,,2023-03-01 16:21:06,2023-03-01 16:21:09,2.616s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-03-01 16:21:09,2023-03-01 16:21:11,2.593s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), edited_job_category)",Chrome 110.0.0.0,,,2023-03-01 16:21:11,2023-03-01 16:21:13,1.485s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-03-01 16:21:13,2023-03-01 16:21:14,1.476s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:21:14,2023-03-01 16:21:15,0.796s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:21:15,2023-03-01 16:21:16,0.374s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:21:16,2023-03-01 16:21:16,0.002s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Job/Job Categories/Delete Category,Chrome 110.0.0.0,,,2023-03-01 16:21:16,2023-03-01 16:21:39,23.388s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:21:16,2023-03-01 16:21:21,5.068s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-01 16:21:21,2023-03-01 16:21:26,5.539s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-03-01 16:21:27,2023-03-01 16:21:30,2.921s,PASSED
+"click(findTestObject(""Admin Page/Job/li_Job""))",Chrome 110.0.0.0,,,2023-03-01 16:21:30,2023-03-01 16:21:32,2.218s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Categories/li_Job Categories""))",Chrome 110.0.0.0,,,2023-03-01 16:21:32,2023-03-01 16:21:34,1.906s,PASSED
+"click(findTestObject(""Admin Page/Job/Job Categories/button_Delete""))",Chrome 110.0.0.0,,,2023-03-01 16:21:34,2023-03-01 16:21:36,2.278s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 110.0.0.0,,,2023-03-01 16:21:36,2023-03-01 16:21:38,1.513s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:21:38,2023-03-01 16:21:38,0.758s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-03-01 16:21:38,2023-03-01 16:21:39,0.415s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:21:39,2023-03-01 16:21:39,0.005s,ERROR

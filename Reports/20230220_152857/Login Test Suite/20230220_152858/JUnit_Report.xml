@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Test Suite" time="57.315" tests="5" failures="0" errors="0">
+   <testsuite name="Login Test Suite" tests="5" failures="0" errors="0" time="57.315" skipped="0" timestamp="2023-02-20 15:29:05" hostname="PC - host.docker.internal" id="Test Suites/Login Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC\\Desktop\\Katalon Projects\\Orange Web Test Automation\\Reports\\20230220_152857\\Login Test Suite\\20230220_152858"/>
+         <property name="logFiles" value="C:\\Users\\PC\\Desktop\\Katalon Projects\\Orange Web Test Automation\\Reports\\20230220_152857\\Login Test Suite\\20230220_152858\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.23"/>
+         <property name="sessionId" value="b202acbdb5d37c9fee5b85e034e4d200"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Successfull login attempt" time="14.215" classname="Test Cases/Login/Successfull login attempt" status="PASSED">
+         <system-out><![CDATA[2023-02-20 15:29:05 - [TEST_CASE][PASSED] - Test Cases/Login/Successfull login attempt: Test Cases/Login/Successfull login attempt
+
+2023-02-20 15:29:06 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:29:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-20 15:29:06 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-02-20 15:29:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:29:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-20 15:29:11 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-20 15:29:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/textbox_Username"), "Admin"): Keys 'Admin' sent to object: 'Object Repository/Login Page/textbox_Username'
+
+2023-02-20 15:29:13 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login Page/textbox_Username'
+
+2023-02-20 15:29:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page/textbox_Password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Login Page/textbox_Password'
+
+2023-02-20 15:29:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/textbox_Password'
+
+2023-02-20 15:29:15 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/button_Login")): Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2023-02-20 15:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2023-02-20 15:29:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/dropdown_user_profile"), 10): Object 'Object Repository/Home Page/dropdown_user_profile' is present
+
+2023-02-20 15:29:19 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/dropdown_user_profile' is present
+
+2023-02-20 15:29:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-20 15:29:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Unsuccessfull login attempt" time="11.638" classname="Test Cases/Login/Unsuccessfull login attempt" status="PASSED">
+         <system-out><![CDATA[2023-02-20 15:29:20 - [TEST_CASE][PASSED] - Test Cases/Login/Unsuccessfull login attempt: Test Cases/Login/Unsuccessfull login attempt
+
+2023-02-20 15:29:20 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:29:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-20 15:29:20 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-02-20 15:29:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:29:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-20 15:29:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-20 15:29:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/textbox_Username"), "Admin"): Keys 'Admin' sent to object: 'Object Repository/Login Page/textbox_Username'
+
+2023-02-20 15:29:25 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login Page/textbox_Username'
+
+2023-02-20 15:29:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page/textbox_Password"), "1bcgBUi0Tj/gc3uc61HAVQ=="): Text ****** has been set on object 'Object Repository/Login Page/textbox_Password'
+
+2023-02-20 15:29:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/textbox_Password'
+
+2023-02-20 15:29:28 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/button_Login")): Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2023-02-20 15:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2023-02-20 15:29:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/message_Invalid credentials"), 10): Object 'Object Repository/Login Page/message_Invalid credentials' is present
+
+2023-02-20 15:29:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/message_Invalid credentials' is present
+
+2023-02-20 15:29:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-20 15:29:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Reset User Password" time="11.756" classname="Test Cases/Login/Reset User Password" status="PASSED">
+         <system-out><![CDATA[2023-02-20 15:29:31 - [TEST_CASE][PASSED] - Test Cases/Login/Reset User Password: Test Cases/Login/Reset User Password
+
+2023-02-20 15:29:32 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:29:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-20 15:29:32 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-02-20 15:29:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:29:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-20 15:29:36 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-20 15:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/link_Forgot your password")): Object: 'Object Repository/Login Page/link_Forgot your password' is clicked on
+
+2023-02-20 15:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/link_Forgot your password' is clicked on
+
+2023-02-20 15:29:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Reset Password Page/textbox_Username"), "Admin"): Keys 'Admin' sent to object: 'Object Repository/Reset Password Page/textbox_Username'
+
+2023-02-20 15:29:39 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Reset Password Page/textbox_Username'
+
+2023-02-20 15:29:39 - [TEST_STEP][PASSED] - click(findTestObject("Reset Password Page/button_Reset Password")): Object: 'Object Repository/Reset Password Page/button_Reset Password' is clicked on
+
+2023-02-20 15:29:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Reset Password Page/button_Reset Password' is clicked on
+
+2023-02-20 15:29:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Reset Password Page/title_Reset Password link sent successfully"), "Reset Password link sent successfully"): Actual text and expected text of test object 'Object Repository/Reset Password Page/title_Reset Password link sent successfully' are matched.
+
+2023-02-20 15:29:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Reset Password Page/title_Reset Password link sent successfully' are matched.
+
+2023-02-20 15:29:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-20 15:29:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Cancel Reset User Password" time="11.65" classname="Test Cases/Login/Cancel Reset User Password" status="PASSED">
+         <system-out><![CDATA[2023-02-20 15:29:43 - [TEST_CASE][PASSED] - Test Cases/Login/Cancel Reset User Password: Test Cases/Login/Cancel Reset User Password
+
+2023-02-20 15:29:43 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:29:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-20 15:29:43 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-02-20 15:29:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:29:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-20 15:29:47 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-20 15:29:47 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/link_Forgot your password")): Object: 'Object Repository/Login Page/link_Forgot your password' is clicked on
+
+2023-02-20 15:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/link_Forgot your password' is clicked on
+
+2023-02-20 15:29:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Reset Password Page/textbox_Username"), "Admin"): Keys 'Admin' sent to object: 'Object Repository/Reset Password Page/textbox_Username'
+
+2023-02-20 15:29:51 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Reset Password Page/textbox_Username'
+
+2023-02-20 15:29:51 - [TEST_STEP][PASSED] - click(findTestObject("Reset Password Page/button_Cancel")): Object: 'Object Repository/Reset Password Page/button_Cancel' is clicked on
+
+2023-02-20 15:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Reset Password Page/button_Cancel' is clicked on
+
+2023-02-20 15:29:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/textbox_Username"), 10): Object 'Object Repository/Login Page/textbox_Username' is present
+
+2023-02-20 15:29:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/textbox_Username' is present
+
+2023-02-20 15:29:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/textbox_Password"), 10): Object 'Object Repository/Login Page/textbox_Password' is present
+
+2023-02-20 15:29:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/textbox_Password' is present
+
+2023-02-20 15:29:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/button_Login"), 10): Object 'Object Repository/Login Page/button_Login' is present
+
+2023-02-20 15:29:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/button_Login' is present
+
+2023-02-20 15:29:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-20 15:29:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Social Media Links Verification" time="7.762" classname="Test Cases/Login/Social Media Links Verification" status="PASSED">
+         <system-out><![CDATA[2023-02-20 15:29:55 - [TEST_CASE][PASSED] - Test Cases/Login/Social Media Links Verification: Test Cases/Login/Social Media Links Verification
+
+2023-02-20 15:29:55 - [TEST_STEP][PASSED] - openBrowser(baseURL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:29:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-20 15:29:55 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-02-20 15:29:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+2023-02-20 15:29:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-20 15:29:59 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-20 15:29:59 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2023-02-20 15:29:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-02-20 15:29:59 - [TEST_STEP][PASSED] - verifyLinksAccessible(["https://www.facebook.com/OrangeHRM/", "https://twitter.com/orangehrm?lang=en", "https://www.youtube.com/c/OrangeHRMInc"]): All links are accessible
+
+2023-02-20 15:30:00 - [MESSAGE][INFO] - HAR: C:\Users\PC\Desktop\Katalon Projects\Orange Web Test Automation\Reports\20230220_152857\Login Test Suite\20230220_152858\requests\main\0.har
+
+2023-02-20 15:30:00 - [MESSAGE][PASSED] - Send request successfully
+
+2023-02-20 15:30:01 - [MESSAGE][INFO] - HAR: C:\Users\PC\Desktop\Katalon Projects\Orange Web Test Automation\Reports\20230220_152857\Login Test Suite\20230220_152858\requests\main\1.har
+
+2023-02-20 15:30:01 - [MESSAGE][PASSED] - Send request successfully
+
+2023-02-20 15:30:01 - [MESSAGE][INFO] - HAR: C:\Users\PC\Desktop\Katalon Projects\Orange Web Test Automation\Reports\20230220_152857\Login Test Suite\20230220_152858\requests\main\2.har
+
+2023-02-20 15:30:01 - [MESSAGE][PASSED] - Send request successfully
+
+2023-02-20 15:30:01 - [MESSAGE][PASSED] - All links are accessible
+
+2023-02-20 15:30:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-20 15:30:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-20 15:29:05 - [TEST_SUITE][PASSED] - Login Test Suite: Test Cases/Login/Social Media Links Verification]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

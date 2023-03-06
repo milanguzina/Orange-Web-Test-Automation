@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nationalities Suite,Chrome 110.0.0.0,,,2023-03-06 11:32:48,2023-03-06 11:34:07,1m - 18.566s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Add Nationality,Chrome 110.0.0.0,,,2023-03-06 11:32:48,2023-03-06 11:33:16,27.611s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-06 11:32:48,2023-03-06 11:32:55,6.907s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-06 11:32:55,2023-03-06 11:33:01,5.987s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-03-06 11:33:03,2023-03-06 11:33:05,2.454s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Chrome 110.0.0.0,,,2023-03-06 11:33:05,2023-03-06 11:33:08,2.740s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Add""))",Chrome 110.0.0.0,,,2023-03-06 11:33:08,2023-03-06 11:33:11,2.879s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), nationality)",Chrome 110.0.0.0,,,2023-03-06 11:33:11,2023-03-06 11:33:13,2.334s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Chrome 110.0.0.0,,,2023-03-06 11:33:13,2023-03-06 11:33:15,1.599s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-03-06 11:33:15,2023-03-06 11:33:15,0.800s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-03-06 11:33:15,2023-03-06 11:33:16,0.517s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-06 11:33:16,2023-03-06 11:33:16,0.051s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Edit Nationality,Chrome 110.0.0.0,,,2023-03-06 11:33:16,2023-03-06 11:33:44,27.410s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-06 11:33:16,2023-03-06 11:33:21,4.772s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-06 11:33:21,2023-03-06 11:33:26,5.596s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-03-06 11:33:28,2023-03-06 11:33:31,2.781s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Chrome 110.0.0.0,,,2023-03-06 11:33:31,2023-03-06 11:33:34,2.946s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Edit""))",Chrome 110.0.0.0,,,2023-03-06 11:33:34,2023-03-06 11:33:37,3.023s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-03-06 11:33:37,2023-03-06 11:33:39,2.437s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), edited_nationality)",Chrome 110.0.0.0,,,2023-03-06 11:33:39,2023-03-06 11:33:41,1.599s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Chrome 110.0.0.0,,,2023-03-06 11:33:41,2023-03-06 11:33:42,1.567s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-03-06 11:33:42,2023-03-06 11:33:43,0.758s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-03-06 11:33:43,2023-03-06 11:33:43,0.550s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-06 11:33:43,2023-03-06 11:33:43,0.010s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Delete Nationality,Chrome 110.0.0.0,,,2023-03-06 11:33:44,2023-03-06 11:34:07,23.045s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-06 11:33:44,2023-03-06 11:33:48,4.888s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-06 11:33:48,2023-03-06 11:33:54,5.831s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-03-06 11:33:55,2023-03-06 11:33:58,2.877s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Chrome 110.0.0.0,,,2023-03-06 11:33:58,2023-03-06 11:34:01,2.817s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Delete""))",Chrome 110.0.0.0,,,2023-03-06 11:34:01,2023-03-06 11:34:04,2.517s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Chrome 110.0.0.0,,,2023-03-06 11:34:04,2023-03-06 11:34:05,1.630s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-03-06 11:34:05,2023-03-06 11:34:06,0.864s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-03-06 11:34:06,2023-03-06 11:34:07,0.512s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-06 11:34:07,2023-03-06 11:34:07,0.009s,ERROR

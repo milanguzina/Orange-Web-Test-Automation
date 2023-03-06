@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nationalities Suite,Chrome 110.0.0.0,,,2023-03-01 16:09:41,2023-03-01 16:09:57,16.270s,SKIPPED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Add Nationality,Chrome 110.0.0.0,,,2023-03-01 16:09:41,2023-03-01 16:09:47,6.203s,SKIPPED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:09:41,2023-03-01 16:09:47,6.166s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:09:47,2023-03-01 16:09:47,0.020s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Edit Nationality,Chrome 110.0.0.0,,,2023-03-01 16:09:47,2023-03-01 16:09:52,4.862s,SKIPPED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:09:47,2023-03-01 16:09:52,4.849s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:09:52,2023-03-01 16:09:52,0.004s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Delete Nationality,Chrome 110.0.0.0,,,2023-03-01 16:09:52,2023-03-01 16:09:57,4.919s,SKIPPED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 16:09:52,2023-03-01 16:09:57,4.912s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 16:09:57,2023-03-01 16:09:57,0.002s,ERROR

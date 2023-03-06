@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Home Page Suite,Chrome 110.0.0.0,,,2023-03-06 11:27:56,2023-03-06 11:28:58,1m - 2.242s,PASSED
+,,,,,,,
+Test Cases/Home Page/Search Functionality,Chrome 110.0.0.0,,,2023-03-06 11:27:56,2023-03-06 11:28:29,32.552s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-06 11:27:56,2023-03-06 11:28:02,6.379s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-06 11:28:02,2023-03-06 11:28:11,8.375s,PASSED
+"sendKeys(findTestObject(""Navigation Sidebar/textbox_Search""), ""Admin"")",Chrome 110.0.0.0,,,2023-03-06 11:28:12,2023-03-06 11:28:14,2.193s,PASSED
+"click(findTestObject(""Navigation Sidebar/selected_option""))",Chrome 110.0.0.0,,,2023-03-06 11:28:14,2023-03-06 11:28:17,2.469s,PASSED
+"verifyElementText(findTestObject(""Home Page/header_title_Homepage""), ""Admin"")",Chrome 110.0.0.0,,,2023-03-06 11:28:17,2023-03-06 11:28:18,1.499s,PASSED
+"sendKeys(findTestObject(""Navigation Sidebar/textbox_Search""), ""Directory"")",Chrome 110.0.0.0,,,2023-03-06 11:28:18,2023-03-06 11:28:20,1.866s,PASSED
+"click(findTestObject(""Navigation Sidebar/selected_option""))",Chrome 110.0.0.0,,,2023-03-06 11:28:20,2023-03-06 11:28:22,2.173s,PASSED
+"verifyElementText(findTestObject(""Home Page/header_title_Homepage""), ""Directory"")",Chrome 110.0.0.0,,,2023-03-06 11:28:22,2023-03-06 11:28:23,1.160s,PASSED
+"sendKeys(findTestObject(""Navigation Sidebar/textbox_Search""), ""PIM"")",Chrome 110.0.0.0,,,2023-03-06 11:28:23,2023-03-06 11:28:25,1.475s,PASSED
+"click(findTestObject(""Navigation Sidebar/selected_option""))",Chrome 110.0.0.0,,,2023-03-06 11:28:25,2023-03-06 11:28:27,2.291s,PASSED
+"verifyElementText(findTestObject(""Home Page/header_title_Homepage""), ""PIM"")",Chrome 110.0.0.0,,,2023-03-06 11:28:27,2023-03-06 11:28:28,1.460s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-06 11:28:28,2023-03-06 11:28:29,0.031s,ERROR
+,,,,,,,
+Test Cases/Home Page/Sidebar Minimize Functionality,Chrome 110.0.0.0,,,2023-03-06 11:28:29,2023-03-06 11:28:58,29.250s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-06 11:28:29,2023-03-06 11:28:34,5.092s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-06 11:28:34,2023-03-06 11:28:40,6.115s,PASSED
+"verifyElementInViewport(findTestObject(""Navigation Sidebar/textbox_Search""), 10)",Chrome 110.0.0.0,,,2023-03-06 11:28:41,2023-03-06 11:28:42,0.993s,PASSED
+"click(findTestObject(""Navigation Sidebar/button_minimize""))",Chrome 110.0.0.0,,,2023-03-06 11:28:42,2023-03-06 11:28:43,1.600s,PASSED
+"verifyElementNotInViewport(findTestObject(""Navigation Sidebar/textbox_Search""), 10)",Chrome 110.0.0.0,,,2023-03-06 11:28:43,2023-03-06 11:28:55,12.066s,PASSED
+"click(findTestObject(""Navigation Sidebar/button_maximize""))",Chrome 110.0.0.0,,,2023-03-06 11:28:55,2023-03-06 11:28:57,1.696s,PASSED
+"verifyElementInViewport(findTestObject(""Navigation Sidebar/textbox_Search""), 10)",Chrome 110.0.0.0,,,2023-03-06 11:28:57,2023-03-06 11:28:58,0.691s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-06 11:28:58,2023-03-06 11:28:58,0.008s,ERROR

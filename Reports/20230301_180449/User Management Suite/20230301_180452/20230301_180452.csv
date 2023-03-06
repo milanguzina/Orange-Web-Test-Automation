@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User Management Suite,Chrome 110.0.0.0,,,2023-03-01 18:05:26,2023-03-01 18:07:20,1m - 53.950s,PASSED
+,,,,,,,
+Test Cases/Admin Page/User Management/Add User,Chrome 110.0.0.0,,,2023-03-01 18:05:26,2023-03-01 18:06:13,46.691s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 18:05:26,2023-03-01 18:05:33,6.710s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-01 18:05:33,2023-03-01 18:05:41,7.937s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-03-01 18:05:42,2023-03-01 18:05:44,2.305s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Add""))",Chrome 110.0.0.0,,,2023-03-01 18:05:44,2023-03-01 18:05:47,2.932s,PASSED
+"click(findTestObject(""Admin Page/User Management/dropdown_Select""))",Chrome 110.0.0.0,,,2023-03-01 18:05:47,2023-03-01 18:05:49,1.996s,PASSED
+"click(findTestObject(""Admin Page/User Management/option_Admin""))",Chrome 110.0.0.0,,,2023-03-01 18:05:49,2023-03-01 18:05:51,1.647s,PASSED
+"click(findTestObject(""Admin Page/User Management/dropdown_Select""))",Chrome 110.0.0.0,,,2023-03-01 18:05:51,2023-03-01 18:05:53,1.618s,PASSED
+"click(findTestObject(""Admin Page/User Management/option_Enabled""))",Chrome 110.0.0.0,,,2023-03-01 18:05:53,2023-03-01 18:05:54,1.598s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_EmployeeName""), ""m"")",Chrome 110.0.0.0,,,2023-03-01 18:05:54,2023-03-01 18:05:56,1.768s,PASSED
+"waitForElementPresent(findTestObject(""Admin Page/User Management/dropdown_table""), 10)",Chrome 110.0.0.0,,,2023-03-01 18:05:56,2023-03-01 18:05:56,0.480s,PASSED
+"waitForElementClickable(findTestObject(""Admin Page/User Management/dropdown_EmployeeName_option""), 10)",Chrome 110.0.0.0,,,2023-03-01 18:05:56,2023-03-01 18:05:58,1.290s,PASSED
+"orange.keywords.randomClick(findTestObject(""Admin Page/User Management/dropdown_EmployeeName_option""))",Chrome 110.0.0.0,,,2023-03-01 18:05:58,2023-03-01 18:05:59,1.700s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_Username""), ""Marco DiVaio"")",Chrome 110.0.0.0,,,2023-03-01 18:05:59,2023-03-01 18:06:01,1.718s,PASSED
+"setEncryptedText(findTestObject(""Admin Page/User Management/textbox_Password""), ""zow4LEKZVFY9FezsXiYM4A=="")",Chrome 110.0.0.0,,,2023-03-01 18:06:01,2023-03-01 18:06:04,2.940s,PASSED
+"setEncryptedText(findTestObject(""Admin Page/User Management/textbox_Confirm Password""), ""zow4LEKZVFY9FezsXiYM4A=="")",Chrome 110.0.0.0,,,2023-03-01 18:06:04,2023-03-01 18:06:07,2.764s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Chrome 110.0.0.0,,,2023-03-01 18:06:07,2023-03-01 18:06:09,1.652s,PASSED
+"takeScreenshotAsCheckpoint(""Entered User Info"")",Chrome 110.0.0.0,,,2023-03-01 18:06:09,2023-03-01 18:06:11,2.897s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-03-01 18:06:11,2023-03-01 18:06:12,0.585s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Chrome 110.0.0.0,,,2023-03-01 18:06:12,2023-03-01 18:06:13,0.640s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 18:06:13,2023-03-01 18:06:13,0.030s,ERROR
+,,,,,,,
+Test Cases/Admin Page/User Management/Edit User,Chrome 110.0.0.0,,,2023-03-01 18:06:13,2023-03-01 18:06:55,42.735s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 18:06:13,2023-03-01 18:06:18,5.578s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-01 18:06:18,2023-03-01 18:06:24,5.889s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-03-01 18:06:25,2023-03-01 18:06:28,2.538s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_System_User""), ""Marco DiVaio"")",Chrome 110.0.0.0,,,2023-03-01 18:06:28,2023-03-01 18:06:30,2.457s,PASSED
+"click(findTestObject(""Admin Page/User Management/button_Search""))",Chrome 110.0.0.0,,,2023-03-01 18:06:30,2023-03-01 18:06:32,1.705s,PASSED
+"click(findTestObject(""Admin Page/User Management/button_Edit""))",Chrome 110.0.0.0,,,2023-03-01 18:06:32,2023-03-01 18:06:34,2.213s,PASSED
+"click(findTestObject(""Admin Page/User Management/dropdown_User_Role""))",Chrome 110.0.0.0,,,2023-03-01 18:06:34,2023-03-01 18:06:37,2.313s,PASSED
+"click(findTestObject(""Admin Page/User Management/option_ESS""))",Chrome 110.0.0.0,,,2023-03-01 18:06:37,2023-03-01 18:06:38,1.604s,PASSED
+"click(findTestObject(""Admin Page/User Management/dropdown_Status""))",Chrome 110.0.0.0,,,2023-03-01 18:06:38,2023-03-01 18:06:40,1.644s,PASSED
+"click(findTestObject(""Admin Page/User Management/option_Disabled""))",Chrome 110.0.0.0,,,2023-03-01 18:06:40,2023-03-01 18:06:41,1.625s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_EmployeeName""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-03-01 18:06:41,2023-03-01 18:06:43,1.704s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_EmployeeName""), ""a"")",Chrome 110.0.0.0,,,2023-03-01 18:06:43,2023-03-01 18:06:45,1.629s,PASSED
+"waitForElementPresent(findTestObject(""Admin Page/User Management/dropdown_table""), 10)",Chrome 110.0.0.0,,,2023-03-01 18:06:45,2023-03-01 18:06:45,0.575s,PASSED
+"waitForElementClickable(findTestObject(""Admin Page/User Management/dropdown_EmployeeName_option""), 10)",Chrome 110.0.0.0,,,2023-03-01 18:06:45,2023-03-01 18:06:46,1.058s,PASSED
+"orange.keywords.randomClick(findTestObject(""Admin Page/User Management/dropdown_EmployeeName_option""))",Chrome 110.0.0.0,,,2023-03-01 18:06:46,2023-03-01 18:06:48,1.650s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_Username""), Keys.chord(CONTROL, ""a""))",Chrome 110.0.0.0,,,2023-03-01 18:06:48,2023-03-01 18:06:50,1.806s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_Username_selected""), ""Luca Marchegiani"")",Chrome 110.0.0.0,,,2023-03-01 18:06:50,2023-03-01 18:06:52,1.804s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Chrome 110.0.0.0,,,2023-03-01 18:06:52,2023-03-01 18:06:53,1.644s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-03-01 18:06:53,2023-03-01 18:06:55,1.585s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Chrome 110.0.0.0,,,2023-03-01 18:06:55,2023-03-01 18:06:55,0.541s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 18:06:55,2023-03-01 18:06:55,0.008s,ERROR
+,,,,,,,
+Test Cases/Admin Page/User Management/Delete User,Chrome 110.0.0.0,,,2023-03-01 18:06:55,2023-03-01 18:07:20,24.171s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-01 18:06:55,2023-03-01 18:07:01,5.176s,PASSED
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-01 18:07:01,2023-03-01 18:07:06,5.659s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Chrome 110.0.0.0,,,2023-03-01 18:07:07,2023-03-01 18:07:10,3.373s,PASSED
+"sendKeys(findTestObject(""Admin Page/User Management/textbox_System_User""), ""Luca Marchegiani"")",Chrome 110.0.0.0,,,2023-03-01 18:07:10,2023-03-01 18:07:13,2.480s,PASSED
+"click(findTestObject(""Admin Page/User Management/button_Search""))",Chrome 110.0.0.0,,,2023-03-01 18:07:13,2023-03-01 18:07:14,1.747s,PASSED
+"click(findTestObject(""Admin Page/User Management/button_Delete""))",Chrome 110.0.0.0,,,2023-03-01 18:07:14,2023-03-01 18:07:16,2.146s,PASSED
+"click(findTestObject(""Admin Page/User Management/button_Yes, Delete""))",Chrome 110.0.0.0,,,2023-03-01 18:07:16,2023-03-01 18:07:18,1.759s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-03-01 18:07:18,2023-03-01 18:07:19,0.818s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Chrome 110.0.0.0,,,2023-03-01 18:07:19,2023-03-01 18:07:20,0.562s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-01 18:07:20,2023-03-01 18:07:20,0.007s,ERROR

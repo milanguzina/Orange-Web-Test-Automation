@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nationalities Suite,Firefox 110.0,,,2023-03-03 10:27:35,2023-03-03 10:29:07,1m - 32.741s,PASSED
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Add Nationality,Firefox 110.0,,,2023-03-03 10:27:35,2023-03-03 10:28:07,31.623s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 110.0,,,2023-03-03 10:27:35,2023-03-03 10:27:45,9.612s,PASSED
+Start setup action : setupTestCase,Firefox 110.0,,,2023-03-03 10:27:45,2023-03-03 10:27:51,6.278s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 110.0,,,2023-03-03 10:27:51,2023-03-03 10:27:55,3.457s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Firefox 110.0,,,2023-03-03 10:27:55,2023-03-03 10:27:57,2.625s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Add""))",Firefox 110.0,,,2023-03-03 10:27:57,2023-03-03 10:28:01,3.872s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), nationality)",Firefox 110.0,,,2023-03-03 10:28:01,2023-03-03 10:28:04,2.349s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Save""))",Firefox 110.0,,,2023-03-03 10:28:04,2023-03-03 10:28:06,1.821s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Firefox 110.0,,,2023-03-03 10:28:06,2023-03-03 10:28:06,0.549s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullySaved""), 10)",Firefox 110.0,,,2023-03-03 10:28:06,2023-03-03 10:28:07,0.558s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 110.0,,,2023-03-03 10:28:07,2023-03-03 10:28:07,0.062s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Edit Nationality,Firefox 110.0,,,2023-03-03 10:28:07,2023-03-03 10:28:39,32.239s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 110.0,,,2023-03-03 10:28:07,2023-03-03 10:28:15,8.593s,PASSED
+Start setup action : setupTestCase,Firefox 110.0,,,2023-03-03 10:28:15,2023-03-03 10:28:22,6.334s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 110.0,,,2023-03-03 10:28:22,2023-03-03 10:28:26,3.532s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Firefox 110.0,,,2023-03-03 10:28:26,2023-03-03 10:28:28,2.609s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Edit""))",Firefox 110.0,,,2023-03-03 10:28:28,2023-03-03 10:28:32,3.831s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username""), Keys.chord(CONTROL, ""a""))",Firefox 110.0,,,2023-03-03 10:28:32,2023-03-03 10:28:35,2.545s,PASSED
+"sendKeys(findTestObject(""Admin Page/Qualifications/Skills/textbox_Username_selected""), edited_nationality)",Firefox 110.0,,,2023-03-03 10:28:35,2023-03-03 10:28:36,1.515s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Skills/button_Save""))",Firefox 110.0,,,2023-03-03 10:28:36,2023-03-03 10:28:38,1.621s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Firefox 110.0,,,2023-03-03 10:28:38,2023-03-03 10:28:38,0.499s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyUpdated""), 10)",Firefox 110.0,,,2023-03-03 10:28:38,2023-03-03 10:28:39,0.514s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 110.0,,,2023-03-03 10:28:39,2023-03-03 10:28:39,0.004s,ERROR
+,,,,,,,
+Test Cases/Admin Page/Nationalities/Delete Nationality,Firefox 110.0,,,2023-03-03 10:28:39,2023-03-03 10:29:07,28.468s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 110.0,,,2023-03-03 10:28:39,2023-03-03 10:28:48,9.206s,PASSED
+Start setup action : setupTestCase,Firefox 110.0,,,2023-03-03 10:28:48,2023-03-03 10:28:54,6.318s,PASSED
+"click(findTestObject(""Navigation Sidebar/a_Admin""))",Firefox 110.0,,,2023-03-03 10:28:56,2023-03-03 10:28:58,2.869s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/li_Nationalities""))",Firefox 110.0,,,2023-03-03 10:28:58,2023-03-03 10:29:01,2.434s,PASSED
+"click(findTestObject(""Admin Page/Nationalities/button_Delete""))",Firefox 110.0,,,2023-03-03 10:29:01,2023-03-03 10:29:04,3.660s,PASSED
+"click(findTestObject(""Admin Page/Qualifications/Languages/button_Yes, Delete""))",Firefox 110.0,,,2023-03-03 10:29:04,2023-03-03 10:29:06,1.783s,PASSED
+"waitForElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Firefox 110.0,,,2023-03-03 10:29:06,2023-03-03 10:29:07,0.572s,PASSED
+"verifyElementPresent(findTestObject(""Confirmation messages/message_SuccessSuccessfullyDeleted""), 10)",Firefox 110.0,,,2023-03-03 10:29:07,2023-03-03 10:29:07,0.584s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 110.0,,,2023-03-03 10:29:07,2023-03-03 10:29:07,0.008s,ERROR

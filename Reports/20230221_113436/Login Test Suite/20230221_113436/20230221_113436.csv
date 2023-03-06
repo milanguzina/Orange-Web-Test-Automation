@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Chrome 110.0.0.0,,,2023-02-21 11:34:51,2023-02-21 11:38:18,3m - 26.514s,FAILED
+,,,,,,,
+Test Cases/Login/Successfull login attempt,Chrome 110.0.0.0,,,2023-02-21 11:34:52,2023-02-21 11:35:42,49.847s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 11:34:52,2023-02-21 11:35:09,17.312s,PASSED
+"sendKeys(findTestObject(""Login Page/textbox_Username""), ""Admin"")",Chrome 110.0.0.0,,,2023-02-21 11:35:10,2023-02-21 11:35:42,31.966s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 11:35:42,2023-02-21 11:35:42,0.013s,ERROR
+,,,,,,,
+Test Cases/Login/Unsuccessfull login attempt,Chrome 110.0.0.0,,,2023-02-21 11:35:42,2023-02-21 11:36:28,46.572s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 11:35:42,2023-02-21 11:35:56,14.055s,PASSED
+"sendKeys(findTestObject(""Login Page/textbox_Username""), ""Admin"")",Chrome 110.0.0.0,,,2023-02-21 11:35:56,2023-02-21 11:36:28,32.028s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 11:36:28,2023-02-21 11:36:28,0.002s,ERROR
+,,,,,,,
+Test Cases/Login/Reset User Password,Chrome 110.0.0.0,,,2023-02-21 11:36:28,2023-02-21 11:37:14,45.407s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 11:36:28,2023-02-21 11:36:41,12.940s,PASSED
+"click(findTestObject(""Login Page/link_Forgot your password""))",Chrome 110.0.0.0,,,2023-02-21 11:36:42,2023-02-21 11:37:14,31.988s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 11:37:14,2023-02-21 11:37:14,0.001s,ERROR
+,,,,,,,
+Test Cases/Login/Cancel Reset User Password,Chrome 110.0.0.0,,,2023-02-21 11:37:14,2023-02-21 11:37:59,45.047s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 11:37:14,2023-02-21 11:37:26,12.412s,PASSED
+"click(findTestObject(""Login Page/link_Forgot your password""))",Chrome 110.0.0.0,,,2023-02-21 11:37:27,2023-02-21 11:37:59,32.086s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 11:37:59,2023-02-21 11:37:59,0.008s,ERROR
+,,,,,,,
+Test Cases/Login/Social Media Links Verification,Chrome 110.0.0.0,,,2023-02-21 11:37:59,2023-02-21 11:38:18,18.718s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-21 11:37:59,2023-02-21 11:38:12,13.611s,PASSED
+waitForPageLoad(10),Chrome 110.0.0.0,,,2023-02-21 11:38:13,2023-02-21 11:38:13,0.187s,PASSED
+"verifyLinksAccessible([social_media_link_1, social_media_link_2, social_media_link_3])",Chrome 110.0.0.0,,,2023-02-21 11:38:13,2023-02-21 11:38:18,4.446s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-21 11:38:18,2023-02-21 11:38:18,0.005s,ERROR
