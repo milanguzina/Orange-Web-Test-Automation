@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Home Page Suite,Chrome 110.0.0.0,,,2023-03-08 08:47:03,2023-03-08 08:48:05,1m - 2.448s,PASSED
+,,,,,,,
+Test Cases/Home Page/Sidebar Search Functionality,Chrome 110.0.0.0,,,2023-03-08 08:47:03,2023-03-08 08:47:36,32.211s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-08 08:47:03,2023-03-08 08:47:17,13.162s,PASSED
+"sendKeys(findTestObject(""Navigation Sidebar/textbox_Search""), ""Admin"")",Chrome 110.0.0.0,,,2023-03-08 08:47:18,2023-03-08 08:47:20,1.942s,PASSED
+"click(findTestObject(""Navigation Sidebar/selected_option""))",Chrome 110.0.0.0,,,2023-03-08 08:47:20,2023-03-08 08:47:22,2.502s,PASSED
+"verifyElementText(findTestObject(""Home Page/header_title_Homepage""), ""Admin"")",Chrome 110.0.0.0,,,2023-03-08 08:47:22,2023-03-08 08:47:24,1.360s,PASSED
+"sendKeys(findTestObject(""Navigation Sidebar/textbox_Search""), ""Directory"")",Chrome 110.0.0.0,,,2023-03-08 08:47:24,2023-03-08 08:47:25,1.775s,PASSED
+"click(findTestObject(""Navigation Sidebar/selected_option""))",Chrome 110.0.0.0,,,2023-03-08 08:47:25,2023-03-08 08:47:28,2.279s,PASSED
+"verifyElementText(findTestObject(""Home Page/header_title_Homepage""), ""Directory"")",Chrome 110.0.0.0,,,2023-03-08 08:47:28,2023-03-08 08:47:29,1.227s,PASSED
+"sendKeys(findTestObject(""Navigation Sidebar/textbox_Search""), ""PIM"")",Chrome 110.0.0.0,,,2023-03-08 08:47:29,2023-03-08 08:47:31,1.715s,PASSED
+"click(findTestObject(""Navigation Sidebar/selected_option""))",Chrome 110.0.0.0,,,2023-03-08 08:47:31,2023-03-08 08:47:33,2.548s,PASSED
+"verifyElementText(findTestObject(""Home Page/header_title_Homepage""), ""PIM"")",Chrome 110.0.0.0,,,2023-03-08 08:47:33,2023-03-08 08:47:35,1.594s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-08 08:47:35,2023-03-08 08:47:36,0.904s,PASSED
+,,,,,,,
+Test Cases/Home Page/Sidebar Minimze Functionality,Chrome 110.0.0.0,,,2023-03-08 08:47:36,2023-03-08 08:48:05,29.712s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-08 08:47:36,2023-03-08 08:47:47,11.349s,PASSED
+"verifyElementInViewport(findTestObject(""Navigation Sidebar/textbox_Search""), 10)",Chrome 110.0.0.0,,,2023-03-08 08:47:48,2023-03-08 08:47:49,1.333s,PASSED
+"click(findTestObject(""Navigation Sidebar/button_minimize""))",Chrome 110.0.0.0,,,2023-03-08 08:47:49,2023-03-08 08:47:51,1.574s,PASSED
+"verifyElementNotInViewport(findTestObject(""Navigation Sidebar/textbox_Search""), 10)",Chrome 110.0.0.0,,,2023-03-08 08:47:51,2023-03-08 08:48:02,11.799s,PASSED
+"click(findTestObject(""Navigation Sidebar/button_maximize""))",Chrome 110.0.0.0,,,2023-03-08 08:48:02,2023-03-08 08:48:04,1.516s,PASSED
+"verifyElementInViewport(findTestObject(""Navigation Sidebar/textbox_Search""), 10)",Chrome 110.0.0.0,,,2023-03-08 08:48:04,2023-03-08 08:48:04,0.561s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-08 08:48:04,2023-03-08 08:48:05,0.834s,PASSED
