@@ -1,0 +1,23 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Recruitment Page/Vacancies/button_View_application",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Nigel Five DeJong-Automation\u0027])[1]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230306_125620/Recruitment Suite/20230306_125629/Object Repository/Recruitment Page/Vacancies/button_View_application_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Recruitment Page/Vacancies/toggle_Edit",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//label/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230306_125620/Recruitment Suite/20230306_125629/Object Repository/Recruitment Page/Vacancies/toggle_Edit_position.png"
+    }
+  ]
+}

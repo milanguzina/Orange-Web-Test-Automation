@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Recruitment Suite,Chrome 110.0.0.0,,,2023-03-06 13:00:10,2023-03-06 13:06:08,5m - 58.057s,ERROR
+,,,,,,,
+Test Cases/Recruitment page/Candidates/Edit Candidate,Chrome 110.0.0.0,,,2023-03-06 13:05:56,2023-03-06 13:06:01,4.977s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-06 13:05:56,2023-03-06 13:06:01,4.598s,ERROR
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-06 13:06:01,2023-03-06 13:06:01,0.361s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-06 13:06:01,2023-03-06 13:06:01,0.003s,ERROR
+,,,,,,,
+Test Cases/Recruitment page/Candidates/Delete Candidate,Chrome 110.0.0.0,,,2023-03-06 13:06:01,2023-03-06 13:06:08,6.671s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-03-06 13:06:01,2023-03-06 13:06:08,6.361s,ERROR
+Start setup action : setupTestCase,Chrome 110.0.0.0,,,2023-03-06 13:06:08,2023-03-06 13:06:08,0.301s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-03-06 13:06:08,2023-03-06 13:06:08,0.001s,ERROR

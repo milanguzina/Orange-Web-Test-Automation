@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin Page/Job/Job Categories/button_Edit",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Automation Category\u0027])[1]/following::button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230306_125620/Job Dropdown Suite/20230306_125625/Object Repository/Admin Page/Job/Job Categories/button_Edit_attributes.png"
+    }
+  ]
+}

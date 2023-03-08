@@ -9,6 +9,35 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Navigation Sidebar/textbox_Search_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin Page/Job/Job Categories/button_Edit",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Automation Category\u0027])[1]/following::button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin Page/Job/Job Categories/button_Edit_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Recruitment Page/Vacancies/button_View_application",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Nigel Five DeJong-Automation\u0027])[1]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Recruitment Page/Vacancies/button_View_application_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Recruitment Page/Vacancies/toggle_Edit",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//label/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Recruitment Page/Vacancies/toggle_Edit_position.png"
     }
   ]
 }
